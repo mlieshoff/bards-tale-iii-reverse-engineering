@@ -19,6 +19,8 @@ make                  # assemble all programs and the four D64s
 make verify           # additionally compare every track, file, and disk to recorded hashes
 make test             # geometry, decoder, code/data-boundary, and integration checks
 make inspect          # resource catalog, exact payloads, decoded text, picture previews
+make extract          # JSON game data, portrait PNGs, native SID music in extracted/
+make extract-audio    # also render WAV previews with local sidplayfp
 ```
 
 If ACME is not on PATH, use `ACME=/path/to/acme make verify`. The build also
@@ -33,6 +35,7 @@ Normal builds do **not** read `original/` and do not download anything.
 - `src/overlays/`: commented combat overlay recovered from the resource disks.
 - `src/disks/`: physical track sources preserving directories, free space, and slack.
 - `manifest.json`: original SHA-256 hashes, sector geometry, and file metadata.
+- `extracted/`: [JSON data and PNG/SID/WAV exports](extracted/README.md).
 - `tools/`: D64 reader, logical block reader, source importer, disassembler, and builder.
 
 Edit the assembly under `src/` and run `make`. Program payloads are incorporated

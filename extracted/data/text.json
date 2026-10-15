@@ -1,0 +1,365 @@
+{
+  "schema_version": 1,
+  "strings": [
+    {
+      "address": "$67fe",
+      "end": "$680c",
+      "text": "Please insert your "
+    },
+    {
+      "address": "$7e13",
+      "end": "$7e19",
+      "text": "Yes<$0d>No"
+    },
+    {
+      "address": "$8ce3",
+      "end": "$8cf0",
+      "text": "New Order:<$0d><$0d>1>"
+    },
+    {
+      "address": "$8fcd",
+      "end": "$8fd6",
+      "text": "<Faster><$0d><$0d>"
+    },
+    {
+      "address": "$8fe4",
+      "end": "$8fed",
+      "text": "<Slower><$0d><$0d>"
+    },
+    {
+      "address": "$9123",
+      "end": "$912e",
+      "text": "(Pausing)<$0d><$0d><$0d>"
+    },
+    {
+      "address": "$9b28",
+      "end": "$9b33",
+      "text": "You still face "
+    },
+    {
+      "address": "$9bba",
+      "end": "$9bc7",
+      "text": "They disbelieve!<$0d><$0d>"
+    },
+    {
+      "address": "$9c03",
+      "end": "$9c15",
+      "text": "Do you wish to continue?<$0d>"
+    },
+    {
+      "address": "$9c1d",
+      "end": "$9c1f",
+      "text": "<$0d><$0d>"
+    },
+    {
+      "address": "$9e6d",
+      "end": "$9e77",
+      "text": ", but misses!<$0d><$0d>"
+    },
+    {
+      "address": "$9e8d",
+      "end": "$9e90",
+      "text": ".<$0d><$0d>"
+    },
+    {
+      "address": "$9ea8",
+      "end": "$9eab",
+      "text": "!<$0d><$0d>"
+    },
+    {
+      "address": "$9ebf",
+      "end": "$9ed0",
+      "text": " jumps into the shadows, "
+    },
+    {
+      "address": "$9eea",
+      "end": "$9ef4",
+      "text": "and succeeds!<$0d><$0d>"
+    },
+    {
+      "address": "$9efd",
+      "end": "$9f0b",
+      "text": "but is discovered!<$0d><$0d>"
+    },
+    {
+      "address": "$9fce",
+      "end": "$9fda",
+      "text": " summons help and "
+    },
+    {
+      "address": "$9fe5",
+      "end": "$9ff1",
+      "text": "none appears...<$0d><$0d>"
+    },
+    {
+      "address": "$a034",
+      "end": "$a045",
+      "text": "another joins the fray!<$0d><$0d>"
+    },
+    {
+      "address": "$a07b",
+      "end": "$a07f",
+      "text": "The "
+    },
+    {
+      "address": "$a08d",
+      "end": "$a09a",
+      "text": " advance/s\\\\!<$0d><$0d>"
+    },
+    {
+      "address": "$a111",
+      "end": "$a11a",
+      "text": ", but misses"
+    },
+    {
+      "address": "$a13e",
+      "end": "$a141",
+      "text": "!<$0d><$0d>"
+    },
+    {
+      "address": "$a334",
+      "end": "$a355",
+      "text": "Will your gallant band choose to:<$0d>Fight bravely"
+    },
+    {
+      "address": "$a35d",
+      "end": "$a368",
+      "text": "<$0d>Advance ahead"
+    },
+    {
+      "address": "$a373",
+      "end": "$a37a",
+      "text": "<$0d>Run away"
+    },
+    {
+      "address": "$a437",
+      "end": "$a451",
+      "text": " has these options this battle round:<$0d><$0d>"
+    },
+    {
+      "address": "$a477",
+      "end": "$a482",
+      "text": "Attack foes /<$0d>"
+    },
+    {
+      "address": "$a494",
+      "end": "$a498",
+      "text": "0'<$0d>"
+    },
+    {
+      "address": "$a4a0",
+      "end": "$a4af",
+      "text": "Defend<$0d>Party attack<$0d>"
+    },
+    {
+      "address": "$a4bb",
+      "end": "$a4c5",
+      "text": "Cast a spell<$0d>"
+    },
+    {
+      "address": "$a4cd",
+      "end": "$a4d6",
+      "text": "Use an item<$0d>"
+    },
+    {
+      "address": "$a4ea",
+      "end": "$a4f6",
+      "text": "Hide in shadows<$0d>"
+    },
+    {
+      "address": "$a50b",
+      "end": "$a514",
+      "text": "Bard Song<$0d>"
+    },
+    {
+      "address": "$a51c",
+      "end": "$a529",
+      "text": "<$0d>Select an option."
+    },
+    {
+      "address": "$a678",
+      "end": "$a688",
+      "text": "Use these commands?<$0d><$0d>"
+    },
+    {
+      "address": "$a71c",
+      "end": "$a724",
+      "text": ", and hits "
+    },
+    {
+      "address": "$a72a",
+      "end": "$a732",
+      "text": " times for "
+    },
+    {
+      "address": "$a737",
+      "end": "$a741",
+      "text": ", and hits for "
+    },
+    {
+      "address": "$a757",
+      "end": "$a767",
+      "text": " point/\\s\\ of damage"
+    },
+    {
+      "address": "$a772",
+      "end": "$a77f",
+      "text": " /fir\\breath\\es "
+    },
+    {
+      "address": "$aed3",
+      "end": "$aef7",
+      "text": " experience points for valor and battle knowledge, and "
+    },
+    {
+      "address": "$af1f",
+      "end": "$af27",
+      "text": " in gold.<$0d><$0d>"
+    },
+    {
+      "address": "$afc1",
+      "end": "$afc8",
+      "text": " found a "
+    },
+    {
+      "address": "$afce",
+      "end": "$afd1",
+      "text": ".<$0d><$0d>"
+    },
+    {
+      "address": "$b106",
+      "end": "$b10b",
+      "text": " lost "
+    },
+    {
+      "address": "$b113",
+      "end": "$b11a",
+      "text": " voice!<$0d><$0d>"
+    },
+    {
+      "address": "$b12b",
+      "end": "$b133",
+      "text": " plays...<$0d><$0d>"
+    },
+    {
+      "address": "$b1ec",
+      "end": "$b1fe",
+      "text": "The party disbelieves...<$0d><$0d>"
+    },
+    {
+      "address": "$b247",
+      "end": "$b257",
+      "text": "hostile party members!<$0d><$0d>"
+    },
+    {
+      "address": "$b277",
+      "end": "$b27f",
+      "text": ", /\\and "
+    },
+    {
+      "address": "$b2a2",
+      "end": "$b2a5",
+      "text": " ("
+    },
+    {
+      "address": "$b2b4",
+      "end": "$b2b8",
+      "text": "0')"
+    },
+    {
+      "address": "$b2c8",
+      "end": "$b2cb",
+      "text": ".<$0d><$0d>"
+    },
+    {
+      "address": "$e996",
+      "end": "$e9a0",
+      "text": "casts a spell<$0d>"
+    },
+    {
+      "address": "$e9ab",
+      "end": "$e9b8",
+      "text": "but it fizzled!<$0d><$0d>"
+    },
+    {
+      "address": "$ea0a",
+      "end": "$ea13",
+      "text": "makes a light"
+    },
+    {
+      "address": "$eff9",
+      "end": "$f005",
+      "text": "at the party...<$0d><$0d>"
+    },
+    {
+      "address": "$f014",
+      "end": "$f02a",
+      "text": "But the party was too far away!<$0d><$0d>"
+    },
+    {
+      "address": "$f04f",
+      "end": "$f052",
+      "text": "at "
+    },
+    {
+      "address": "$f059",
+      "end": "$f061",
+      "text": "/a \\some "
+    },
+    {
+      "address": "$f070",
+      "end": "$f074",
+      "text": "...<$0d><$0d>"
+    },
+    {
+      "address": "$f0a5",
+      "end": "$f0a9",
+      "text": "One "
+    },
+    {
+      "address": "$f0fa",
+      "end": "$f109",
+      "text": "repelled the attack!<$0d><$0d>"
+    },
+    {
+      "address": "$f14b",
+      "end": "$f158",
+      "text": "was too far away!<$0d><$0d>"
+    },
+    {
+      "address": "$f1a9",
+      "end": "$f1ac",
+      "text": "is "
+    },
+    {
+      "address": "$f1bb",
+      "end": "$f1bf",
+      "text": " for "
+    },
+    {
+      "address": "$f1d5",
+      "end": "$f1e5",
+      "text": " point/\\s\\ of damage"
+    },
+    {
+      "address": "$f1f3",
+      "end": "$f1f6",
+      "text": ".<$0d><$0d>"
+    },
+    {
+      "address": "$f20f",
+      "end": "$f212",
+      "text": "!<$0d><$0d>"
+    },
+    {
+      "address": "$f23d",
+      "end": "$f241",
+      "text": "And "
+    },
+    {
+      "address": "$f595",
+      "end": "$f599",
+      "text": "...<$0d><$0d>"
+    }
+  ]
+}

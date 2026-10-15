@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "module": "music64",
+      "file": "media/music/music64.sid",
+      "original_sha256": "0eb592a2e2edd8e8933bd04f0227359e35563e2fe829f6ca5a4e88602387eba7",
+      "format": "PSID v2NG",
+      "clock": "PAL VBI (export choice)",
+      "initial_instrument": 1,
+      "note": "Native player/data preserved. Command IDs 4..20; duplicate sequence addresses retained.",
+      "subtunes": [
+        {
+          "subtune": 1,
+          "command": 4,
+          "sequence_address": "$c859"
+        },
+        {
+          "subtune": 2,
+          "command": 5,
+          "sequence_address": "$c90d"
+        },
+        {
+          "subtune": 3,
+          "command": 6,
+          "sequence_address": "$c9b1"
+        },
+        {
+          "subtune": 4,
+          "command": 7,
+          "sequence_address": "$ca33"
+        },
+        {
+          "subtune": 5,
+          "command": 8,
+          "sequence_address": "$cac2"
+        },
+        {
+          "subtune": 6,
+          "command": 9,
+          "sequence_address": "$cb49"
+        },
+        {
+          "subtune": 7,
+          "command": 10,
+          "sequence_address": "$cbc8"
+        },
+        {
+          "subtune": 8,
+          "command": 11,
+          "sequence_address": "$cc6c"
+        },
+        {
+          "subtune": 9,
+          "command": 12,
+          "sequence_address": "$c8d4"
+        },
+        {
+          "subtune": 10,
+          "command": 13,
+          "sequence_address": "$c8d4"
+        },
+        {
+          "subtune": 11,
+          "command": 14,
+          "sequence_address": "$c8d4"
+        },
+        {
+          "subtune": 12,
+          "command": 15,
+          "sequence_address": "$c8d4"
+        },
+        {
+          "subtune": 13,
+          "command": 16,
+          "sequence_address": "$c8d4"
+        },
+        {
+          "subtune": 14,
+          "command": 17,
+          "sequence_address": "$c8d4"
+        },
+        {
+          "subtune": 15,
+          "command": 18,
+          "sequence_address": "$c8d4"
+        },
+        {
+          "subtune": 16,
+          "command": 19,
+          "sequence_address": "$c8d4"
+        },
+        {
+          "subtune": 17,
+          "command": 20,
+          "sequence_address": "$ca2e"
+        }
+      ],
+      "preview": {
+        "file": "media/music/music64.wav",
+        "seconds": 22.0,
+        "sample_rate": 22050,
+        "channels": 1,
+        "subtune": 1,
+        "engine": "sidplayfp",
+        "note": "Preview only; complete player/sequence data is in the SID file."
+      }
+    },
+    {
+      "module": "dmusic64",
+      "file": "media/music/dmusic64.sid",
+      "original_sha256": "6231ac118bc8e74432ff847f9fde2e5b607e51961f52ac25229270b127317d2f",
+      "format": "PSID v2NG",
+      "clock": "PAL VBI (export choice)",
+      "initial_instrument": 1,
+      "note": "Native player/data preserved. Command IDs 4..20; duplicate sequence addresses retained.",
+      "subtunes": [
+        {
+          "subtune": 1,
+          "command": 4,
+          "sequence_address": "$e3d9"
+        },
+        {
+          "subtune": 2,
+          "command": 5,
+          "sequence_address": "$e48d"
+        },
+        {
+          "subtune": 3,
+          "command": 6,
+          "sequence_address": "$e531"
+        },
+        {
+          "subtune": 4,
+          "command": 7,
+          "sequence_address": "$e5b3"
+        },
+        {
+          "subtune": 5,
+          "command": 8,
+          "sequence_address": "$e642"
+        },
+        {
+          "subtune": 6,
+          "command": 9,
+          "sequence_address": "$e6c9"
+        },
+        {
+          "subtune": 7,
+          "command": 10,
+          "sequence_address": "$e748"
+        },
+        {
+          "subtune": 8,
+          "command": 11,
+          "sequence_address": "$e7ec"
+        },
+        {
+          "subtune": 9,
+          "command": 12,
+          "sequence_address": "$e454"
+        },
+        {
+          "subtune": 10,
+          "command": 13,
+          "sequence_address": "$e454"
+        },
+        {
+          "subtune": 11,
+          "command": 14,
+          "sequence_address": "$e454"
+        },
+        {
+          "subtune": 12,
+          "command": 15,
+          "sequence_address": "$e454"
+        },
+        {
+          "subtune": 13,
+          "command": 16,
+          "sequence_address": "$e454"
+        },
+        {
+          "subtune": 14,
+          "command": 17,
+          "sequence_address": "$e454"
+        },
+        {
+          "subtune": 15,
+          "command": 18,
+          "sequence_address": "$e454"
+        },
+        {
+          "subtune": 16,
+          "command": 19,
+          "sequence_address": "$e454"
+        },
+        {
+          "subtune": 17,
+          "command": 20,
+          "sequence_address": "$e5ae"
+        }
+      ],
+      "preview": {
+        "file": "media/music/dmusic64.wav",
+        "seconds": 22.0,
+        "sample_rate": 22050,
+        "channels": 1,
+        "subtune": 1,
+        "engine": "sidplayfp",
+        "note": "Preview only; complete player/sequence data is in the SID file."
+      }
+    }
+  ],
+  "note": "SID chosen instead of lossy MIDI conversion. WAV files, when requested, are finite previews of subtune 1."
+}

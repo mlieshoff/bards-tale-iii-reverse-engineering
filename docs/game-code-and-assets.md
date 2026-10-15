@@ -154,8 +154,10 @@ The music modules write SID voice frequency, pulse width, waveform/gate,
 envelope, filter, and volume registers. `$BA` is a command mailbox: its high
 bit marks a pending command. The engine raster IRQ at `$FD8A` calls the player
 vector at `$C48C`, while the intro calls `$E00C`. Comments identify these
-hardware writes. Song/instrument table formats and the complete sound-effect
-system remain unresolved; no WAV/audio rendering is claimed.
+hardware writes. The subsequent extraction pass wraps both original players as selectable
+SID music and validates standalone playback by rendering WAV previews.
+Song/instrument semantics and complete sound-effect coverage remain unresolved;
+see [the export guide](../extracted/README.md).
 
 BARDSUBS2 extends through RAM beneath the I/O and KERNAL windows. A `$Dxxx`
 access while `$01=$34` accesses RAM tables rather than VIC/SID/CIA registers.
@@ -166,7 +168,7 @@ mapping. Address alone is insufficient to classify a table as sound data.
 
 ```sh
 make verify       # exact PRG/module/overlay/track/disk hash comparisons
-make test         # 11 geometry, decoder, code/data-boundary and integration checks
+make test         # geometry, decoders, record formats, media and integration checks
 make inspect      # rebuild; export catalog, exact resources, strings and previews
 ```
 
@@ -192,3 +194,30 @@ Import still overwrites manual source edits; update the analysis knowledge as
 well when promoting a routine's interpretation. Runtime verification, fuller
 input-filter decoding, the other overlays, map/character record fields, and
 music sequencing remain the main open areas.
+
+
+## Structured extraction update
+
+`make extract` now writes persistent exports to `extracted/data/` (JSON) and
+`extracted/media/` (PNG/SID). `make extract-audio` additionally renders WAV
+previews using a local sidplayfp executable. See the
+[export guide](../extracted/README.md) for the file inventory and limits.
+
+The monster pointer table at `$D53E` identifies 24 possible 48-byte slots starting
+at `$4300`. Resources 105–145 contain variable-length banks of these records.
+All 41 banks decode to complete records, producing 575 bank/slot records; names
+and all original values are preserved. `$FA3B/$FA5A` establishes HP dice and bonus
+fields. Other raw fields are not automatically assigned stat names.
+
+The name-list helper `$706F/$7092`, called with `$DA74` by `$6FE6`, decodes 255
+item names ending at `$E272`. Seven 256-byte property arrays occupy `$E273`
+through `$E972`; their raw values are exported per item. `$E973` begins other
+data and is deliberately excluded from the item properties.
+
+For portraits, the even resource in a pair is read directly to `$0800` and
+contains a palette byte plus a dictionary-coded bitmap stream. `$8232` performs
+968 XOR-predicted byte writes; `$8AE6` applies the palette byte to the screen
+cells. Its viewport is 88×88 pixels. All 131 present even-resource references
+consume their complete input streams and produce 85 distinct base images.
+The odd companion follows a different load/decode path for animation; it is
+preserved as stored data until that format is established.

@@ -1,0 +1,3832 @@
+{
+  "schema_version": 1,
+  "names_source": "$da74..$e272 in BARDSUBS2",
+  "properties_note": "Seven indexed property arrays, keyed by address; bit/field meanings not fully decoded.",
+  "records": [
+    {
+      "id": 1,
+      "name": "Torch",
+      "name_address": "$da74",
+      "packed_name_hex": "f4df122400",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 0,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 126
+      }
+    },
+    {
+      "id": 2,
+      "name": "Lamp",
+      "name_address": "$da79",
+      "packed_name_hex": "f304d800",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 0,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 127
+      }
+    },
+    {
+      "id": 3,
+      "name": "Broadsword",
+      "name_address": "$da7d",
+      "packed_name_hex": "f0e2f116567c4a00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 33,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 143,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 4,
+      "name": "Short Sword",
+      "name_address": "$da85",
+      "packed_name_hex": "f492f8cc3e959f1280",
+      "properties": {
+        "$e273": 255,
+        "$e373": 64,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 5,
+      "name": "Dagger",
+      "name_address": "$da8e",
+      "packed_name_hex": "f144841a20",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 6,
+      "name": "War Axe",
+      "name_address": "$da93",
+      "packed_name_hex": "f58510f85f08c0",
+      "properties": {
+        "$e273": 1,
+        "$e373": 33,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 143,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 7,
+      "name": "Halbard",
+      "name_address": "$da9a",
+      "packed_name_hex": "f244c18a2500",
+      "properties": {
+        "$e273": 255,
+        "$e373": 96,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 135,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 8,
+      "name": "Long Bow",
+      "name_address": "$daa0",
+      "packed_name_hex": "f31ee407c37d80",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 11,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 9,
+      "name": "Staff",
+      "name_address": "$daa7",
+      "packed_name_hex": "f4a6239c00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 64,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 10,
+      "name": "Buckler",
+      "name_address": "$daac",
+      "packed_name_hex": "f0e845b0d100",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 1,
+        "$e573": 2,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 11,
+      "name": "Tower Shield",
+      "name_address": "$dab2",
+      "packed_name_hex": "f4df63443e9254661400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 2,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 12,
+      "name": "Leather Armor",
+      "name_address": "$dabc",
+      "packed_name_hex": "f30c29a4d10f8516be20",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 3,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 13,
+      "name": "Chain Mail",
+      "name_address": "$dac6",
+      "packed_name_hex": "f11225383e6894c000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 3,
+        "$e573": 3,
+        "$e673": 143,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 14,
+      "name": "Scale Armor",
+      "name_address": "$dacf",
+      "packed_name_hex": "f48826183e145af880",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 3,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 15,
+      "name": "Plate Armor",
+      "name_address": "$dad8",
+      "packed_name_hex": "f41829983e145af880",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 5,
+        "$e573": 3,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 16,
+      "name": "Robes",
+      "name_address": "$dae1",
+      "packed_name_hex": "f45e334800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 1,
+        "$e573": 3,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 17,
+      "name": "Helm",
+      "name_address": "$dae6",
+      "packed_name_hex": "f24cc680",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 1,
+        "$e573": 4,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 18,
+      "name": "Leather Gloves",
+      "name_address": "$daea",
+      "packed_name_hex": "f30c29a4d10f90c7d4d200",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 1,
+        "$e573": 5,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 19,
+      "name": "Gauntlets",
+      "name_address": "$daf5",
+      "packed_name_hex": "f205474d869c80",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 1,
+        "$e573": 5,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 20,
+      "name": "Mandolin",
+      "name_address": "$dafc",
+      "packed_name_hex": "f344e2bd8a7000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 21,
+      "name": "Spear",
+      "name_address": "$db03",
+      "packed_name_hex": "f4a0614400",
+      "properties": {
+        "$e273": 1,
+        "$e373": 64,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 22,
+      "name": "Arrows",
+      "name_address": "$db08",
+      "packed_name_hex": "f0a317da40",
+      "properties": {
+        "$e273": 24,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 12,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 23,
+      "name": "Mthr Sword",
+      "name_address": "$db0d",
+      "packed_name_hex": "f3669887d2b3e25000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 33,
+        "$e473": 32,
+        "$e573": 1,
+        "$e673": 158,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 24,
+      "name": "Mthr Shield",
+      "name_address": "$db16",
+      "packed_name_hex": "f3669887d24a8cc280",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 3,
+        "$e573": 2,
+        "$e673": 158,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 25,
+      "name": "Mthr Chain",
+      "name_address": "$db1f",
+      "packed_name_hex": "f3669887c44894e000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 3,
+        "$e673": 143,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 26,
+      "name": "Mthr Scale",
+      "name_address": "$db28",
+      "packed_name_hex": "f3669887d220986000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 5,
+        "$e573": 3,
+        "$e673": 158,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 27,
+      "name": "Giant Fgn",
+      "name_address": "$db31",
+      "packed_name_hex": "f214274c3e3a1c00",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 132
+      }
+    },
+    {
+      "id": 28,
+      "name": "Mthr Bracers",
+      "name_address": "$db39",
+      "packed_name_hex": "f3669887c3888868c800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 3,
+        "$e673": 112,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 29,
+      "name": "Bardsword",
+      "name_address": "$db43",
+      "packed_name_hex": "f0c512cacf8940",
+      "properties": {
+        "$e273": 255,
+        "$e373": 65,
+        "$e473": 64,
+        "$e573": 1,
+        "$e673": 8,
+        "$e773": 5,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 30,
+      "name": "Fire Horn",
+      "name_address": "$db4a",
+      "packed_name_hex": "f1d51307c97c5c00",
+      "properties": {
+        "$e273": 50,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 31,
+      "name": "Litewand",
+      "name_address": "$db52",
+      "packed_name_hex": "f31533584e2800",
+      "properties": {
+        "$e273": 80,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 6
+      }
+    },
+    {
+      "id": 32,
+      "name": "Mthr Dagger",
+      "name_address": "$db59",
+      "packed_name_hex": "f3669887c512106880",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 32,
+        "$e573": 1,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 33,
+      "name": "Mthr Helm",
+      "name_address": "$db62",
+      "packed_name_hex": "f3669887c9331a00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 4,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 34,
+      "name": "Mthr Gloves",
+      "name_address": "$db6a",
+      "packed_name_hex": "f3669887c863ea6900",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 5,
+        "$e673": 140,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 35,
+      "name": "Mthr Axe",
+      "name_address": "$db73",
+      "packed_name_hex": "f3669887c2f84600",
+      "properties": {
+        "$e273": 1,
+        "$e373": 33,
+        "$e473": 32,
+        "$e573": 1,
+        "$e673": 143,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 36,
+      "name": "Shuriken",
+      "name_address": "$db7b",
+      "packed_name_hex": "f49348a9667000",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 155,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 37,
+      "name": "Mthr Plate",
+      "name_address": "$db82",
+      "packed_name_hex": "f3669887d060a66000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 6,
+        "$e573": 3,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 38,
+      "name": "Molten Fgn",
+      "name_address": "$db8b",
+      "packed_name_hex": "f35ec999c1f1d0e000",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 132
+      }
+    },
+    {
+      "id": 39,
+      "name": "Spell Spear",
+      "name_address": "$db94",
+      "packed_name_hex": "f4a066303e940c2880",
+      "properties": {
+        "$e273": 1,
+        "$e373": 96,
+        "$e473": 32,
+        "$e573": 1,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 40,
+      "name": "Shield Ring",
+      "name_address": "$db9d",
+      "packed_name_hex": "f492a330a1f454e400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 8,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 41,
+      "name": "Fin's Flute",
+      "name_address": "$dba6",
+      "packed_name_hex": "f1d4ed483e3b293300",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 42,
+      "name": "Kael's Axe",
+      "name_address": "$dbaf",
+      "packed_name_hex": "f2c4666a41f0be1180",
+      "properties": {
+        "$e273": 1,
+        "$e373": 36,
+        "$e473": 32,
+        "$e573": 17,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 43,
+      "name": "Mthr Arrows",
+      "name_address": "$dbb8",
+      "packed_name_hex": "f3669887c28c5f6900",
+      "properties": {
+        "$e273": 10,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 12,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 44,
+      "name": "Dayblade",
+      "name_address": "$dbc1",
+      "packed_name_hex": "f14571b0453000",
+      "properties": {
+        "$e273": 80,
+        "$e373": 66,
+        "$e473": 16,
+        "$e573": 1,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 6
+      }
+    },
+    {
+      "id": 45,
+      "name": "Shield Staff",
+      "name_address": "$dbc8",
+      "packed_name_hex": "f492a330a1f4a6239c00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 96,
+        "$e473": 18,
+        "$e573": 1,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 46,
+      "name": "Elf Cloak",
+      "name_address": "$dbd2",
+      "packed_name_hex": "f19870f88c789600",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 3,
+        "$e573": 14,
+        "$e673": 113,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 47,
+      "name": "Hawkblade",
+      "name_address": "$dbda",
+      "packed_name_hex": "f245658d822980",
+      "properties": {
+        "$e273": 255,
+        "$e373": 66,
+        "$e473": 16,
+        "$e573": 1,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 48,
+      "name": "Admt Sword",
+      "name_address": "$dbe1",
+      "packed_name_hex": "f08ad987d2b3e25000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 33,
+        "$e473": 64,
+        "$e573": 1,
+        "$e673": 158,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 49,
+      "name": "Admt Shield",
+      "name_address": "$dbea",
+      "packed_name_hex": "f08ad987d24a8cc280",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 2,
+        "$e673": 158,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 50,
+      "name": "Admt Helm",
+      "name_address": "$dbf3",
+      "packed_name_hex": "f08ad987c9331a00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 3,
+        "$e573": 4,
+        "$e673": 158,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 51,
+      "name": "Admt Gloves",
+      "name_address": "$dbfb",
+      "packed_name_hex": "f08ad987c863ea6900",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 3,
+        "$e573": 5,
+        "$e673": 132,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 52,
+      "name": "Pureblade",
+      "name_address": "$dc04",
+      "packed_name_hex": "f429130d822980",
+      "properties": {
+        "$e273": 255,
+        "$e373": 98,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 4,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 53,
+      "name": "Boomerang",
+      "name_address": "$dc0b",
+      "packed_name_hex": "f0def69a227200",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 153,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 54,
+      "name": "Ali's Carpet",
+      "name_address": "$dc12",
+      "packed_name_hex": "f098ad483e20a3034c00",
+      "properties": {
+        "$e273": 50,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 14
+      }
+    },
+    {
+      "id": 55,
+      "name": "Luckshield",
+      "name_address": "$dc1c",
+      "packed_name_hex": "f32845c92a330a00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 3,
+        "$e573": 2,
+        "$e673": 158,
+        "$e773": 6,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 56,
+      "name": "Dozer Fgn",
+      "name_address": "$dc24",
+      "packed_name_hex": "f15ff0cd10f8e87000",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 132
+      }
+    },
+    {
+      "id": 57,
+      "name": "Admt Chain",
+      "name_address": "$dc2d",
+      "packed_name_hex": "f08ad987c44894e000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 5,
+        "$e573": 3,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 58,
+      "name": "Death Stars",
+      "name_address": "$dc36",
+      "packed_name_hex": "f14c29a43e94c51900",
+      "properties": {
+        "$e273": 4,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 2,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 59,
+      "name": "Admt Plate",
+      "name_address": "$dc3f",
+      "packed_name_hex": "f08ad987d060a66000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 7,
+        "$e573": 3,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 60,
+      "name": "Admt Bracers",
+      "name_address": "$dc48",
+      "packed_name_hex": "f08ad987c3888868c800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 6,
+        "$e573": 3,
+        "$e673": 112,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 61,
+      "name": "Slayer Fgn",
+      "name_address": "$dc52",
+      "packed_name_hex": "f4982b9a21f1d0e000",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 132
+      }
+    },
+    {
+      "id": 62,
+      "name": "Pure Shield",
+      "name_address": "$dc5b",
+      "packed_name_hex": "f4291307d24a8cc280",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 5,
+        "$e573": 2,
+        "$e673": 4,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 63,
+      "name": "Mage Staff",
+      "name_address": "$dc64",
+      "packed_name_hex": "f3448307d2988e7000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 66,
+        "$e473": 2,
+        "$e573": 1,
+        "$e673": 96,
+        "$e773": 2,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 64,
+      "name": "War Staff",
+      "name_address": "$dc6d",
+      "packed_name_hex": "f58510fa5311ce00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 67,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 65,
+      "name": "Thief Dagger",
+      "name_address": "$dc75",
+      "packed_name_hex": "f4d2a31c3e2890834400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 52,
+        "$e473": 16,
+        "$e573": 1,
+        "$e673": 16,
+        "$e773": 8,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 66,
+      "name": "Soul Mace",
+      "name_address": "$dc7f",
+      "packed_name_hex": "f49f4607cd110c00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 65,
+        "$e473": 48,
+        "$e573": 81,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 67,
+      "name": "Ogrewand",
+      "name_address": "$dc87",
+      "packed_name_hex": "f3d113584e2800",
+      "properties": {
+        "$e273": 88,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 9,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 51
+      }
+    },
+    {
+      "id": 68,
+      "name": "Kato's bracer",
+      "name_address": "$dc8e",
+      "packed_name_hex": "f2c537ea411c44434400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 112,
+        "$e773": 9,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 69,
+      "name": "Sorcerstaff",
+      "name_address": "$dc98",
+      "packed_name_hex": "f49f121a32988e7000",
+      "properties": {
+        "$e273": 80,
+        "$e373": 34,
+        "$e473": 50,
+        "$e573": 1,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 49
+      }
+    },
+    {
+      "id": 70,
+      "name": "Galt's Flute",
+      "name_address": "$dca1",
+      "packed_name_hex": "f204c9ea41f1d9499800",
+      "properties": {
+        "$e273": 88,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 54
+      }
+    },
+    {
+      "id": 71,
+      "name": "Frost Horn",
+      "name_address": "$dcab",
+      "packed_name_hex": "f1e2f94c3e4be2e000",
+      "properties": {
+        "$e273": 65,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 72,
+      "name": "Ag's Arrows",
+      "name_address": "$dcb4",
+      "packed_name_hex": "f091a907c28c5f6900",
+      "properties": {
+        "$e273": 10,
+        "$e373": 33,
+        "$e473": 96,
+        "$e573": 12,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 73,
+      "name": "Dmnd Shield",
+      "name_address": "$dcbd",
+      "packed_name_hex": "f15ae287d24a8cc280",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 5,
+        "$e573": 2,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 74,
+      "name": "Bard Bow",
+      "name_address": "$dcc6",
+      "packed_name_hex": "f0c51287c37d80",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 11,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 75,
+      "name": "Dmnd Helm",
+      "name_address": "$dccd",
+      "packed_name_hex": "f15ae287c9331a00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 4,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 76,
+      "name": "Elf Boots",
+      "name_address": "$dcd5",
+      "packed_name_hex": "f19870f86f7ce400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 77,
+      "name": "Vanquisher Fgn",
+      "name_address": "$dcdd",
+      "packed_name_hex": "f544ef83454926887c743800",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 132
+      }
+    },
+    {
+      "id": 78,
+      "name": "Conjurstaff",
+      "name_address": "$dce9",
+      "packed_name_hex": "f11eef8148ca6239c0",
+      "properties": {
+        "$e273": 255,
+        "$e373": 34,
+        "$e473": 34,
+        "$e573": 1,
+        "$e673": 96,
+        "$e773": 4,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 79,
+      "name": "Staff of Lor",
+      "name_address": "$dcf2",
+      "packed_name_hex": "f4a6239c2f387cc7c400",
+      "properties": {
+        "$e273": 35,
+        "$e373": 36,
+        "$e473": 16,
+        "$e573": 1,
+        "$e673": 97,
+        "$e773": 0,
+        "$e873": 34
+      }
+    },
+    {
+      "id": 80,
+      "name": "Flame Sword",
+      "name_address": "$dcfc",
+      "packed_name_hex": "f1d826983e959f1280",
+      "properties": {
+        "$e273": 255,
+        "$e373": 98,
+        "$e473": 17,
+        "$e573": 1,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 81,
+      "name": "Powerstaff",
+      "name_address": "$dd05",
+      "packed_name_hex": "f41f63465311ce00",
+      "properties": {
+        "$e273": 51,
+        "$e373": 66,
+        "$e473": 16,
+        "$e573": 1,
+        "$e673": 252,
+        "$e773": 0,
+        "$e873": 66
+      }
+    },
+    {
+      "id": 82,
+      "name": "Breath Ring",
+      "name_address": "$dd0d",
+      "packed_name_hex": "f0e2614d21f454e400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 97,
+        "$e473": 16,
+        "$e573": 8,
+        "$e673": 255,
+        "$e773": 10,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 83,
+      "name": "Dragonshield",
+      "name_address": "$dd16",
+      "packed_name_hex": "f162243dd24a8cc280",
+      "properties": {
+        "$e273": 20,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 2,
+        "$e673": 158,
+        "$e773": 0,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 84,
+      "name": "Dmnd Plate",
+      "name_address": "$dd1f",
+      "packed_name_hex": "f15ae287d060a66000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 8,
+        "$e573": 3,
+        "$e673": 140,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 85,
+      "name": "Wargloves",
+      "name_address": "$dd28",
+      "packed_name_hex": "f5851431f53480",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 5,
+        "$e673": 132,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 86,
+      "name": "Wizhelm",
+      "name_address": "$dd2f",
+      "packed_name_hex": "f595f0d2663400",
+      "properties": {
+        "$e273": 25,
+        "$e373": 0,
+        "$e473": 3,
+        "$e573": 4,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 69
+      }
+    },
+    {
+      "id": 87,
+      "name": "Dragonwand",
+      "name_address": "$dd36",
+      "packed_name_hex": "f162243dd6138a00",
+      "properties": {
+        "$e273": 35,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 9,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 88,
+      "name": "Deathring",
+      "name_address": "$dd3e",
+      "packed_name_hex": "f14c29a62a7200",
+      "properties": {
+        "$e273": 64,
+        "$e373": 0,
+        "$e473": 1,
+        "$e573": 8,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 64
+      }
+    },
+    {
+      "id": 89,
+      "name": "Crystal Sword",
+      "name_address": "$dd45",
+      "packed_name_hex": "f123794c4c0fa567c4a0",
+      "properties": {
+        "$e273": 255,
+        "$e373": 98,
+        "$e473": 16,
+        "$e573": 1,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 90,
+      "name": "Speedboots",
+      "name_address": "$dd4f",
+      "packed_name_hex": "f4a063146f7ce400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 159,
+        "$e773": 7,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 91,
+      "name": "Flame Horn",
+      "name_address": "$dd57",
+      "packed_name_hex": "f1d826983e4be2e000",
+      "properties": {
+        "$e273": 60,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 92,
+      "name": "Zen Arrows",
+      "name_address": "$dd60",
+      "packed_name_hex": "f7c33383e1462fb480",
+      "properties": {
+        "$e273": 10,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 12,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 93,
+      "name": "Deathdrum",
+      "name_address": "$dd69",
+      "packed_name_hex": "f14c29a4b1a340",
+      "properties": {
+        "$e273": 10,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 35
+      }
+    },
+    {
+      "id": 94,
+      "name": "Pipes of Pan",
+      "name_address": "$dd70",
+      "packed_name_hex": "f41503482f387d013800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 11
+      }
+    },
+    {
+      "id": 95,
+      "name": "Power Ring",
+      "name_address": "$dd7a",
+      "packed_name_hex": "f41f63443e8a9c8000",
+      "properties": {
+        "$e273": 17,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 8,
+        "$e673": 98,
+        "$e773": 0,
+        "$e873": 55
+      }
+    },
+    {
+      "id": 96,
+      "name": "Song Axe",
+      "name_address": "$dd83",
+      "packed_name_hex": "f49ee407c2f84600",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 3,
+        "$e573": 1,
+        "$e673": 8,
+        "$e773": 5,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 97,
+      "name": "Trick Brick",
+      "name_address": "$dd8b",
+      "packed_name_hex": "f4e2a22c3e1c544580",
+      "properties": {
+        "$e273": 30,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 36
+      }
+    },
+    {
+      "id": 98,
+      "name": "Dragon Fgn",
+      "name_address": "$dd94",
+      "packed_name_hex": "f162243dc1f1d0e000",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 132
+      }
+    },
+    {
+      "id": 99,
+      "name": "Mage Fgn",
+      "name_address": "$dd9d",
+      "packed_name_hex": "f3448307c74380",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 132
+      }
+    },
+    {
+      "id": 100,
+      "name": "Troll Ring",
+      "name_address": "$dda4",
+      "packed_name_hex": "f4e2f6303e8a9c8000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 8,
+        "$e673": 255,
+        "$e773": 1,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 101,
+      "name": "Aram's Knife",
+      "name_address": "$ddad",
+      "packed_name_hex": "f0a226ea41f2dca39800",
+      "properties": {
+        "$e273": 30,
+        "$e373": 33,
+        "$e473": 64,
+        "$e573": 1,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 102,
+      "name": "Angra's Eye",
+      "name_address": "$ddb7",
+      "packed_name_hex": "f09c888b520f8d7300",
+      "properties": {
+        "$e273": 7,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 108,
+        "$e773": 0,
+        "$e873": 73
+      }
+    },
+    {
+      "id": 103,
+      "name": "Herb Fgn",
+      "name_address": "$ddc0",
+      "packed_name_hex": "f24d1187c74380",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 63
+      }
+    },
+    {
+      "id": 104,
+      "name": "Master Wand",
+      "name_address": "$ddc7",
+      "packed_name_hex": "f345299a21f584e280",
+      "properties": {
+        "$e273": 11,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 9,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 75
+      }
+    },
+    {
+      "id": 105,
+      "name": "Brothers Fgn",
+      "name_address": "$ddd0",
+      "packed_name_hex": "f0e2f9a4d1907c743800",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 77
+      }
+    },
+    {
+      "id": 106,
+      "name": "Dynamite",
+      "name_address": "$ddda",
+      "packed_name_hex": "f16ee135533000",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 78
+      }
+    },
+    {
+      "id": 107,
+      "name": "Thor's Hammer",
+      "name_address": "$dde1",
+      "packed_name_hex": "f4d2f8ea41f244d69a20",
+      "properties": {
+        "$e273": 255,
+        "$e373": 99,
+        "$e473": 32,
+        "$e573": 1,
+        "$e673": 132,
+        "$e773": 1,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 108,
+      "name": "Stoneblade",
+      "name_address": "$ddeb",
+      "packed_name_hex": "f4a6f7186c114c00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 48,
+        "$e573": 97,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 109,
+      "name": "Holy Handgrenade",
+      "name_address": "$ddf3",
+      "packed_name_hex": "f25ecb87c9138a8899c22980",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 78
+      }
+    },
+    {
+      "id": 110,
+      "name": "Masterkey",
+      "name_address": "$ddff",
+      "packed_name_hex": "f345299a2b35c0",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 11,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 111,
+      "name": "Nospin Ring",
+      "name_address": "$de06",
+      "packed_name_hex": "f39f2829c1f454e400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 8,
+        "$e673": 255,
+        "$e773": 3,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 112,
+      "name": "Crystal Lens",
+      "name_address": "$de0f",
+      "packed_name_hex": "f123794c4c0f98674800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 0,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 113,
+      "name": "Smokey Lens",
+      "name_address": "$de19",
+      "packed_name_hex": "f49af59ae1f30ce900",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 0,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 114,
+      "name": "Black Lens",
+      "name_address": "$de22",
+      "packed_name_hex": "f0d8222c3e619d2000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 0,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 115,
+      "name": "Sphere of Lanatir",
+      "name_address": "$de2b",
+      "packed_name_hex": "f4a09344c179c3e609c29aa200",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 37,
+        "$e573": 10,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 116,
+      "name": "Wand of Power",
+      "name_address": "$de38",
+      "packed_name_hex": "f584e285e70fa0fb1a20",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 51,
+        "$e573": 9,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 67
+      }
+    },
+    {
+      "id": 117,
+      "name": "Acorn",
+      "name_address": "$de42",
+      "packed_name_hex": "f088f8b800",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 128
+      }
+    },
+    {
+      "id": 118,
+      "name": "Wineskin",
+      "name_address": "$de47",
+      "packed_name_hex": "f594e3496a7000",
+      "properties": {
+        "$e273": 10,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 13,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 129
+      }
+    },
+    {
+      "id": 119,
+      "name": "Nightspear",
+      "name_address": "$de4e",
+      "packed_name_hex": "f39484ce5030a200",
+      "properties": {
+        "$e273": 255,
+        "$e373": 100,
+        "$e473": 48,
+        "$e573": 1,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 120,
+      "name": "Tslotha's Head",
+      "name_address": "$de56",
+      "packed_name_hex": "f4e4c7cd22d483e4984500",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 121,
+      "name": "Tslotha's Heart",
+      "name_address": "$de61",
+      "packed_name_hex": "f4e4c7cd22d483e498519800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 122,
+      "name": "Arefolia",
+      "name_address": "$de6d",
+      "packed_name_hex": "f0a263bd8a1000",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 122
+      }
+    },
+    {
+      "id": 123,
+      "name": "Valarian's Bow",
+      "name_address": "$de74",
+      "packed_name_hex": "f544c1454276a41f0df600",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 11,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 124,
+      "name": "Arws of Life",
+      "name_address": "$de7f",
+      "packed_name_hex": "f0a36905e70f98a39800",
+      "properties": {
+        "$e273": 24,
+        "$e373": 0,
+        "$e473": 32,
+        "$e573": 12,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 125,
+      "name": "Canteen",
+      "name_address": "$de89",
+      "packed_name_hex": "f104e998ce00",
+      "properties": {
+        "$e273": 10,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 13,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 129
+      }
+    },
+    {
+      "id": 126,
+      "name": "Titan Plate",
+      "name_address": "$de8f",
+      "packed_name_hex": "f4d531383e83053300",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 10,
+        "$e573": 3,
+        "$e673": 132,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 127,
+      "name": "Titan Shield",
+      "name_address": "$de98",
+      "packed_name_hex": "f4d531383e9254661400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 22,
+        "$e573": 2,
+        "$e673": 140,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 128,
+      "name": "Titan Helm",
+      "name_address": "$dea2",
+      "packed_name_hex": "f4d531383e4998d000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 5,
+        "$e573": 4,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 129,
+      "name": "Fire Spear",
+      "name_address": "$deab",
+      "packed_name_hex": "f1d51307d281851000",
+      "properties": {
+        "$e273": 1,
+        "$e373": 99,
+        "$e473": 48,
+        "$e573": 1,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 130,
+      "name": "Willow Flute",
+      "name_address": "$deb4",
+      "packed_name_hex": "f594c63ec1f1d9499800",
+      "properties": {
+        "$e273": 5,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 69
+      }
+    },
+    {
+      "id": 131,
+      "name": "Firebrand",
+      "name_address": "$debe",
+      "packed_name_hex": "f1d5130e227140",
+      "properties": {
+        "$e273": 255,
+        "$e373": 72,
+        "$e473": 65,
+        "$e573": 81,
+        "$e673": 158,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 132,
+      "name": "Holy Sword",
+      "name_address": "$dec5",
+      "packed_name_hex": "f25ecb87d2b3e25000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 99,
+        "$e473": 66,
+        "$e573": 1,
+        "$e673": 4,
+        "$e773": 0,
+        "$e873": 11
+      }
+    },
+    {
+      "id": 133,
+      "name": "Wand of Fury",
+      "name_address": "$dece",
+      "packed_name_hex": "f584e285e70f8f48dc00",
+      "properties": {
+        "$e273": 10,
+        "$e373": 0,
+        "$e473": 17,
+        "$e573": 9,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 134,
+      "name": "Lightstar",
+      "name_address": "$ded8",
+      "packed_name_hex": "f31484ce531440",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 2,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 135,
+      "name": "Crown of Truth",
+      "name_address": "$dedf",
+      "packed_name_hex": "f122fb382f387d38d26900",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 10,
+        "$e573": 4,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 136,
+      "name": "Belt of Alliria",
+      "name_address": "$deea",
+      "packed_name_hex": "f0ccc985e70f84c62a2a1000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 137,
+      "name": "Crystal Key",
+      "name_address": "$def6",
+      "packed_name_hex": "f123794c4c0f966b80",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 138,
+      "name": "Tao Ring",
+      "name_address": "$deff",
+      "packed_name_hex": "f4c4f0fa2a7200",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 37,
+        "$e573": 8,
+        "$e673": 1,
+        "$e773": 0,
+        "$e873": 7
+      }
+    },
+    {
+      "id": 139,
+      "name": "Stealth Arrows",
+      "name_address": "$df06",
+      "packed_name_hex": "f4a66132690f8518bed200",
+      "properties": {
+        "$e273": 24,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 12,
+        "$e673": 2,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 140,
+      "name": "Yellow Staff",
+      "name_address": "$df11",
+      "packed_name_hex": "f5ccc63ec1f4a6239c00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 38,
+        "$e473": 36,
+        "$e573": 1,
+        "$e673": 96,
+        "$e773": 2,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 141,
+      "name": "Steady Eye",
+      "name_address": "$df1b",
+      "packed_name_hex": "f4a66116e1f1ae6000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 10,
+        "$e673": 2,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 142,
+      "name": "Divine Halbard",
+      "name_address": "$df24",
+      "packed_name_hex": "f1555538c1f244c18a2500",
+      "properties": {
+        "$e273": 255,
+        "$e373": 72,
+        "$e473": 49,
+        "$e573": 1,
+        "$e673": 135,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 143,
+      "name": "Incense",
+      "name_address": "$df2f",
+      "packed_name_hex": "f29c433a4600",
+      "properties": {
+        "$e273": 3,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 1,
+        "$e773": 0,
+        "$e873": 15
+      }
+    },
+    {
+      "id": 144,
+      "name": "I-ching",
+      "name_address": "$df35",
+      "packed_name_hex": "f2bfe912a72000",
+      "properties": {
+        "$e273": 25,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 1,
+        "$e773": 0,
+        "$e873": 21
+      }
+    },
+    {
+      "id": 145,
+      "name": "White Rose",
+      "name_address": "$df3c",
+      "packed_name_hex": "f592a9983e8be46000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 146,
+      "name": "Blue Rose",
+      "name_address": "$df45",
+      "packed_name_hex": "f0d94307d17c8c00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 147,
+      "name": "Red Rose",
+      "name_address": "$df4d",
+      "packed_name_hex": "f44c50fa2f9180",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 148,
+      "name": "Yellow Rose",
+      "name_address": "$df54",
+      "packed_name_hex": "f5ccc63ec1f45f2300",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 149,
+      "name": "Rainbow Rose",
+      "name_address": "$df5d",
+      "packed_name_hex": "f444a70df60fa2f91800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 150,
+      "name": "Magic Triangle",
+      "name_address": "$df67",
+      "packed_name_hex": "f34485103e9c5427218600",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 151,
+      "name": "x",
+      "name_address": "$df72",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 152,
+      "name": "Hammer of Wrath",
+      "name_address": "$df74",
+      "packed_name_hex": "f244d69a2179c3eb44534800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 99,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 132,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 153,
+      "name": "Ferofist's Helm",
+      "name_address": "$df80",
+      "packed_name_hex": "f1cd179d529ea41f24cc6800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 39,
+        "$e573": 4,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 154,
+      "name": "x",
+      "name_address": "$df8c",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 155,
+      "name": "x",
+      "name_address": "$df8e",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 156,
+      "name": "Helm of Justice",
+      "name_address": "$df90",
+      "packed_name_hex": "f24cc685e70fbe05253510c0",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 9,
+        "$e573": 4,
+        "$e673": 16,
+        "$e773": 8,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 157,
+      "name": "Sceadu's Cloak",
+      "name_address": "$df9c",
+      "packed_name_hex": "f48861169a907c463c4b00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 28,
+        "$e573": 3,
+        "$e673": 16,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 158,
+      "name": "Shadelance",
+      "name_address": "$dfa7",
+      "packed_name_hex": "f492229982710c00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 75
+      }
+    },
+    {
+      "id": 159,
+      "name": "Black Arrows",
+      "name_address": "$dfaf",
+      "packed_name_hex": "f0d8222c3e1462fb4800",
+      "properties": {
+        "$e273": 24,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 160,
+      "name": "Werra's Shield",
+      "name_address": "$dfb9",
+      "packed_name_hex": "f58d188b520fa495198500",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 8,
+        "$e573": 2,
+        "$e673": 142,
+        "$e773": 10,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 161,
+      "name": "Strifespear",
+      "name_address": "$dfc4",
+      "packed_name_hex": "f4a7151cd281851000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 80,
+        "$e573": 113,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 91
+      }
+    },
+    {
+      "id": 162,
+      "name": "Sheetmusic",
+      "name_address": "$dfcd",
+      "packed_name_hex": "f492634db4928800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 163,
+      "name": "Right Key",
+      "name_address": "$dfd5",
+      "packed_name_hex": "f45484cc3e59ae00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 164,
+      "name": "Left Key",
+      "name_address": "$dfdd",
+      "packed_name_hex": "f30c7987cb35c0",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 165,
+      "name": "Lever",
+      "name_address": "$dfe4",
+      "packed_name_hex": "f30d534400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 166,
+      "name": "Nut",
+      "name_address": "$dfe9",
+      "packed_name_hex": "f3a93000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 167,
+      "name": "Bolt",
+      "name_address": "$dfed",
+      "packed_name_hex": "f0dec980",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 168,
+      "name": "Spanner",
+      "name_address": "$dff1",
+      "packed_name_hex": "f4a02738d100",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 169,
+      "name": "Shadow Lock",
+      "name_address": "$dff7",
+      "packed_name_hex": "f49222bec1f31e4580",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 170,
+      "name": "Shadow Door",
+      "name_address": "$e000",
+      "packed_name_hex": "f49222bec1f15ef880",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 130
+      }
+    },
+    {
+      "id": 171,
+      "name": "Misericorde",
+      "name_address": "$e009",
+      "packed_name_hex": "f3552345447c4a6000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 165,
+        "$e473": 115,
+        "$e573": 1,
+        "$e673": 16,
+        "$e773": 0,
+        "$e873": 11
+      }
+    },
+    {
+      "id": 172,
+      "name": "Holy Avenger",
+      "name_address": "$e012",
+      "packed_name_hex": "f25ecb87c2a99c834400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 135,
+        "$e473": 84,
+        "$e573": 1,
+        "$e673": 4,
+        "$e773": 0,
+        "$e873": 11
+      }
+    },
+    {
+      "id": 173,
+      "name": "Shadowshiv",
+      "name_address": "$e01c",
+      "packed_name_hex": "f49222bed24aaa00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 98,
+        "$e473": 16,
+        "$e573": 1,
+        "$e673": 16,
+        "$e773": 6,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 174,
+      "name": "Kali's Garrote",
+      "name_address": "$e024",
+      "packed_name_hex": "f2c4c56a41f20518be6600",
+      "properties": {
+        "$e273": 255,
+        "$e373": 137,
+        "$e473": 49,
+        "$e573": 1,
+        "$e673": 16,
+        "$e773": 8,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 175,
+      "name": "Flame Knife",
+      "name_address": "$e02f",
+      "packed_name_hex": "f1d826983e5b947300",
+      "properties": {
+        "$e273": 20,
+        "$e373": 105,
+        "$e473": 33,
+        "$e573": 1,
+        "$e673": 16,
+        "$e773": 0,
+        "$e873": 61
+      }
+    },
+    {
+      "id": 176,
+      "name": "Red's Stiletto",
+      "name_address": "$e038",
+      "packed_name_hex": "f44c5d483e94d4c34e6f00",
+      "properties": {
+        "$e273": 255,
+        "$e373": 167,
+        "$e473": 66,
+        "$e573": 1,
+        "$e673": 16,
+        "$e773": 0,
+        "$e873": 71
+      }
+    },
+    {
+      "id": 177,
+      "name": "Heartseeker",
+      "name_address": "$e043",
+      "packed_name_hex": "f24c28ce4632cd1000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 32,
+        "$e473": 82,
+        "$e573": 113,
+        "$e673": 16,
+        "$e773": 10,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 178,
+      "name": "x",
+      "name_address": "$e04c",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 179,
+      "name": "x",
+      "name_address": "$e04e",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 180,
+      "name": "x",
+      "name_address": "$e050",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 181,
+      "name": "Dmnd Scale",
+      "name_address": "$e052",
+      "packed_name_hex": "f15ae287d220986000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 7,
+        "$e573": 3,
+        "$e673": 142,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 182,
+      "name": "Holy TNT",
+      "name_address": "$e05b",
+      "packed_name_hex": "f25ecb87d3f3bd3000",
+      "properties": {
+        "$e273": 2,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 78
+      }
+    },
+    {
+      "id": 183,
+      "name": "Eternal Torch",
+      "name_address": "$e064",
+      "packed_name_hex": "f1a668b84c0fa6f89120",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 126
+      }
+    },
+    {
+      "id": 184,
+      "name": "Oscon's Staff",
+      "name_address": "$e06e",
+      "packed_name_hex": "f3e447bb520fa5311ce0",
+      "properties": {
+        "$e273": 10,
+        "$e373": 67,
+        "$e473": 51,
+        "$e573": 17,
+        "$e673": 96,
+        "$e773": 13,
+        "$e873": 37
+      }
+    },
+    {
+      "id": 185,
+      "name": "Angel's Ring",
+      "name_address": "$e078",
+      "packed_name_hex": "f09c8333520fa2a72000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 8,
+        "$e673": 255,
+        "$e773": 14,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 186,
+      "name": "Deathhorn",
+      "name_address": "$e082",
+      "packed_name_hex": "f14c29a52f8b80",
+      "properties": {
+        "$e273": 30,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 6,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 187,
+      "name": "Staff of Mangar",
+      "name_address": "$e089",
+      "packed_name_hex": "f4a6239c2f387cd139028800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 99,
+        "$e473": 36,
+        "$e573": 81,
+        "$e673": 32,
+        "$e773": 4,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 188,
+      "name": "Tesla Ring",
+      "name_address": "$e095",
+      "packed_name_hex": "f4cd26083e8a9c8000",
+      "properties": {
+        "$e273": 25,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 8,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 69
+      }
+    },
+    {
+      "id": 189,
+      "name": "Dmnd Bracers",
+      "name_address": "$e09e",
+      "packed_name_hex": "f15ae287c3888868c800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 8,
+        "$e573": 3,
+        "$e673": 112,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 190,
+      "name": "Death Fgn",
+      "name_address": "$e0a8",
+      "packed_name_hex": "f14c29a43e3a1c00",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 132
+      }
+    },
+    {
+      "id": 191,
+      "name": "Thunder Sword",
+      "name_address": "$e0b0",
+      "packed_name_hex": "f4d34714d10fa567c4a0",
+      "properties": {
+        "$e273": 255,
+        "$e373": 99,
+        "$e473": 66,
+        "$e573": 1,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 11
+      }
+    },
+    {
+      "id": 192,
+      "name": "Poison Dagger",
+      "name_address": "$e0ba",
+      "packed_name_hex": "f41ea93dc1f144841a20",
+      "properties": {
+        "$e273": 255,
+        "$e373": 98,
+        "$e473": 49,
+        "$e573": 17,
+        "$e673": 16,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 193,
+      "name": "Spark Blade",
+      "name_address": "$e0c4",
+      "packed_name_hex": "f4a028ac3e1b045300",
+      "properties": {
+        "$e273": 255,
+        "$e373": 99,
+        "$e473": 50,
+        "$e573": 1,
+        "$e673": 128,
+        "$e773": 0,
+        "$e873": 12
+      }
+    },
+    {
+      "id": 194,
+      "name": "Galvanic Oboe",
+      "name_address": "$e0cd",
+      "packed_name_hex": "f204ca89ca207cf1bcc0",
+      "properties": {
+        "$e273": 5,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 5,
+        "$e873": 69
+      }
+    },
+    {
+      "id": 195,
+      "name": "Harmonic Gem",
+      "name_address": "$e0d7",
+      "packed_name_hex": "f24516bdca207c833400",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 134
+      }
+    },
+    {
+      "id": 196,
+      "name": "Tung Shield",
+      "name_address": "$e0e1",
+      "packed_name_hex": "f4e8e407d24a8cc280",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 23,
+        "$e573": 2,
+        "$e673": 140,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 197,
+      "name": "Tung Plate",
+      "name_address": "$e0ea",
+      "packed_name_hex": "f4e8e407d060a66000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 12,
+        "$e573": 3,
+        "$e673": 132,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 198,
+      "name": "Minstrels Glove",
+      "name_address": "$e0f3",
+      "packed_name_hex": "f354e94e266483e431f53000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 7,
+        "$e573": 5,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 199,
+      "name": "Hunters Cloak",
+      "name_address": "$e0ff",
+      "packed_name_hex": "f268e99a320f88c78960",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 40,
+        "$e573": 3,
+        "$e673": 2,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 200,
+      "name": "Death Hammer",
+      "name_address": "$e109",
+      "packed_name_hex": "f14c29a43e489ad34400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 99,
+        "$e473": 81,
+        "$e573": 1,
+        "$e673": 128,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 201,
+      "name": "Blood Mesh Robe",
+      "name_address": "$e113",
+      "packed_name_hex": "f0d8f7943e69a490fa2f1980",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 3,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 202,
+      "name": "Soothing Balm",
+      "name_address": "$e11f",
+      "packed_name_hex": "f49ef9a54e407c3131a0",
+      "properties": {
+        "$e273": 5,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 15
+      }
+    },
+    {
+      "id": 203,
+      "name": "Mages Cloak",
+      "name_address": "$e129",
+      "packed_name_hex": "f34483483e231e2580",
+      "properties": {
+        "$e273": 10,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 3,
+        "$e673": 32,
+        "$e773": 0,
+        "$e873": 73
+      }
+    },
+    {
+      "id": 204,
+      "name": "Familiar Fgn",
+      "name_address": "$e132",
+      "packed_name_hex": "f1c4d53142887c743800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 7,
+        "$e673": 32,
+        "$e773": 13,
+        "$e873": 132
+      }
+    },
+    {
+      "id": 205,
+      "name": "Hourglass",
+      "name_address": "$e13c",
+      "packed_name_hex": "f25f48a1829480",
+      "properties": {
+        "$e273": 2,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 87
+      }
+    },
+    {
+      "id": 206,
+      "name": "Thieves Hood",
+      "name_address": "$e143",
+      "packed_name_hex": "f4d2a354d20f92f79400",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 4,
+        "$e673": 16,
+        "$e773": 8,
+        "$e873": 45
+      }
+    },
+    {
+      "id": 207,
+      "name": "Surehand Amulet",
+      "name_address": "$e14d",
+      "packed_name_hex": "f4a913244e287c26d1869800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 16,
+        "$e773": 6,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 208,
+      "name": "Thieves Dart",
+      "name_address": "$e159",
+      "packed_name_hex": "f4d2a354d20f8a28cc00",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 16,
+        "$e773": 0,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 209,
+      "name": "Shrill Flute",
+      "name_address": "$e163",
+      "packed_name_hex": "f493153181f1d9499800",
+      "properties": {
+        "$e273": 5,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 17
+      }
+    },
+    {
+      "id": 210,
+      "name": "Angel's Harp",
+      "name_address": "$e16d",
+      "packed_name_hex": "f09c8333520f9228c000",
+      "properties": {
+        "$e273": 5,
+        "$e373": 0,
+        "$e473": 2,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 15
+      }
+    },
+    {
+      "id": 211,
+      "name": "The Book",
+      "name_address": "$e177",
+      "packed_name_hex": "f4d260f86f7ac0",
+      "properties": {
+        "$e273": 4,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 4,
+        "$e773": 0,
+        "$e873": 62
+      }
+    },
+    {
+      "id": 212,
+      "name": "Troth Lance",
+      "name_address": "$e17e",
+      "packed_name_hex": "f4e2f9a43e609c4300",
+      "properties": {
+        "$e273": 255,
+        "$e373": 135,
+        "$e473": 81,
+        "$e573": 1,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 213,
+      "name": "Dmnd Suit",
+      "name_address": "$e187",
+      "packed_name_hex": "f15ae287d2a2a600",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 15,
+        "$e573": 14,
+        "$e673": 132,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 214,
+      "name": "Dmnd Flail",
+      "name_address": "$e18f",
+      "packed_name_hex": "f15ae287c76094c000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 129,
+        "$e473": 80,
+        "$e573": 1,
+        "$e673": 132,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 215,
+      "name": "Purple Heart",
+      "name_address": "$e198",
+      "packed_name_hex": "f4291830c1f24c28cc00",
+      "properties": {
+        "$e273": 10,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 34
+      }
+    },
+    {
+      "id": 216,
+      "name": "Titan Bracers",
+      "name_address": "$e1a2",
+      "packed_name_hex": "f4d531383e1c44434640",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 10,
+        "$e573": 3,
+        "$e673": 112,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 217,
+      "name": "Eelskin Tunic",
+      "name_address": "$e1ac",
+      "packed_name_hex": "f18cc92d4e0fa7472880",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 20,
+        "$e573": 6,
+        "$e673": 2,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 218,
+      "name": "Sorcerer's Hood",
+      "name_address": "$e1b6",
+      "packed_name_hex": "f49f121a268ea41f25ef2800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 3,
+        "$e573": 4,
+        "$e673": 96,
+        "$e773": 14,
+        "$e873": 55
+      }
+    },
+    {
+      "id": 219,
+      "name": "Dmnd Staff",
+      "name_address": "$e1c2",
+      "packed_name_hex": "f15ae287d2988e7000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 39,
+        "$e473": 33,
+        "$e573": 1,
+        "$e673": 32,
+        "$e773": 13,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 220,
+      "name": "Crystal Gem",
+      "name_address": "$e1cb",
+      "packed_name_hex": "f123794c4c0f906680",
+      "properties": {
+        "$e273": 3,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 134
+      }
+    },
+    {
+      "id": 221,
+      "name": "Wand of Force",
+      "name_address": "$e1d4",
+      "packed_name_hex": "f584e285e70f8ef890c0",
+      "properties": {
+        "$e273": 10,
+        "$e373": 99,
+        "$e473": 32,
+        "$e573": 9,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 99
+      }
+    },
+    {
+      "id": 222,
+      "name": "Cli Lyre",
+      "name_address": "$e1de",
+      "packed_name_hex": "f118a0f9978980",
+      "properties": {
+        "$e273": 15,
+        "$e373": 0,
+        "$e473": 5,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 223,
+      "name": "Youth Potion",
+      "name_address": "$e1e5",
+      "packed_name_hex": "f5df49a43e83e6a7b800",
+      "properties": {
+        "$e273": 10,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 95
+      }
+    },
+    {
+      "id": 224,
+      "name": "x",
+      "name_address": "$e1ef",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 225,
+      "name": "x",
+      "name_address": "$e1f1",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 226,
+      "name": "x",
+      "name_address": "$e1f3",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 227,
+      "name": "x",
+      "name_address": "$e1f5",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 228,
+      "name": "x",
+      "name_address": "$e1f7",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 229,
+      "name": "x",
+      "name_address": "$e1f9",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 230,
+      "name": "x",
+      "name_address": "$e1fb",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 231,
+      "name": "x",
+      "name_address": "$e1fd",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 232,
+      "name": "x",
+      "name_address": "$e1ff",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 233,
+      "name": "x",
+      "name_address": "$e201",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 234,
+      "name": "x",
+      "name_address": "$e203",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 235,
+      "name": "x",
+      "name_address": "$e205",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 236,
+      "name": "x",
+      "name_address": "$e207",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 237,
+      "name": "x",
+      "name_address": "$e209",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 238,
+      "name": "x",
+      "name_address": "$e20b",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 239,
+      "name": "x",
+      "name_address": "$e20d",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 240,
+      "name": "Mthr Suit",
+      "name_address": "$e20f",
+      "packed_name_hex": "f3669887d2a2a600",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 10,
+        "$e573": 3,
+        "$e673": 134,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 241,
+      "name": "Titan Suit",
+      "name_address": "$e217",
+      "packed_name_hex": "f4d531383e95153000",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 15,
+        "$e573": 3,
+        "$e673": 128,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 242,
+      "name": "Mages Glove",
+      "name_address": "$e220",
+      "packed_name_hex": "f34483483e431f5300",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 4,
+        "$e573": 5,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 243,
+      "name": "Flare Crystal",
+      "name_address": "$e229",
+      "packed_name_hex": "f1d828983e246f298980",
+      "properties": {
+        "$e273": 5,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 96,
+        "$e773": 0,
+        "$e873": 134
+      }
+    },
+    {
+      "id": 244,
+      "name": "Holy Missile",
+      "name_address": "$e233",
+      "packed_name_hex": "f25ecb87cd54a4a61800",
+      "properties": {
+        "$e273": 1,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 1,
+        "$e673": 159,
+        "$e773": 0,
+        "$e873": 131
+      }
+    },
+    {
+      "id": 245,
+      "name": "Gods' Blade",
+      "name_address": "$e23d",
+      "packed_name_hex": "f21e59683e1b045300",
+      "properties": {
+        "$e273": 255,
+        "$e373": 137,
+        "$e473": 85,
+        "$e573": 1,
+        "$e673": 132,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 246,
+      "name": "Hunter Blade",
+      "name_address": "$e246",
+      "packed_name_hex": "f268e99a21f0d8229800",
+      "properties": {
+        "$e273": 255,
+        "$e373": 169,
+        "$e473": 83,
+        "$e573": 1,
+        "$e673": 2,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 247,
+      "name": "Staff of Gods",
+      "name_address": "$e250",
+      "packed_name_hex": "f4a6239c2f387c879640",
+      "properties": {
+        "$e273": 10,
+        "$e373": 41,
+        "$e473": 50,
+        "$e573": 1,
+        "$e673": 96,
+        "$e773": 12,
+        "$e873": 120
+      }
+    },
+    {
+      "id": 248,
+      "name": "Horn of Gods",
+      "name_address": "$e25a",
+      "packed_name_hex": "f25f1705e70f90f2c800",
+      "properties": {
+        "$e273": 25,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 6,
+        "$e673": 8,
+        "$e773": 0,
+        "$e873": 133
+      }
+    },
+    {
+      "id": 249,
+      "name": "x",
+      "name_address": "$e264",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 250,
+      "name": "x",
+      "name_address": "$e266",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 251,
+      "name": "x",
+      "name_address": "$e268",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 252,
+      "name": "x",
+      "name_address": "$e26a",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 253,
+      "name": "x",
+      "name_address": "$e26c",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 254,
+      "name": "x",
+      "name_address": "$e26e",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    },
+    {
+      "id": 255,
+      "name": "x",
+      "name_address": "$e270",
+      "packed_name_hex": "f840",
+      "properties": {
+        "$e273": 255,
+        "$e373": 0,
+        "$e473": 0,
+        "$e573": 10,
+        "$e673": 255,
+        "$e773": 0,
+        "$e873": 255
+      }
+    }
+  ]
+}
