@@ -1,0 +1,954 @@
+{
+  "format": "35-track D64, 683 sectors, no error map",
+  "disks": {
+    "boot": {
+      "original": "Bard's Tale III (Boot Disk).d64",
+      "size": 174848,
+      "sha256": "50742bb214e722fa43eaafbf4d7700171f4d0586faf013ee4a59cac4adbc0b3e",
+      "directory": [
+        {
+          "type": 130,
+          "track": 18,
+          "sector": 2,
+          "name": "PRODOS",
+          "blocks": 1
+        },
+        {
+          "type": 130,
+          "track": 18,
+          "sector": 3,
+          "name": "2.0",
+          "blocks": 10
+        }
+      ],
+      "tracks": [
+        {
+          "track": 1,
+          "sectors": 21,
+          "sha256": "46ebd1b0be6a65dd5f6439e41b32dbea90c633082fcb9739b63352072e189b0a"
+        },
+        {
+          "track": 2,
+          "sectors": 21,
+          "sha256": "ddb2806a7b9d595aac0709402ff8f29a47a5dfdca5dd86ec678f570688cfda91"
+        },
+        {
+          "track": 3,
+          "sectors": 21,
+          "sha256": "1c4e94cadefac3207adc59b28688ae88606eecb75c1766b41fcffb1aab61ed9a"
+        },
+        {
+          "track": 4,
+          "sectors": 21,
+          "sha256": "7c0fb2fd06d2d617c1c46708b823f3a35ef677f4accb30910870acc125f73582"
+        },
+        {
+          "track": 5,
+          "sectors": 21,
+          "sha256": "6b87c532739140cc92b417002fd5400bc15664e51308ccd25347d2c62b80abb1"
+        },
+        {
+          "track": 6,
+          "sectors": 21,
+          "sha256": "71e196009976a81c031a28fe321eef6545f515975a9a2a6ab31e80a83582426e"
+        },
+        {
+          "track": 7,
+          "sectors": 21,
+          "sha256": "288c315121c391ddb8bf39c434ef213f906c8bb7e1bbd0d7e8830e6245e0c5b3"
+        },
+        {
+          "track": 8,
+          "sectors": 21,
+          "sha256": "a934589d135ae6a34ce4ec5021fe70da4b5840cb730f8e4d1b5b51e1d4dd5bb9"
+        },
+        {
+          "track": 9,
+          "sectors": 21,
+          "sha256": "0562be1b29a5e2a9d7cc4cf0282965eeed4054d3e4398358b3d8256d2c4d82ee"
+        },
+        {
+          "track": 10,
+          "sectors": 21,
+          "sha256": "35f50e83e5d22c287d93e469db39c0e9c5130db8f36cfcf0ea1cfb3bfc1e3485"
+        },
+        {
+          "track": 11,
+          "sectors": 21,
+          "sha256": "1680c4280183db4598075dba1a471b3a229a2decf28e6a8bd242948d2b1eb6be"
+        },
+        {
+          "track": 12,
+          "sectors": 21,
+          "sha256": "81483b1ce3cbb3a1ecf04f2029e6fa3ae604375859053d1b0c407014a04112af"
+        },
+        {
+          "track": 13,
+          "sectors": 21,
+          "sha256": "fecc3e43291b6061a3c36483bdef761bc36635dd8a263074cf16e872c0611496"
+        },
+        {
+          "track": 14,
+          "sectors": 21,
+          "sha256": "8b92aafefbf1ef1c7bce3cb6732ae16958e02a1dd2918f6ae93f0b6ff67ffb72"
+        },
+        {
+          "track": 15,
+          "sectors": 21,
+          "sha256": "09fc66761382da5539eabc2219980f8f6173d212cdb535b381b09055e55daa62"
+        },
+        {
+          "track": 16,
+          "sectors": 21,
+          "sha256": "af56dff99d0d866c2d1885bb6833b661a72c6fb34d6a4aae47a425a19c999ab6"
+        },
+        {
+          "track": 17,
+          "sectors": 21,
+          "sha256": "7459a9b2559c591df9fff7c879fbe8b35ad2b2dcdd685cf42b73e873019ed28a"
+        },
+        {
+          "track": 18,
+          "sectors": 19,
+          "sha256": "fb97efe537b1faa7eb5c707f20a11a65a1957a90a617b075ccea0ec768620305"
+        },
+        {
+          "track": 19,
+          "sectors": 19,
+          "sha256": "ad6d04f13b743c35bc3e48d5b7f7ce10e05cb2c74a06b1d72d3e8bc2e75c9646"
+        },
+        {
+          "track": 20,
+          "sectors": 19,
+          "sha256": "ad6d04f13b743c35bc3e48d5b7f7ce10e05cb2c74a06b1d72d3e8bc2e75c9646"
+        },
+        {
+          "track": 21,
+          "sectors": 19,
+          "sha256": "ad6d04f13b743c35bc3e48d5b7f7ce10e05cb2c74a06b1d72d3e8bc2e75c9646"
+        },
+        {
+          "track": 22,
+          "sectors": 19,
+          "sha256": "ad6d04f13b743c35bc3e48d5b7f7ce10e05cb2c74a06b1d72d3e8bc2e75c9646"
+        },
+        {
+          "track": 23,
+          "sectors": 19,
+          "sha256": "ad6d04f13b743c35bc3e48d5b7f7ce10e05cb2c74a06b1d72d3e8bc2e75c9646"
+        },
+        {
+          "track": 24,
+          "sectors": 19,
+          "sha256": "ad6d04f13b743c35bc3e48d5b7f7ce10e05cb2c74a06b1d72d3e8bc2e75c9646"
+        },
+        {
+          "track": 25,
+          "sectors": 18,
+          "sha256": "36a67c423458877c8dc98325035620776fa52813c8b04ea9019638991794d7aa"
+        },
+        {
+          "track": 26,
+          "sectors": 18,
+          "sha256": "36a67c423458877c8dc98325035620776fa52813c8b04ea9019638991794d7aa"
+        },
+        {
+          "track": 27,
+          "sectors": 18,
+          "sha256": "36a67c423458877c8dc98325035620776fa52813c8b04ea9019638991794d7aa"
+        },
+        {
+          "track": 28,
+          "sectors": 18,
+          "sha256": "36a67c423458877c8dc98325035620776fa52813c8b04ea9019638991794d7aa"
+        },
+        {
+          "track": 29,
+          "sectors": 18,
+          "sha256": "36a67c423458877c8dc98325035620776fa52813c8b04ea9019638991794d7aa"
+        },
+        {
+          "track": 30,
+          "sectors": 18,
+          "sha256": "36a67c423458877c8dc98325035620776fa52813c8b04ea9019638991794d7aa"
+        },
+        {
+          "track": 31,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 32,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 33,
+          "sectors": 17,
+          "sha256": "d77897656837eb4de641454335ded19860ec37768b3728715392c6357de18404"
+        },
+        {
+          "track": 34,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 35,
+          "sectors": 17,
+          "sha256": "292f6f4b0f4cc7f6df710e6509ddb895334628ca7d370de4341f52c774fe8a49"
+        }
+      ]
+    },
+    "character": {
+      "original": "Bard's Tale III (Character Disk).d64",
+      "size": 174848,
+      "sha256": "16e654bb084af6ea7aae74d773cd8b16c413bdd258e50202680754c7ff898e50",
+      "directory": [],
+      "tracks": [
+        {
+          "track": 1,
+          "sectors": 21,
+          "sha256": "f44097ca7578c9efa0ff3950821aceae03d4d6279f93ddb147d9072570385360"
+        },
+        {
+          "track": 2,
+          "sectors": 21,
+          "sha256": "42a48714f515a07bff6e826dabeb4c045a7ec803ffc5dc371ac6b84fb5909f29"
+        },
+        {
+          "track": 3,
+          "sectors": 21,
+          "sha256": "a5dcc15ca6dd27f14753aceec9c45d2689d2c469ff2210cb1ead778ae98fbc8d"
+        },
+        {
+          "track": 4,
+          "sectors": 21,
+          "sha256": "c089461d044f09aa80d7a4f9fa15e9d17889482dce87eae95bcea60dcfdafc95"
+        },
+        {
+          "track": 5,
+          "sectors": 21,
+          "sha256": "bfd631f76a71591b42785ebe17083f71b941e8c690f6da4561384ca95945ec35"
+        },
+        {
+          "track": 6,
+          "sectors": 21,
+          "sha256": "e5dc4c5e6b816106974385b93b938af48ea8c50c2ccc09ef3356aedf63703856"
+        },
+        {
+          "track": 7,
+          "sectors": 21,
+          "sha256": "12bd993adfefba56565a9c8bcf355ef36736a74b749ec97105f932fab968a5a5"
+        },
+        {
+          "track": 8,
+          "sectors": 21,
+          "sha256": "f9691fb3f2c4847998e1322336c96fcf156852708867650e0b5c8dc4d0ba410a"
+        },
+        {
+          "track": 9,
+          "sectors": 21,
+          "sha256": "a8e8c11f27e01fabf9c35f8ddec12da94bccc9ac4538919c334fbed08a9e938f"
+        },
+        {
+          "track": 10,
+          "sectors": 21,
+          "sha256": "b4316f390398860e82a7a4d6c6969ea78f4a9620b95906fd069662dc0a5d82b5"
+        },
+        {
+          "track": 11,
+          "sectors": 21,
+          "sha256": "a4549b4f4367b5c13940af7858dc1ce6f05d88c1fe24edbd9fe7518a02fb88df"
+        },
+        {
+          "track": 12,
+          "sectors": 21,
+          "sha256": "f653c9ad0735c1ba3fa3f38a35c46cda7fe658c9e30b98926b45d984898f3793"
+        },
+        {
+          "track": 13,
+          "sectors": 21,
+          "sha256": "97623b9428607ee161e7eabd08d540e058aee8314fb5ae6ebb5e1f1f331eb3cc"
+        },
+        {
+          "track": 14,
+          "sectors": 21,
+          "sha256": "d4b61a6a6a0b5dd08b70abc94c0b16d55b6fd104ed94c82164b122904cf2e3cb"
+        },
+        {
+          "track": 15,
+          "sectors": 21,
+          "sha256": "2dd751c7cc9cd04d6a50906dc98afe7dfbbcdca5ea1635aa88ddec09d219de7b"
+        },
+        {
+          "track": 16,
+          "sectors": 21,
+          "sha256": "70849ef99af44c16397d86423bd1047c35398bbdb08e51e08af1dbc72e711169"
+        },
+        {
+          "track": 17,
+          "sectors": 21,
+          "sha256": "3b505ccbca28fd1916488f8e81f47a42babd725c717b19dbb356a2aa259972b1"
+        },
+        {
+          "track": 18,
+          "sectors": 19,
+          "sha256": "f36f08d2e890e4892492e0f0775ba8840477ecc732e8b0a4d9f7d947e98cbb6d"
+        },
+        {
+          "track": 19,
+          "sectors": 19,
+          "sha256": "24f5e41f69e8e920e866b272902cceb8868252fab1a2b7f78d0ee62f000d97a1"
+        },
+        {
+          "track": 20,
+          "sectors": 19,
+          "sha256": "d696f73df1cdfd013e78f1f6c6e5bf6d2b4cefedf11062e5145c3b3e75ddadd3"
+        },
+        {
+          "track": 21,
+          "sectors": 19,
+          "sha256": "88cb89cb5d5ef2d31b7b9d432e20792af1093e27f5e01c35ccb4ff66be429436"
+        },
+        {
+          "track": 22,
+          "sectors": 19,
+          "sha256": "a025692c90defc538a59a660ae4917e2bd93a90b132fc50bc86e39a37afacab0"
+        },
+        {
+          "track": 23,
+          "sectors": 19,
+          "sha256": "6b4e25feec6afb1d77dd192d4a3ba580944bb158874e6c93bb9511712adab0b2"
+        },
+        {
+          "track": 24,
+          "sectors": 19,
+          "sha256": "e7a30ce480e1483b84cdd3b42ceca7d47d30c12d51d418c06c0496edf1e8efa1"
+        },
+        {
+          "track": 25,
+          "sectors": 18,
+          "sha256": "7502bc55af0ee48402c810a48c48cf3f86bd1b31b1e809a9d818081c44b476e7"
+        },
+        {
+          "track": 26,
+          "sectors": 18,
+          "sha256": "a1bfa17ce4401639335849b0a9cbf4c51e4161d70c37c19581af128f41933186"
+        },
+        {
+          "track": 27,
+          "sectors": 18,
+          "sha256": "7168684b2dc08b6aa36bb7a845e3bc32847341a79bc677b7220e162df6febb9f"
+        },
+        {
+          "track": 28,
+          "sectors": 18,
+          "sha256": "4089dbffd3ae600be8f27077571158a7eba9520db26539a75174be40a8ff7dc5"
+        },
+        {
+          "track": 29,
+          "sectors": 18,
+          "sha256": "9a03af030f713e5467dbb5488936f9df7f2e9a6481215d0237578859cfa3cb80"
+        },
+        {
+          "track": 30,
+          "sectors": 18,
+          "sha256": "7cd30f53683e77c02229447dc6d8b66f42786b5e345aa5897da46c75f05064c2"
+        },
+        {
+          "track": 31,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 32,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 33,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 34,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 35,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        }
+      ]
+    },
+    "dungeon-a": {
+      "original": "Bard's Tale III (Dungeon Disk side 1).d64",
+      "size": 174848,
+      "sha256": "3b48971a5828b2f794b5bb48f120e456d11352288ea5f190d8a6c79116209f60",
+      "directory": [],
+      "tracks": [
+        {
+          "track": 1,
+          "sectors": 21,
+          "sha256": "59ef1d5c2f6d0038c1e835d0034af20f8d616cce4e23b7c8c948a89ec6f73082"
+        },
+        {
+          "track": 2,
+          "sectors": 21,
+          "sha256": "69aeef41053d38b0952b6ef5176f270aa49a8bcb4d44dcb9dc07ed589128f9da"
+        },
+        {
+          "track": 3,
+          "sectors": 21,
+          "sha256": "beea92bf0ba63387f1d4d8c9994e9db12eacf78f08be6a33d192c19cd98998c7"
+        },
+        {
+          "track": 4,
+          "sectors": 21,
+          "sha256": "6be81c32d9ac53764721625e04b221b406e17f655f6630cc025b78fedc4f7e73"
+        },
+        {
+          "track": 5,
+          "sectors": 21,
+          "sha256": "467b7f3aa26611b574db0d150b9362fedd1e4bb9fbfc75551f0be6028addba3a"
+        },
+        {
+          "track": 6,
+          "sectors": 21,
+          "sha256": "5cc0bd54d59e0fde0c2fc2ccf94204584d387ba2d4300229e1fec5e2ab9a67c4"
+        },
+        {
+          "track": 7,
+          "sectors": 21,
+          "sha256": "9c05e44a28d40a713d64c5f14dc3dfd87b806b841d6d765cb44bc2c8f9f3f6ed"
+        },
+        {
+          "track": 8,
+          "sectors": 21,
+          "sha256": "8e898a73bebad7e455de7bd00c0d1d4ceac070c4d1b85ad73fb2e61f029825c1"
+        },
+        {
+          "track": 9,
+          "sectors": 21,
+          "sha256": "e5330e73436f382dd56d4d086d8f731af26e533f81f25f402582ee1664b8ec96"
+        },
+        {
+          "track": 10,
+          "sectors": 21,
+          "sha256": "6950530016bed28bb035afb55229de65a53c632e574d461edfac1f7990383643"
+        },
+        {
+          "track": 11,
+          "sectors": 21,
+          "sha256": "4579a5be3bd0f4852e02adcacd8499e58bd6748baf9b0639ddbb6631b74d001e"
+        },
+        {
+          "track": 12,
+          "sectors": 21,
+          "sha256": "8f72ec2b331a005ea4f4fb70e4c7abb4dfd0cfb3f1138e59d80a7b039241f234"
+        },
+        {
+          "track": 13,
+          "sectors": 21,
+          "sha256": "5d84b46e034ff5cb0f1d33b1be90c5cb146fee192ddcf6db82fd7ff12b060bd7"
+        },
+        {
+          "track": 14,
+          "sectors": 21,
+          "sha256": "57bf46e953519bb08ea851b383f98c413baabd23e35fe6e8dd2d296ad023ff4e"
+        },
+        {
+          "track": 15,
+          "sectors": 21,
+          "sha256": "c28513c85e0b931007439810af6e886c12de54807b20ecbca508ad892c0c5b39"
+        },
+        {
+          "track": 16,
+          "sectors": 21,
+          "sha256": "bd0af7b76cda4724c12b691ae7545557ce06bc8ebe89e7f0cda6686216721a51"
+        },
+        {
+          "track": 17,
+          "sectors": 21,
+          "sha256": "1f6c81c703fec1f155fe3069806c28d6bd9dc1ec2494fe473995f0c0d397d13a"
+        },
+        {
+          "track": 18,
+          "sectors": 19,
+          "sha256": "b9d100e19dbe051b1224ffd53c812bf46c7d11d4d8ed9bee8bd8063419c5cd23"
+        },
+        {
+          "track": 19,
+          "sectors": 19,
+          "sha256": "442980d0849b1d48482b5b61c69b4b2ef6c92c541f06defbd489b23c01e1659c"
+        },
+        {
+          "track": 20,
+          "sectors": 19,
+          "sha256": "3a28515c2423eab3c882ef8d4687a9f178005ba34f1c4b205f45511bec6afb63"
+        },
+        {
+          "track": 21,
+          "sectors": 19,
+          "sha256": "f4925ea4fd2abdcca3594cbdf045f8871abea3b6b9f653c4efba378fa3cb1a1a"
+        },
+        {
+          "track": 22,
+          "sectors": 19,
+          "sha256": "595f9b7483091ad2eb68b1873704cfcf0c85111d4e40f70a2a32899dd878836d"
+        },
+        {
+          "track": 23,
+          "sectors": 19,
+          "sha256": "e0b27c07e02f2e555309f13f9655281f6d6096abb9c9d4e97821ba9022fce4d2"
+        },
+        {
+          "track": 24,
+          "sectors": 19,
+          "sha256": "76695ea17515391a4eb2898fad7e74b32eab4287585ad07d330fded798ee5c30"
+        },
+        {
+          "track": 25,
+          "sectors": 18,
+          "sha256": "021e93622f6d6e596c68551f6f1e5e34ea3d4d8bd99f359c2ad15c7d6f4424de"
+        },
+        {
+          "track": 26,
+          "sectors": 18,
+          "sha256": "a1bfa17ce4401639335849b0a9cbf4c51e4161d70c37c19581af128f41933186"
+        },
+        {
+          "track": 27,
+          "sectors": 18,
+          "sha256": "7168684b2dc08b6aa36bb7a845e3bc32847341a79bc677b7220e162df6febb9f"
+        },
+        {
+          "track": 28,
+          "sectors": 18,
+          "sha256": "a162e68dc0ad5bfff4ba9e7deddebe1e649ee157fe3e7de86e98c1ba0bc727c3"
+        },
+        {
+          "track": 29,
+          "sectors": 18,
+          "sha256": "a05d8ea7899a6ca557495074ce24204fabe33ca7ffa2863ec6dddc04239355d0"
+        },
+        {
+          "track": 30,
+          "sectors": 18,
+          "sha256": "36a67c423458877c8dc98325035620776fa52813c8b04ea9019638991794d7aa"
+        },
+        {
+          "track": 31,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 32,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 33,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 34,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 35,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        }
+      ]
+    },
+    "dungeon-b": {
+      "original": "Bard's Tale III (Dungeon Disk side 2).d64",
+      "size": 174848,
+      "sha256": "4cf0bed03a91a44d48efe99be0c62c6701cc54abbde1bf94a8528c621e5996ad",
+      "directory": [],
+      "tracks": [
+        {
+          "track": 1,
+          "sectors": 21,
+          "sha256": "949d8bf58906c068a3fdbb63652276b8fa1346db54c8b0e75fb10bb6bd927664"
+        },
+        {
+          "track": 2,
+          "sectors": 21,
+          "sha256": "69aeef41053d38b0952b6ef5176f270aa49a8bcb4d44dcb9dc07ed589128f9da"
+        },
+        {
+          "track": 3,
+          "sectors": 21,
+          "sha256": "beea92bf0ba63387f1d4d8c9994e9db12eacf78f08be6a33d192c19cd98998c7"
+        },
+        {
+          "track": 4,
+          "sectors": 21,
+          "sha256": "6be81c32d9ac53764721625e04b221b406e17f655f6630cc025b78fedc4f7e73"
+        },
+        {
+          "track": 5,
+          "sectors": 21,
+          "sha256": "94d1b4e7cf8ae53628e142336df264fdb7be895aba04cf2b1ad0d45f2e343625"
+        },
+        {
+          "track": 6,
+          "sectors": 21,
+          "sha256": "0a5e9a71ca74c9dea2fb4f46cd9eaad79b2c09022e1dd28d76f2bb89bfe43731"
+        },
+        {
+          "track": 7,
+          "sectors": 21,
+          "sha256": "9de9c727ad4ad3eec7cf2c1bb6ec174afaee9f96a9276c69c7c71d93d3297624"
+        },
+        {
+          "track": 8,
+          "sectors": 21,
+          "sha256": "48d2ae59b89f6bb906625a6f2e4d3c52633de1272558be214c83f558398b4afd"
+        },
+        {
+          "track": 9,
+          "sectors": 21,
+          "sha256": "62b317d3adb27029ee031a4a9d10497422ce3b932e5f2ff2a70a7bbcb6e10017"
+        },
+        {
+          "track": 10,
+          "sectors": 21,
+          "sha256": "036b99a2dfc78ea05707c645c06351bea59b406ea26a0fed12f1d0e83fa018df"
+        },
+        {
+          "track": 11,
+          "sectors": 21,
+          "sha256": "85791338fa6c608de493f826632ad1083718cd5f675229e569dd49090bd095d6"
+        },
+        {
+          "track": 12,
+          "sectors": 21,
+          "sha256": "fda53efa5b6e53d1e7a41a60b2f700cfaef74f8b29ccfe2d1477f9ff17d5d83b"
+        },
+        {
+          "track": 13,
+          "sectors": 21,
+          "sha256": "163a638f1679206c96e4712d267904afc0edeeedca726dd4bf6d7bc5465cb743"
+        },
+        {
+          "track": 14,
+          "sectors": 21,
+          "sha256": "137cbf7b43f655a1d3e2be45ea0ea1bfe889fa58da95a6db972e7d47298caafe"
+        },
+        {
+          "track": 15,
+          "sectors": 21,
+          "sha256": "fc24d0c334b87088c3dfeb6f0b1520c60c452f544427f111ec1b6ddf0da30b2b"
+        },
+        {
+          "track": 16,
+          "sectors": 21,
+          "sha256": "f3449083f2d3be6ca807df8bd1e79694f379d1ac6a97808cf9eba6fbce898060"
+        },
+        {
+          "track": 17,
+          "sectors": 21,
+          "sha256": "d1df14699a14919feb97d02454d3d3cf13bd4027735f6ecba4c3c2dc4aab801f"
+        },
+        {
+          "track": 18,
+          "sectors": 19,
+          "sha256": "1f57562fc97e1564e77a6e049a77317f92865a4b09b3e19e5345dbdad842aa64"
+        },
+        {
+          "track": 19,
+          "sectors": 19,
+          "sha256": "697a74da40cfded87fbbc3a122a281f5a4c82f314195a9985e15c72c7d4d7c8c"
+        },
+        {
+          "track": 20,
+          "sectors": 19,
+          "sha256": "b9de8e399a3bb7aa8a74cc001b2a388b476e4775ff42cedc5ded55b5bceaaa2f"
+        },
+        {
+          "track": 21,
+          "sectors": 19,
+          "sha256": "9a021321be287fc275b193007a68020eef11147037b3c69c7ea5225f809e224d"
+        },
+        {
+          "track": 22,
+          "sectors": 19,
+          "sha256": "234e5d47df61d209e0d5006e30341dec82156f856e88bfee91ee908417f2c6fd"
+        },
+        {
+          "track": 23,
+          "sectors": 19,
+          "sha256": "9848937ad4afa63f1bc427aa305a071906a70ac6eb6e0c1d12cd6210f4f98beb"
+        },
+        {
+          "track": 24,
+          "sectors": 19,
+          "sha256": "770c762fb7a7f90d2f9b51a2c466c19c9cda7d121a3a8620eb0209597ba4b798"
+        },
+        {
+          "track": 25,
+          "sectors": 18,
+          "sha256": "41f8953bb50c2a06af928b73a17c040e07eb0dd67bc1d56cb402f059ee10b49f"
+        },
+        {
+          "track": 26,
+          "sectors": 18,
+          "sha256": "a1bfa17ce4401639335849b0a9cbf4c51e4161d70c37c19581af128f41933186"
+        },
+        {
+          "track": 27,
+          "sectors": 18,
+          "sha256": "7168684b2dc08b6aa36bb7a845e3bc32847341a79bc677b7220e162df6febb9f"
+        },
+        {
+          "track": 28,
+          "sectors": 18,
+          "sha256": "a162e68dc0ad5bfff4ba9e7deddebe1e649ee157fe3e7de86e98c1ba0bc727c3"
+        },
+        {
+          "track": 29,
+          "sectors": 18,
+          "sha256": "a05d8ea7899a6ca557495074ce24204fabe33ca7ffa2863ec6dddc04239355d0"
+        },
+        {
+          "track": 30,
+          "sectors": 18,
+          "sha256": "36a67c423458877c8dc98325035620776fa52813c8b04ea9019638991794d7aa"
+        },
+        {
+          "track": 31,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 32,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 33,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 34,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        },
+        {
+          "track": 35,
+          "sectors": 17,
+          "sha256": "1dd274584e1d37afe16d0516de74610a632136f1984e0aaab48004232b8e92e0"
+        }
+      ]
+    }
+  },
+  "programs": {
+    "prodos": {
+      "size": 74,
+      "sha256": "8cb15b901a7daf7039c9fb336a0f282f4e78665ea1e9fbdb93993daa8b00c0b2",
+      "load_address": 700,
+      "chain": [
+        [
+          18,
+          2
+        ]
+      ]
+    },
+    "loader": {
+      "size": 2540,
+      "sha256": "5fad849a1b485f1dfb0a869b0de06e96e861636d71228c2347d221e6003ad689",
+      "load_address": 49152,
+      "chain": [
+        [
+          18,
+          3
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          18,
+          6
+        ],
+        [
+          18,
+          7
+        ],
+        [
+          18,
+          8
+        ],
+        [
+          18,
+          9
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          18,
+          12
+        ]
+      ]
+    }
+  },
+  "modules": {
+    "bard64-system": {
+      "name": "BARD64.SYSTEM",
+      "storage": 2,
+      "file_type": 255,
+      "key_block": 8,
+      "blocks_used": 3,
+      "eof": 715,
+      "load_address": 8192,
+      "directory_block": 2,
+      "slot": 1,
+      "size": 715,
+      "sha256": "3f34137cdcae9ebcc257233ab93b8ba01ed934b724e56e5bd909cef1b2f22be7"
+    },
+    "bard3-pic64": {
+      "name": "BARD3.PIC64",
+      "storage": 2,
+      "file_type": 6,
+      "key_block": 10,
+      "blocks_used": 20,
+      "eof": 9600,
+      "load_address": 8192,
+      "directory_block": 2,
+      "slot": 2,
+      "size": 9600,
+      "sha256": "149a7a7b20d3539c0a2f8c2bd4a9be65cc8caac04f054c96cb0a65034a4d71bf"
+    },
+    "bardsubs1": {
+      "name": "BARDSUBS1",
+      "storage": 2,
+      "file_type": 6,
+      "key_block": 31,
+      "blocks_used": 24,
+      "eof": 11511,
+      "load_address": 26112,
+      "directory_block": 2,
+      "slot": 3,
+      "size": 11511,
+      "sha256": "05cc3c4bd446ed259c1b7eb0499552c416d928b25678b73e454a05ef6dffdd84"
+    },
+    "bardsubs2": {
+      "name": "BARDSUBS2",
+      "storage": 2,
+      "file_type": 6,
+      "key_block": 55,
+      "blocks_used": 27,
+      "eof": 13000,
+      "load_address": 52480,
+      "directory_block": 2,
+      "slot": 4,
+      "size": 13000,
+      "sha256": "2561c8ed4e9edfaf796645d57433ac609ad1dcf61091b7c6f43fc94e69d99e12"
+    },
+    "mainpic64": {
+      "name": "MAINPIC64",
+      "storage": 2,
+      "file_type": 6,
+      "key_block": 81,
+      "blocks_used": 8,
+      "eof": 3099,
+      "load_address": 2048,
+      "directory_block": 2,
+      "slot": 5,
+      "size": 3099,
+      "sha256": "40080c77c6b6d2a4d5fc510aba76b73c75c5c6afba8e3c1c91ecb7c88078d615"
+    },
+    "splash64": {
+      "name": "SPLASH64",
+      "storage": 2,
+      "file_type": 6,
+      "key_block": 89,
+      "blocks_used": 55,
+      "eof": 27390,
+      "load_address": 16384,
+      "directory_block": 2,
+      "slot": 6,
+      "size": 27390,
+      "sha256": "30f4dc66fe639c5374351901a110da788de45c01d05b0b8f1e13fae222c63b5a"
+    },
+    "util64": {
+      "name": "UTIL64",
+      "storage": 2,
+      "file_type": 6,
+      "key_block": 144,
+      "blocks_used": 14,
+      "eof": 6652,
+      "load_address": 8192,
+      "directory_block": 2,
+      "slot": 7,
+      "size": 6652,
+      "sha256": "559ec7a339b42e2ff74b6180779fbdedb4a6dd47eff80d4012f4453477e32b71"
+    },
+    "music64": {
+      "name": "MUSIC64",
+      "storage": 2,
+      "file_type": 6,
+      "key_block": 158,
+      "blocks_used": 6,
+      "eof": 2168,
+      "load_address": 18432,
+      "directory_block": 2,
+      "slot": 8,
+      "size": 2168,
+      "sha256": "0eb592a2e2edd8e8933bd04f0227359e35563e2fe829f6ca5a4e88602387eba7"
+    },
+    "dmusic64": {
+      "name": "DMUSIC64",
+      "storage": 2,
+      "file_type": 6,
+      "key_block": 164,
+      "blocks_used": 6,
+      "eof": 2168,
+      "load_address": 57344,
+      "directory_block": 2,
+      "slot": 9,
+      "size": 2168,
+      "sha256": "6231ac118bc8e74432ff847f9fde2e5b607e51961f52ac25229270b127317d2f"
+    },
+    "bard-system": {
+      "name": "BARD.SYSTEM",
+      "storage": 2,
+      "file_type": 255,
+      "key_block": 171,
+      "blocks_used": 4,
+      "eof": 1143,
+      "load_address": 0,
+      "directory_block": 2,
+      "slot": 10,
+      "size": 1143,
+      "sha256": "357b6125ed9c0015f051484faf219b727172970855ad5d359e693daf30b01ce8"
+    }
+  },
+  "drive": {
+    "bootstrap": {
+      "size": 256,
+      "sha256": "6e739a7c6bbefe09ba2f962c5cb93c3c6858e3318cf9dbaba7d112b48707f5a5"
+    },
+    "loader": {
+      "size": 1024,
+      "sha256": "e56a9b6e787e411db0833cc19abc401faa7493c8ee13cab0b8b67e16f848be81"
+    }
+  }
+}

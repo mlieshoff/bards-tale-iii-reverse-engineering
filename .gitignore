@@ -1,0 +1,6 @@
+/original/
+/build/
+/.tools/
+/.idea/
+__pycache__/
+*.pyc
