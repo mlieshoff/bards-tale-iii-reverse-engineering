@@ -42,7 +42,7 @@ def main():
         assemble(Path('src/boot') / (stem+'.asm'),target)
         if args.verify:
             check(target,entry)
-    for group, folder in [('modules','game'),('drive','drive')]:
+    for group, folder in [('modules','game'),('drive','drive'),('overlays','overlays')]:
         for stem, entry in manifest[group].items():
             target = Path('build') / folder / (stem+'.bin')
             assemble(Path('src') / folder / (stem+'.asm'),target)

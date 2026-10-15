@@ -1,4 +1,5 @@
 ; MAINPIC64; directory auxiliary address $0800.
+; Packed intro image consumed as data by SPLASH64 $480b.
 ; Payload retained as data until runtime mapping is established.
 !cpu 6510
 * = $0000

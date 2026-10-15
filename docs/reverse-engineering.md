@@ -29,8 +29,9 @@ Commodore directory starts at 18/1. Only the boot disk exposes normal files:
 | 2.0 | 18/3 | 18/3 through 18/12 | `$C000` | 2540 |
 
 The directory entries on the character and dungeon disks are empty. Their
-sector contents are preserved but their game-specific records are not yet
-decoded. In particular, treating logical block 2 on those disks as the boot
+resource indexes and shared combat overlay are now decoded; individual
+map/character record fields remain unresolved. See
+[the game code and asset guide](game-code-and-assets.md). In particular, treating logical block 2 on those disks as the boot
 disk's directory produces invalid records; they must not be classified as
 empty or unused disks.
 
@@ -104,8 +105,8 @@ The small extractor supports those two types, not a general ProDOS volume.
 | BARD.SYSTEM | 1143 | `$0000` | 171 |
 
 These load addresses are directory metadata, not proof of a module's runtime
-address. `MUSIC64`, for example, contains initial JMPs into `$C4xx` despite
-its auxiliary address `$4800`. `BARD.SYSTEM` contains Apple II I/O references;
+address. `MUSIC64` is loaded at `$4800` then copied to `$C480` by startup
+(the copies at `$18B0` onward), explaining its initial JMPs into `$C4xx`. `BARD.SYSTEM` contains Apple II I/O references;
 it is preserved as a separate payload without assuming it is C64 code.
 
 `BARD64.SYSTEM` starts at `$2000`, saves a byte from its own `$2003` to `$034E`,
@@ -138,5 +139,7 @@ and all other sectors remain explicitly represented in track sources.
 The next analysis should trace booting in VICE with true-drive emulation,
 identify runtime-only code entries and relocation, label engine APIs in
 BARDSUBS1/BARDSUBS2, decode image/music formats, and recover the character and
-dungeon disks' record/index structures. Those areas are preserved exactly
-but are not semantically reverse engineered by this initial reconstruction.
+dungeon disks' record/index structures. The later game-code pass has recovered resource indexes, commented resident
+routines and combat logic, and decoded two picture formats. Detailed record
+fields, other overlays, and runtime-only behavior remain open; see the
+[updated analysis](game-code-and-assets.md).

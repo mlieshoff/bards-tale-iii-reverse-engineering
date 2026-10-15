@@ -1,4 +1,5 @@
 ; BARD.SYSTEM; directory auxiliary address $0000.
+; Apple II-oriented system payload; references $c000/$c082, not C64 engine code.
 ; Payload retained as data until runtime mapping is established.
 !cpu 6510
 * = $0000

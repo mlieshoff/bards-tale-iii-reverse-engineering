@@ -1,7 +1,9 @@
-; BARD3.PIC64; directory auxiliary address $2000.
-; Payload retained as data until runtime mapping is established.
+; BARD3.PIC64 -- main game interface picture, no code identified.
+; 40x24 multicolor cells, 320x192 displayed pixels; background index 0.
+; Startup copies screen from $3e00 and color bytes from $41c0.
 !cpu 6510
-* = $0000
+* = $2000
+bitmap_pixels:
     !byte $55,$55,$aa,$55,$55,$0a,$29,$29,$55,$55,$a0,$5c,$5c,$80,$d5,$ea
     !byte $c9,$c9,$0a,$00,$00,$03,$53,$93,$55,$55,$aa,$00,$00,$ff,$00,$00
     !byte $89,$89,$8a,$00,$00,$ff,$00,$00,$56,$56,$aa,$00,$00,$ff,$00,$00
@@ -482,6 +484,8 @@
     !byte $00,$00,$00,$aa,$55,$55,$55,$55,$00,$00,$00,$aa,$56,$56,$56,$56
     !byte $00,$00,$00,$2a,$25,$25,$25,$25,$00,$00,$00,$aa,$55,$55,$55,$55
     !byte $0a,$0a,$00,$8a,$89,$89,$89,$89,$ff,$ff,$00,$aa,$55,$55,$55,$55
+
+screen_color_pairs: ; $3e00, high/low nibbles for multicolor pixels 01/10
     !byte $cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb
     !byte $cb,$cb,$cb,$cb,$cb,$bc,$cb,$cb,$bc,$cb,$cb,$cb,$cb,$cb,$cb,$cb
     !byte $cb,$cb,$cb,$cb,$cb,$cb,$cb,$cf,$cb,$cb,$cb,$86,$86,$86,$86,$86
@@ -542,6 +546,8 @@
     !byte $86,$86,$86,$86,$86,$86,$cf,$cf,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb
     !byte $cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb
     !byte $cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb,$cb
+
+cell_colors: ; $41c0, low nibble for multicolor pixels 11
     !byte $f1,$ff,$0f,$b1,$f1,$f1,$f1,$f1,$f1,$f1,$f1,$f1,$f1,$f1,$f1,$f1
     !byte $0f,$ff,$f1,$01,$f1,$f1,$01,$f1,$01,$f1,$f1,$01,$01,$01,$f1,$f1
     !byte $f1,$f1,$f1,$01,$f1,$f1,$f1,$fb,$ff,$ff,$f1,$f1,$f1,$01,$f1,$01

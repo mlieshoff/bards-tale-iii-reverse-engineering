@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 from d64 import Disk, SECTORS, SIZE, offset
 from disasm import render, reachable_ranges
+from game_analysis import analyze_engine, annotated_source, module_source, BASES
+from resources import read_resources
 from gamefs import directory as game_directory, read_file, block as game_block, physical_sector
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -28,7 +30,17 @@ def byte_lines(data):
 
 
 def main():
-    manifest = {'format':'35-track D64, 683 sectors, no error map', 'disks':{}, 'programs':{}, 'modules':{}, 'drive':{}}
+    boot_disk = Disk(ROOT / 'original' / DISKS[0][1])
+    payloads = {e['name'].lower().replace('.','-'):read_file(boot_disk,e) for e in game_directory(boot_disk)}
+    combat = read_resources(Disk(ROOT / 'original' / DISKS[1][1]))[0].payload
+    engine_payloads = {s:payloads[s] for s in ('bardsubs1','bardsubs2')}
+    engine_payloads['combat'] = combat
+    engine_analysis = analyze_engine(engine_payloads)
+    overlay_out = ROOT / 'src/overlays'
+    overlay_out.mkdir(parents=True,exist_ok=True)
+    (overlay_out / 'combat.asm').write_text(annotated_source(combat,0x9b00,engine_analysis,
+        '; COMBAT -- resource 0; identical payload on character and dungeon disks.'))
+    manifest = {'format':'35-track D64, 683 sectors, no error map', 'disks':{}, 'programs':{}, 'modules':{}, 'drive':{}, 'overlays':{'combat':{'size':len(combat),'sha256':hashlib.sha256(combat).hexdigest()}}}
     for slug, filename in DISKS:
         disk = Disk(ROOT / 'original' / filename)
         entries = list(disk.directory())
@@ -63,8 +75,26 @@ def main():
                     text += '!pseudopc $1800 {\n'
                     text += render(relocated,0x1800,reachable_ranges(relocated,0x1800,[0x1800]),{})
                     text += '}\n'
+                elif stem in ('bardsubs1','bardsubs2'):
+                    text = annotated_source(payload,BASES[stem],engine_analysis,
+                        '; '+entry['name']+' -- resident engine: code, packed text, tables, and state.\n'
+                        '; Semantic names are inferred; see docs/game-code-and-assets.md.\n'
+                        '; Raw bytes may include unresolved code or overlapping entry points.')
+                elif stem in ('music64','dmusic64','splash64','util64'):
+                    text = module_source(stem,payload)
+                elif stem == 'bard3-pic64':
+                    text = ('; BARD3.PIC64 -- main game interface picture, no code identified.\n'
+                            '; 40x24 multicolor cells, 320x192 displayed pixels; background index 0.\n'
+                            '; Startup copies screen from $3e00 and color bytes from $41c0.\n'
+                            '!cpu 6510\n* = $2000\nbitmap_pixels:\n')
+                    text += byte_lines(payload[:7680])
+                    text += '\nscreen_color_pairs: ; $3e00, high/low nibbles for multicolor pixels 01/10\n'
+                    text += byte_lines(payload[7680:8640])
+                    text += '\ncell_colors: ; $41c0, low nibble for multicolor pixels 11\n'
+                    text += byte_lines(payload[8640:])
                 else:
                     text = '; '+entry['name']+'; directory auxiliary address $%04x.\n' % base
+                    text += ('; Packed intro image consumed as data by SPLASH64 $480b.\n' if stem == 'mainpic64' else '; Apple II-oriented system payload; references $c000/$c082, not C64 engine code.\n')
                     text += '; Payload retained as data until runtime mapping is established.\n!cpu 6510\n* = $0000\n'
                     text += byte_lines(payload)
                 (game_out / (stem+'.asm')).write_text(text)
@@ -90,6 +120,13 @@ def main():
                 manifest['drive'][stem] = dict(size=len(payload),sha256=hashlib.sha256(payload).hexdigest())
                 for n, sector in enumerate(sectors):
                     substitutions[18,sector] = ('drive/'+stem,n*256,256)
+        if slug in ('character','dungeon-a','dungeon-b'):
+            resource = read_resources(disk)[0]
+            if resource.payload != combat:
+                raise ValueError('combat overlay differs between disks')
+            for pos in range(0,len(combat),256):
+                logical = (512+resource.stream_offset+pos)//256
+                substitutions[physical_sector(logical)] = ('overlays/combat',pos,min(256,len(combat)-pos))
         out = ROOT / 'src' / 'disks' / slug
         out.mkdir(parents=True,exist_ok=True)
         tracks = []

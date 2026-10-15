@@ -950,5 +950,11 @@
       "size": 1024,
       "sha256": "e56a9b6e787e411db0833cc19abc401faa7493c8ee13cab0b8b67e16f848be81"
     }
+  },
+  "overlays": {
+    "combat": {
+      "size": 7205,
+      "sha256": "61ffe87521cb20ad45819d31a072593c45ce847ff9e4e67b8e84ae7f726d4de7"
+    }
   }
 }
