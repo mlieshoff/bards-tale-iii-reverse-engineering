@@ -12,6 +12,7 @@ import struct
 import subprocess
 import wave
 
+from portrait_animation import animation_steps, apng_rgb
 from d64 import Disk
 from game_analysis import analyze_engine, packed_text
 from inspect_assets import PALETTE, picture_rgb, intro_picture, multicolor_rgb, png_rgb
@@ -142,7 +143,7 @@ def item_records(subs1, subs2):
     return result
 
 
-def portrait_rgb(payload, subs1, subs2, frame):
+def portrait_bitmap(payload, subs1, subs2):
     """Replicate $8232 plotting and $8ae6 screen colors; retain frame color RAM."""
     left, right, top, bottom = subs1[0x8281-0x6600:0x8285-0x6600]
     decoded, consumed = decode_resource_bytes(payload[1:], (right-left)*(bottom-top+1))
@@ -158,17 +159,38 @@ def portrait_rgb(payload, subs1, subs2, frame):
             if not 0x2000 <= address < 0x3f40:
                 raise ValueError('portrait write outside bitmap')
             bitmap[address-0x2000] = previous
+    return bitmap, consumed+1
+
+
+def portrait_bitmap_rgb(bitmap, palette_byte, subs1, frame):
+    left, right, top, bottom = subs1[0x8281-0x6600:0x8285-0x6600]
     screen = bytearray(1000)
     colors = bytearray(1000)
     screen[:960] = frame[7680:8640]
     colors[:960] = frame[8640:]
     for row in range(1,12):
         for col in range(3,14):
-            screen[row*40+col] = payload[0]
-    rgb = multicolor_rgb(bitmap, screen, colors, 25)
+            screen[row*40+col] = palette_byte
+    palette = [bytes.fromhex(c) for c in PALETTE]
+    cropped = bytearray()
+    for y in range(left, right):
+        row, line = divmod(y, 8)
+        for col in range(top, bottom+1):
+            cell = row*40+col
+            shades = [0, screen[cell] >> 4, screen[cell] & 15, colors[cell] & 15]
+            value = bitmap[cell*8+line]
+            for shift in (6,4,2,0):
+                cropped.extend(palette[shades[(value >> shift) & 3]]*2)
     width, height = (bottom-top+1)*8, right-left
-    cropped = b''.join(rgb[(y*320+top*8)*3:(y*320+top*8+width)*3] for y in range(left,right))
-    return width, height, cropped, consumed+1
+    cropped = bytes(cropped)
+    return width, height, cropped
+
+
+def portrait_rgb(payload, subs1, subs2, frame):
+    """Base portrait: $8232 bitmap and $8ae6 colors."""
+    bitmap, consumed = portrait_bitmap(payload, subs1, subs2)
+    return (*portrait_bitmap_rgb(bitmap, payload[0], subs1, frame), consumed)
+
 
 
 def sid_file(payload, base, title):
@@ -253,7 +275,7 @@ def main():
     masks = list(subs2[0xcd68-0xcd00:0xcd70-0xcd00])
     resources = {slug:read_resources(Disk(ROOT/f'build/{slug}.d64')) for slug in DISKS}
     monsters, catalog, portrait_index, raw_resources = [], {}, [], []
-    portrait_hashes = {}
+    portrait_hashes, animation_hashes = {}, {}
     for slug, records in resources.items():
         catalog[slug] = []
         for r in records:
@@ -289,9 +311,56 @@ def main():
                                            animation_resource_id=r.number+1,
                                            animation_status='paired stream not animated; static base image exported'))
                 entry['decoded_as'] = 'static-picture'
+                companion = records[r.number+1]
+                info = portrait_index[-1]
+                if companion.payload:
+                    decoded, used = decoded_prefix(companion.payload, 6144)
+                    if used != len(companion.payload) or len(decoded) == 6144:
+                        raise ValueError(f'{slug}/{companion.number}: ambiguous animation endpoint')
+                    bitmap, _ = portrait_bitmap(r.payload, subs1, subs2)
+                    def address(col, line):
+                        return ((subs2[0xd180-0xcd00+line] | subs2[0xd248-0xcd00+line]<<8)
+                                + (subs2[0xd310-0xcd00+col*4] | subs2[0xd3b0-0xcd00+col*4]<<8) - 0x2000)
+                    states, metadata = animation_steps(decoded, bitmap, address)
+                    key = digest(bytes([r.payload[0]])+bytes(bitmap)+decoded)
+                    if key not in animation_hashes:
+                        path = Path('pictures/portraits')/f'animation-{key[:16]}.apng'
+                        target = media_dir/path
+                        target.parent.mkdir(parents=True,exist_ok=True)
+                        frames = [(portrait_bitmap_rgb(b,r.payload[0],subs1,modules['bard3-pic64'])[2],ticks)
+                                  for b,ticks in states]
+                        apng_rgb(target,width,height,frames)
+                        exported.append(target)
+                        animation_hashes[key] = 'media/'+path.as_posix()
+                    info['animation_status'] = 'decoded bounded preview'
+                    info['animation'] = dict(file=animation_hashes[key],frame_count=len(states),
+                                             decoded_size=len(decoded),stored_sha256=digest(companion.payload),
+                                             **metadata)
+                else:
+                    info['animation_status'] = companion.kind
+
             if r.number >= 29:
                 raw_resources.append(dict(disk=slug,resource_id=r.number,stored_hex=r.payload.hex(),
                                           note='Exact stored resource, before decompression. See catalog for classification.'))
+    from html import escape
+    gallery = ROOT/'extracted/animations.html'
+    cards = []
+    gallery_seen = set()
+    for info in portrait_index:
+        animation = info.get('animation')
+        if not animation or animation['file'] in gallery_seen:
+            continue
+        gallery_seen.add(animation['file'])
+        cards.append('<figure><img width="176" height="176" src="'+escape(animation['file'])+'">'
+                     '<figcaption>Picture '+str(info['picture_id'])+' · '+escape(info['disk'])+
+                     ' · '+str(animation['frame_count'])+' frames</figcaption></figure>')
+    gallery.write_text('<!doctype html><meta charset="utf-8"><title>Bard’s Tale III portrait animations</title>'
+                       '<style>body{background:#181818;color:#eee;font:16px sans-serif;margin:24px}'
+                       'main{display:flex;flex-wrap:wrap}figure{margin:12px}img{image-rendering:pixelated}'
+                       'figcaption{font-size:12px}</style><h1>Portrait animations</h1>'
+                       '<p>Decoded C64 animation tracks. Bounded previews play once; reload to replay. '
+                       'Speed is illustrative PAL timing, up to about 31 seconds.</p><main>'+''.join(cards)+'</main>')
+    exported.append(gallery)
     json_out(Path('data/monsters.json'),dict(schema_version=2,record_size=48,
         field_evidence=dict(name='first 16 bytes; $ff padding/termination; unpacked printer',
                             hit_points='$fa3b/$fa5a: byte $10 dice plus little-endian $11/$12 bonus; saturates at 65535',
@@ -323,7 +392,7 @@ def main():
     json_out(Path('data/pictures.json'),dict(schema_version=1,palette_rgb=PALETTE,
         background_index=0,portraits=portrait_index,
         notes=['RGB palette is illustrative; source color indices are retained.',
-               'Animations are not decoded; PNG files show base images only.']))
+               'PNG files show base images; APNG files replay decoded XOR tracks as bounded previews, once. Timing is illustrative; see animation metadata.']))
     json_out(Path('data/engine-tables.json'),dict(schema_version=1,tables=[
         dict(name='resource_classes',source='$686e/$678f',values=[dict(first_id=n,destination=f'${d:04x}')
             for n,d in zip(THRESHOLDS,DESTINATIONS)]),
@@ -369,7 +438,7 @@ def main():
                                distinct_monster_names=len({r['name'] for b in monsters for r in b['records']}),
                                distinct_monster_records=len({bytes(r['raw_bytes']) for b in monsters for r in b['records']}),
                                items=255,inline_strings=sum(n.startswith('Packed text: ') for _,n in analysis.inline.values()),
-                               portrait_references=len(portrait_index),unique_portrait_pngs=len(portrait_hashes),sid_files=2),
+                               portrait_references=len(portrait_index),unique_portrait_pngs=len(portrait_hashes),unique_portrait_animations=len(animation_hashes),sid_files=2),
                    files=[dict(path=str(p.relative_to(out)),size=p.stat().st_size,sha256=digest(p.read_bytes()))
                           for p in sorted(exported)])
     (out/'manifest.json').write_text(json.dumps(summary,indent=2)+'\n')

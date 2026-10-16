@@ -221,3 +221,8 @@ cells. Its viewport is 88×88 pixels. All 131 present even-resource references
 consume their complete input streams and produce 85 distinct base images.
 The odd companion follows a different load/decode path for animation; it is
 preserved as stored data until that format is established.
+
+Portrait animation tracks are now decoded and exported as APNG previews.
+See [the recovered animation format](portrait-animation.md) for the implementation,
+resource pairing, timing limits, and gallery. This supersedes the earlier
+base-image-only export limitation above.

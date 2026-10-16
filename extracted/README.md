@@ -18,7 +18,7 @@ There are 131 portrait references across disks; identical images share a file.
 | `data/engine-tables.json` | Resource destinations, dice masks, party/monster record pointers, packed-text character map. |
 | `data/resources.json` | Every index entry from each resource disk: ID, size, address, stream offset, disk reference, payload hash, and decoded classification when available. |
 | `data/resource-payloads.json` | Exact stored bytes of present resources 29–383 as hexadecimal strings, including unresolved areas and paired animation streams. |
-| `data/pictures.json` | Portrait-to-resource/file mapping, dimensions, palette byte, animation companion ID, and palette RGB values. |
+| `data/pictures.json` | Portrait-to-resource/file mapping, dimensions, palette byte, animation companion ID, APNG preview paths/timing, and palette RGB values. |
 | `data/music.json` | SID files, sequence/subtune-to-command mapping, native sequence addresses, export settings, and optional WAV preview metadata. |
 
 Items and monsters use `schema_version: 2`; other JSON documents use version 1. Numbers are integers; memory addresses
@@ -50,8 +50,10 @@ names, and omits the runtime loader's unverified final out-of-payload reads.
   See `data/music.json` for their measured durations and sample rates.
 
 PNG is lossless. The RGB palette is illustrative; original color indexes and
-source payloads are preserved. Portrait PNGs show the base frame; the paired
-animation streams have not been decoded, so these are not fabricated GIFs.
+source payloads are preserved. Portrait PNGs show the base frame. APNG previews
+replay the companion resources’ four XOR animation tracks. Open
+[the animation gallery](animations.html) in a browser; previews play once.
+See [animation format and timing limits](../docs/portrait-animation.md).
 
 SID is used instead of a lossy MIDI transcription. A small init/play adapter
 selects original command IDs 4–20; the original 2,168-byte player remains intact.
@@ -84,6 +86,6 @@ but the current manifest only lists files produced by the requested export.
 `manifest.json` records source hashes, counts, generated file sizes, and SHA-256
 hashes. The manifest does not hash itself or this manually maintained guide.
 
-Individual item bitfields, map/area records, portrait animations, complete sound
+Individual item bitfields, map/area records, complete animation timing, complete sound
 effect coverage, and some monster fields still need further reverse engineering.
 Their stored bytes are retained explicitly for that work.

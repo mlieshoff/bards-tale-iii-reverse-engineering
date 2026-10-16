@@ -28,9 +28,15 @@
     "inline_strings": 72,
     "portrait_references": 131,
     "unique_portrait_pngs": 85,
+    "unique_portrait_animations": 80,
     "sid_files": 2
   },
   "files": [
+    {
+      "path": "animations.html",
+      "size": 14175,
+      "sha256": "3ed2c41f2515983996857d4dbc0ccf080c72b165690da96767f781c792c2e619"
+    },
     {
       "path": "data/engine-tables.json",
       "size": 2929,
@@ -53,8 +59,8 @@
     },
     {
       "path": "data/pictures.json",
-      "size": 57407,
-      "sha256": "75c51a78095f99fde289ecfb8e8f61da0c91343b0cdb2d12a87ad3ff9db55df9"
+      "size": 121323,
+      "sha256": "5414a25cb476f6361363d033b3d5cdf05f15be030af29d49d7e76fb95f72a35c"
     },
     {
       "path": "data/resource-payloads.json",
@@ -100,6 +106,406 @@
       "path": "media/pictures/intro-bard.png",
       "size": 5648,
       "sha256": "e46cb03c748ac2c57aa1f1d394ddce52cd9bd0212eb96d6cd87cc36172499f7d"
+    },
+    {
+      "path": "media/pictures/portraits/animation-02f3872c48db3083.apng",
+      "size": 135714,
+      "sha256": "8fe597e960af5d7ace69aece78e9ae554f2ffdc8ff530544518cc5847a7cae6b"
+    },
+    {
+      "path": "media/pictures/portraits/animation-0bac7b819a439484.apng",
+      "size": 134424,
+      "sha256": "860b106c081857ebb9ba533caa32566f010ae2ab4826270a1af406ba2841f1be"
+    },
+    {
+      "path": "media/pictures/portraits/animation-0be817d4a0c79e3d.apng",
+      "size": 89847,
+      "sha256": "b40f8ea62a8e29bf3156c947b5e93a03103852fa8842c8bae7c17932b40f3218"
+    },
+    {
+      "path": "media/pictures/portraits/animation-0dcbe01803806023.apng",
+      "size": 5032,
+      "sha256": "a9490ceafe6198582ad400e129a5140ff5f99147e6ef806bc841b0356e8dbae1"
+    },
+    {
+      "path": "media/pictures/portraits/animation-12ea2538865990bb.apng",
+      "size": 155371,
+      "sha256": "2136b91f8de245218e9656e6d0b788f57870866fd8ae4e5eeb5502b16b027dc3"
+    },
+    {
+      "path": "media/pictures/portraits/animation-140f71a2caa4fc62.apng",
+      "size": 159344,
+      "sha256": "dd4280f130759806432f6ed0882f6763f7584f42ae5bcce54f2e01a763c2e47b"
+    },
+    {
+      "path": "media/pictures/portraits/animation-146d5cbceb96a98a.apng",
+      "size": 13439,
+      "sha256": "b2c847849874cc4a066f9d59ef01c919c58fc06a1824f04c8e7d366db6d4ff40"
+    },
+    {
+      "path": "media/pictures/portraits/animation-19476ee0bfd0ac90.apng",
+      "size": 237821,
+      "sha256": "142b4b690eec50234adfc84c0bc54c168ad826608d7ea0934a06d1cececa000b"
+    },
+    {
+      "path": "media/pictures/portraits/animation-2290547f03627c0a.apng",
+      "size": 244729,
+      "sha256": "416a42566b8580ceb7f0e2db559b0665436205f4d7de9f23c653726db163c833"
+    },
+    {
+      "path": "media/pictures/portraits/animation-268829bc212fda6a.apng",
+      "size": 197518,
+      "sha256": "dda32ea35df3f828cd24a2be0f5009870f6a75f9e0ca282d69bf67084795bab4"
+    },
+    {
+      "path": "media/pictures/portraits/animation-27ef1f03af4e8915.apng",
+      "size": 279091,
+      "sha256": "a1cbacab73f6ecc80966ed03d813516087886f2f74ffbb270e4e7198868315c1"
+    },
+    {
+      "path": "media/pictures/portraits/animation-29fb469f3e89bb8f.apng",
+      "size": 264726,
+      "sha256": "23427fc5daf31e7bf7aac451840ad178371ea3d2a8882acb6ba26b095c06cce5"
+    },
+    {
+      "path": "media/pictures/portraits/animation-2bbb923e958082e5.apng",
+      "size": 122344,
+      "sha256": "d377ed4da8e6002a5066ee285c7cf353d499ea7cf6f36b3cc2174e9a9c2ed94a"
+    },
+    {
+      "path": "media/pictures/portraits/animation-2d8df68523d7e30c.apng",
+      "size": 185673,
+      "sha256": "3641255bb618b18a33f772c20846f59683a7bf2bba4f63911179d2dfed39fde4"
+    },
+    {
+      "path": "media/pictures/portraits/animation-31decac4f6c8bd78.apng",
+      "size": 96970,
+      "sha256": "e5bb93ce1e029d05dfd4ba3e89a939cffa0211a09733e98cfd735e037e083701"
+    },
+    {
+      "path": "media/pictures/portraits/animation-32eb188c27be8093.apng",
+      "size": 233513,
+      "sha256": "7d2f9fbcbc31018c5f1f64954b7168731d2dff3aabcc530652c1e2ae4688bf4f"
+    },
+    {
+      "path": "media/pictures/portraits/animation-35cff0a7c295fd78.apng",
+      "size": 9103,
+      "sha256": "2ade6b4ee56f1e47baaf148b5719463b2677c3be20107a2aaa5e8e93128cbea7"
+    },
+    {
+      "path": "media/pictures/portraits/animation-372fa88380db4995.apng",
+      "size": 63830,
+      "sha256": "e181473d7c5c4257c3cf980b58d3c6cc255830f1f412304fd853cf4a76c456ef"
+    },
+    {
+      "path": "media/pictures/portraits/animation-3e6f55c3c78650d5.apng",
+      "size": 125141,
+      "sha256": "29c0363de43772bcc450040c199c7494502e5cd92bee8e6c539fc6fa569d3ffc"
+    },
+    {
+      "path": "media/pictures/portraits/animation-3ea1f980d9b632b0.apng",
+      "size": 170636,
+      "sha256": "147a5e27e1b182fb1e3faed053507760469f79a9c1fb2b93993075f1dde5942a"
+    },
+    {
+      "path": "media/pictures/portraits/animation-3fc08577cc6e9a1f.apng",
+      "size": 122197,
+      "sha256": "2c4b9c618d6fcb6e3240f7932d5697715fb137077dd35f8a4875cbf9cc65e175"
+    },
+    {
+      "path": "media/pictures/portraits/animation-402b3c925cd8fc14.apng",
+      "size": 205515,
+      "sha256": "7795dde561cca0b7c6d7428aa63a83bdcd23014a830224c01749146d629af591"
+    },
+    {
+      "path": "media/pictures/portraits/animation-47d5bf1b6bb3fb64.apng",
+      "size": 211851,
+      "sha256": "91040326e26b6cad1c8ec928ca3f44af9607b0f08fa9715e336794513eb72c03"
+    },
+    {
+      "path": "media/pictures/portraits/animation-494a53ecff7cdaba.apng",
+      "size": 81505,
+      "sha256": "bf23ed99b5948e268cd5d9e5fe3aa65f24c5c013214acd037ed17e51799feffb"
+    },
+    {
+      "path": "media/pictures/portraits/animation-4a49feafd5586581.apng",
+      "size": 199423,
+      "sha256": "6e8557adb3e6357f7c21eb7f6320ad0b950aa86845543f342aa671fef1d82fc9"
+    },
+    {
+      "path": "media/pictures/portraits/animation-4bf2f6bc17155295.apng",
+      "size": 231215,
+      "sha256": "1af625e8011d484642701ed81d4179660191c5266c7b1ca6989bdebf86b7bb04"
+    },
+    {
+      "path": "media/pictures/portraits/animation-4eec7a55eca6f988.apng",
+      "size": 102914,
+      "sha256": "924191df8aa9dbbba9095374587c9b2d72df1a1722092a5e36481666df9e80a2"
+    },
+    {
+      "path": "media/pictures/portraits/animation-5793026ed8b4188c.apng",
+      "size": 141659,
+      "sha256": "5b86df348fb9569a0caa0a41f0c122a193e2abb79ec6bafc39a09749910b2c33"
+    },
+    {
+      "path": "media/pictures/portraits/animation-61f18649bb056c54.apng",
+      "size": 159482,
+      "sha256": "f2e66d8ee5066eafb718627ae65ef9addf2a17f46ec073830b3afd18ff8d554e"
+    },
+    {
+      "path": "media/pictures/portraits/animation-656ab1bae45a985e.apng",
+      "size": 223133,
+      "sha256": "19ad459a9b5f149625f8ff7d96c9e18985874bca7960e2d2ae4b93d8cdb1e19d"
+    },
+    {
+      "path": "media/pictures/portraits/animation-66a84a5584bdd957.apng",
+      "size": 376345,
+      "sha256": "a767e73e8196b56627b7edb4d8482be0b23da8a1bd5df2b505bc04577a9e738e"
+    },
+    {
+      "path": "media/pictures/portraits/animation-67e894e0d5019f43.apng",
+      "size": 102803,
+      "sha256": "481c942b028efe5dfb9edd6c4775a30332f815c81b8ce6ec9571c8ce017c225e"
+    },
+    {
+      "path": "media/pictures/portraits/animation-6adf75ed339b8f02.apng",
+      "size": 348351,
+      "sha256": "a46671d5896afb4d12f33997264d30d909c0fe25155426c6d5476fe8804c0571"
+    },
+    {
+      "path": "media/pictures/portraits/animation-6b18d828d533fdcc.apng",
+      "size": 299947,
+      "sha256": "14548b99dd7985084bb504bd49a52e1851ec2800ae4c5e376a42289ca2e56910"
+    },
+    {
+      "path": "media/pictures/portraits/animation-6b5c38fe22d69ef5.apng",
+      "size": 7399,
+      "sha256": "b55de0b308f9a0f4aac0ecf2f46372327180f51fb1c2dad76496dc1f4fa8d265"
+    },
+    {
+      "path": "media/pictures/portraits/animation-6de7d1b4e3ca0868.apng",
+      "size": 231724,
+      "sha256": "adb3e868585b9300a56a7d0c1f740fa2f715891d003b1afa1a3265df7282adde"
+    },
+    {
+      "path": "media/pictures/portraits/animation-7805032e24c040f9.apng",
+      "size": 100912,
+      "sha256": "f83e2fb9745dcfa10f2cf5abc614a963e02813a3b0ee1dfe202a76e8bfce7564"
+    },
+    {
+      "path": "media/pictures/portraits/animation-7c14a0fbe28b9724.apng",
+      "size": 46680,
+      "sha256": "8478db6958c407713d02706b4fa225011bef6a82bae82821a37595c5f69e86f6"
+    },
+    {
+      "path": "media/pictures/portraits/animation-7d448dade4af3228.apng",
+      "size": 141784,
+      "sha256": "abbd3258a1b45857bcacf5a2740db867c1c2515736f7a20fb9821a7c9d67e7e7"
+    },
+    {
+      "path": "media/pictures/portraits/animation-81716ceb4d75c823.apng",
+      "size": 118223,
+      "sha256": "580949cca083072e720b2de5e99139e008551c9ff0f5cc75ace2f21f8520fb40"
+    },
+    {
+      "path": "media/pictures/portraits/animation-820ac7f08110a506.apng",
+      "size": 160823,
+      "sha256": "dd27e56ea119c85aae9ee30de1cdd30511190b2006faaed0552d7406977e34ea"
+    },
+    {
+      "path": "media/pictures/portraits/animation-8b5fedd6912b07af.apng",
+      "size": 46070,
+      "sha256": "10bc51b494a78613c8b69875cc7bfe6dc0ccdc22227ee8f802f6c9002c7cf8ee"
+    },
+    {
+      "path": "media/pictures/portraits/animation-8e009b2e9014a06e.apng",
+      "size": 98187,
+      "sha256": "a59469e209318ea4c8dbb2af3ab29cf7fa788da926d4a184fa0945d296c93088"
+    },
+    {
+      "path": "media/pictures/portraits/animation-93884eb67983fd05.apng",
+      "size": 174410,
+      "sha256": "259e1a99968b3cfae0e0f252fc5ffdbf240617cfb0298ca00285a388336a2b09"
+    },
+    {
+      "path": "media/pictures/portraits/animation-960010ee9b33f97a.apng",
+      "size": 314725,
+      "sha256": "ed2bd5840a746197180e18095dc78610404155c17e8d87ec6238bb360fe68565"
+    },
+    {
+      "path": "media/pictures/portraits/animation-971e92479a5a463e.apng",
+      "size": 108420,
+      "sha256": "7039ad4f5b3374f2262cdc88bcac9c7d75e6d6bfddee61b7f98d59dce33fe82a"
+    },
+    {
+      "path": "media/pictures/portraits/animation-9b854ba0f03a80eb.apng",
+      "size": 188355,
+      "sha256": "c300eab4bb27a521231903f800d89936356d2a564ce6ae9d054271e867aaf961"
+    },
+    {
+      "path": "media/pictures/portraits/animation-9c689d2d3bb8000b.apng",
+      "size": 144218,
+      "sha256": "99efb15dd2b53f5c0f151553260db09abf7efb7a6aafd6ac56ef6fd5120fbf5b"
+    },
+    {
+      "path": "media/pictures/portraits/animation-9cff89106d451902.apng",
+      "size": 89165,
+      "sha256": "27ee37f6daf06a6d56f408ea4c2e53ca9e31dd09dcd0c8d64076c45a9b734f15"
+    },
+    {
+      "path": "media/pictures/portraits/animation-9da07f2965ca5c03.apng",
+      "size": 160784,
+      "sha256": "0e061bc189e7e984987c164205b22a5664aaf75ddc6daf2989007812f0d608e2"
+    },
+    {
+      "path": "media/pictures/portraits/animation-a0c408017ba62cb8.apng",
+      "size": 11214,
+      "sha256": "4fae2264066489b95a1bee5395cdd22f715fef612a91a3f8dc5bc3a3dcba2cbb"
+    },
+    {
+      "path": "media/pictures/portraits/animation-ad91ff2094774f0c.apng",
+      "size": 151070,
+      "sha256": "d1ec8775617228c78d368145755d82766c33c1422f71ea63470872c90611f631"
+    },
+    {
+      "path": "media/pictures/portraits/animation-aeda3e63222fc916.apng",
+      "size": 98030,
+      "sha256": "5e5d77da4398722a3b105100873b60d5d3afb47348a8aed9a10979d301123269"
+    },
+    {
+      "path": "media/pictures/portraits/animation-af422f7d64d85144.apng",
+      "size": 119908,
+      "sha256": "342fa0f228a983400109540e02821f3737bdc060b3f442d4839512a52ce04abf"
+    },
+    {
+      "path": "media/pictures/portraits/animation-b1cc7d8d1a83e422.apng",
+      "size": 196602,
+      "sha256": "aab2ca9131479f87a50faf8da20a7c447f7eb309eecc387cab779c53aa434bb5"
+    },
+    {
+      "path": "media/pictures/portraits/animation-b66022ec49f3cdb4.apng",
+      "size": 187737,
+      "sha256": "8966e0985e6175f2457e04f074ed9bf16e08b8939df5408249133f6e22831b4c"
+    },
+    {
+      "path": "media/pictures/portraits/animation-c2487bf02970f111.apng",
+      "size": 68364,
+      "sha256": "50df433ac73c0c6ceec776eb93019282c071246ad136fef85b6bf9c0631c3a21"
+    },
+    {
+      "path": "media/pictures/portraits/animation-c2938fd0d2fc7c79.apng",
+      "size": 172575,
+      "sha256": "857bc4a4ab89bed204ad77b46d5443a9ac9089812576582a351ceb639c5c6155"
+    },
+    {
+      "path": "media/pictures/portraits/animation-c2e370fa3854c91c.apng",
+      "size": 242754,
+      "sha256": "904dacfb856179cc9125c679b1573dfd2b4f29e55e96386a8a36f9490dfa1983"
+    },
+    {
+      "path": "media/pictures/portraits/animation-c5b78a3b1512c728.apng",
+      "size": 8645,
+      "sha256": "c4847200ef62fc7aa6de4ccbcaff6fe109408c19ee677dc0ba9c8e5beb99fd49"
+    },
+    {
+      "path": "media/pictures/portraits/animation-c6b8ac00f5fa9b74.apng",
+      "size": 14019,
+      "sha256": "c7d4e857d2d58e6638b5505217fd79ab58b8c3a1c4bc9d6ac0d04866df083029"
+    },
+    {
+      "path": "media/pictures/portraits/animation-cc40cf59bf69895c.apng",
+      "size": 127132,
+      "sha256": "9cee0e3ec43a0fb59c8104de8dc1461e1d4455d07c364b011a6a04f07296b2e0"
+    },
+    {
+      "path": "media/pictures/portraits/animation-cdd2682b9526bdd5.apng",
+      "size": 226120,
+      "sha256": "e7b53058e6011cb1cafd567bd0c4eb6261e634c8009071eced9335ca38443ba6"
+    },
+    {
+      "path": "media/pictures/portraits/animation-d07db01cf8337869.apng",
+      "size": 174289,
+      "sha256": "063bea25681a8b1d0cfac8c456b74e97633b17a89a634f77a4d5006c3417955a"
+    },
+    {
+      "path": "media/pictures/portraits/animation-d11c6c9864b16938.apng",
+      "size": 272154,
+      "sha256": "10f7cde3e5d1d75b5948d3d5dcb48ebd6b94bb41e4720617ffa98a0d912fce77"
+    },
+    {
+      "path": "media/pictures/portraits/animation-d3f4788ffcec1551.apng",
+      "size": 203326,
+      "sha256": "3b306faec9bdffa3c0f3df6a460f42f8e22c4244b872b69adf2d12efd37a9cd7"
+    },
+    {
+      "path": "media/pictures/portraits/animation-dbbd8de7134d724a.apng",
+      "size": 113082,
+      "sha256": "d785734bab096e323c13e717900745652a7371ff41c17d5f8da069183ab13925"
+    },
+    {
+      "path": "media/pictures/portraits/animation-e435c83bc03debfc.apng",
+      "size": 116732,
+      "sha256": "f5dc44d12694bd5b86c968d345ba93f6155eb9ba4857195aeb6b805c54018bd0"
+    },
+    {
+      "path": "media/pictures/portraits/animation-e45d079ba5c70f60.apng",
+      "size": 110668,
+      "sha256": "13e64519d0d372370d8f2d62e9d5b2399256bc484a82f99e073bc440a3f9a9fe"
+    },
+    {
+      "path": "media/pictures/portraits/animation-e6f4fc0a3f0bbe37.apng",
+      "size": 183676,
+      "sha256": "dae66071bc42a9b13ca6a3b4fee36cd06d35aaabee17bebb85c71adff32ab903"
+    },
+    {
+      "path": "media/pictures/portraits/animation-e761341e2151603a.apng",
+      "size": 92438,
+      "sha256": "d73131a01506f98352e011eb05b46e56416543d6f97034a737ee44951bad2e62"
+    },
+    {
+      "path": "media/pictures/portraits/animation-e9f0b034975a9ea6.apng",
+      "size": 99305,
+      "sha256": "90f06673cce43e3d773af42207871077e02262d35692dc3903c561aa577a698b"
+    },
+    {
+      "path": "media/pictures/portraits/animation-ea8576c2541ee57d.apng",
+      "size": 200432,
+      "sha256": "6b8401921a5590431e380e1f5285ec087e2e7942eee4794689fda4626fadb05d"
+    },
+    {
+      "path": "media/pictures/portraits/animation-eaae7fae255c717d.apng",
+      "size": 180747,
+      "sha256": "2a14490bf2a4d8b13af26ba14c56e4379a3246bb3f3b5699c8e039d08bb3e80e"
+    },
+    {
+      "path": "media/pictures/portraits/animation-ee462766c6fe643b.apng",
+      "size": 194953,
+      "sha256": "08063caf9e300a1810720fd507f507020767b69cbf2c7d8b290c744b0b0232b5"
+    },
+    {
+      "path": "media/pictures/portraits/animation-f06941a99eb54094.apng",
+      "size": 149395,
+      "sha256": "d1e507c6267b1e1d418ffff0b841a61be258ebccca3636001c97158ff57bdde6"
+    },
+    {
+      "path": "media/pictures/portraits/animation-f144af4fda2a0fb0.apng",
+      "size": 8154,
+      "sha256": "7ed7491287d74062653107aec6abe82bc3ba335f6f5aa6c51dc26afd360eb7b4"
+    },
+    {
+      "path": "media/pictures/portraits/animation-f1c798852462d95c.apng",
+      "size": 6248,
+      "sha256": "cb0d63148a457bd2f2a261dcbf32ef6ab6bf6ea91085b0d48875dc8096dbc827"
+    },
+    {
+      "path": "media/pictures/portraits/animation-f8bda2f5daaf8e14.apng",
+      "size": 77444,
+      "sha256": "6e20cfe48f2a322791b4171ece960b7ab58bacaac7316c4d605f41da08b5a499"
+    },
+    {
+      "path": "media/pictures/portraits/animation-fc0e60b70e81b5cf.apng",
+      "size": 82961,
+      "sha256": "3e71c69fd6417b58e6546ea345441fdc0e597c439ed2d984e7edb6376cf35bec"
     },
     {
       "path": "media/pictures/portraits/picture-000-bf96889fd1.png",

@@ -30,7 +30,19 @@
       "palette_byte": 38,
       "stored_sha256": "25e7f47e73bc422536eb94e07b47cea2e9e0649e9d3cc071b09f39893c650fc3",
       "animation_resource_id": 147,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-6adf75ed339b8f02.apng",
+        "frame_count": 257,
+        "decoded_size": 1036,
+        "stored_sha256": "a1ce77a86e8b392998549d2f2043b3cbbe7f82caf1ca038c555151bce4cd573a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 756,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -42,7 +54,19 @@
       "palette_byte": 84,
       "stored_sha256": "d9261f9a96e72f7f6834ef480f049968034e1deb298ec7f949a83ed538cb34b0",
       "animation_resource_id": 149,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-c6b8ac00f5fa9b74.apng",
+        "frame_count": 17,
+        "decoded_size": 1258,
+        "stored_sha256": "d28cc5979c4965107db74ad103c946115bcad1b861064f1b5b370e938993b45d",
+        "active_tracks": 1,
+        "scheduler_ticks": 67,
+        "patch_applications": 16,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -54,7 +78,19 @@
       "palette_byte": 166,
       "stored_sha256": "170841c90ad02b113b483e5264688ccddd0fa506ba3a138d65911b89de805b62",
       "animation_resource_id": 151,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-af422f7d64d85144.apng",
+        "frame_count": 110,
+        "decoded_size": 892,
+        "stored_sha256": "7f5d39511f071ebce6e6e45cef54b921e6fdf7fd2a7a2bad9d86af8e0dc5ca52",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 136,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -66,7 +102,19 @@
       "palette_byte": 86,
       "stored_sha256": "60f373d8ced8343429826dc3df319bf1a6435dcf8f6044e916f2d65f0b1f3e77",
       "animation_resource_id": 153,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-4eec7a55eca6f988.apng",
+        "frame_count": 85,
+        "decoded_size": 832,
+        "stored_sha256": "a2303563291e2f986bf6daabb5719d6dbe49d0f928f41126c1a0484606b30acb",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 127,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -78,7 +126,19 @@
       "palette_byte": 251,
       "stored_sha256": "7603491d97f7cd8e3bf78e4780189495bafa3c2784e7810e1920ab030a3d31a6",
       "animation_resource_id": 155,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-c2487bf02970f111.apng",
+        "frame_count": 93,
+        "decoded_size": 703,
+        "stored_sha256": "4d3e613a1bae021203bae37dce2b37cb812ad9d8b362eecfe4b818669c4df555",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 127,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -90,7 +150,19 @@
       "palette_byte": 134,
       "stored_sha256": "184f0a4a98fb81c369fff377b5dd2a7c64ca2846c10a6f56713c47e438dc116d",
       "animation_resource_id": 157,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-7805032e24c040f9.apng",
+        "frame_count": 106,
+        "decoded_size": 844,
+        "stored_sha256": "719d30ccfbb37df538ca4445c5834e679dcc5a3570ced484dd677ff260807490",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 134,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -102,7 +174,19 @@
       "palette_byte": 86,
       "stored_sha256": "1b54a118ca35ecd80993231a2af1b38c4a0b2631c62c34c8f501db2584ab0ec3",
       "animation_resource_id": 159,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-12ea2538865990bb.apng",
+        "frame_count": 146,
+        "decoded_size": 729,
+        "stored_sha256": "e0a07249e832af73dc56c6c5aea83679097874e956f08072babbbe09dfbbfaed",
+        "active_tracks": 2,
+        "scheduler_ticks": 257,
+        "patch_applications": 168,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -114,7 +198,19 @@
       "palette_byte": 86,
       "stored_sha256": "4ecbd5362ec7fcf1ea85b53aa69aa50502469ca5a5f608ee46fbb3102018df79",
       "animation_resource_id": 163,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-7d448dade4af3228.apng",
+        "frame_count": 116,
+        "decoded_size": 756,
+        "stored_sha256": "94cd73489147734d1b8289423d0cd95b1dc58752a73cd747ac9397ce1307312d",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 162,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -126,7 +222,19 @@
       "palette_byte": 173,
       "stored_sha256": "8c898fce5b5611c5769bcc1046927b32680ea10789f26520d6595f90226cb79f",
       "animation_resource_id": 165,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-b66022ec49f3cdb4.apng",
+        "frame_count": 149,
+        "decoded_size": 663,
+        "stored_sha256": "309203fccd5f671e1037f2e2c3694d88c3d617c8f51a14fb77235e7b1d096be5",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 359,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -138,7 +246,19 @@
       "palette_byte": 134,
       "stored_sha256": "8f36dff126c95cd2c4efa94fdd863ffedc2687cc40863447c26268f98de8bc22",
       "animation_resource_id": 167,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-61f18649bb056c54.apng",
+        "frame_count": 151,
+        "decoded_size": 437,
+        "stored_sha256": "d8b03ae54211f6c3382c77bda2c8d87e815aa7a80a9e38e7b1c49f9ecd1268e5",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 183,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -150,7 +270,19 @@
       "palette_byte": 84,
       "stored_sha256": "dc72781ae0db00a7e1df0dbb988d04f6e17ebee4a3758b76699891a578c22509",
       "animation_resource_id": 171,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-372fa88380db4995.apng",
+        "frame_count": 59,
+        "decoded_size": 718,
+        "stored_sha256": "f1bd7ef4c849e328ca64f2c67f54997b1aa47042cb721f9e24afb7b8e09b3092",
+        "active_tracks": 2,
+        "scheduler_ticks": 257,
+        "patch_applications": 72,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -162,7 +294,19 @@
       "palette_byte": 134,
       "stored_sha256": "5db25fc63d15bc2bcbbc23638a62dc5c8f4360dc32097e0fb959823676f9711d",
       "animation_resource_id": 185,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-0bac7b819a439484.apng",
+        "frame_count": 115,
+        "decoded_size": 970,
+        "stored_sha256": "f2599c018d2fc6bfcf87cefe276e94d90e6f21bc7d038bba8412704f0cd38951",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 142,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -174,7 +318,19 @@
       "palette_byte": 134,
       "stored_sha256": "09f3fc359527cdee3519222be041c870e95af755c42715c9617cce12d52d1cd2",
       "animation_resource_id": 189,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-aeda3e63222fc916.apng",
+        "frame_count": 79,
+        "decoded_size": 992,
+        "stored_sha256": "9f597381a6481abb4c40697356b075b6adab6395c3d9d2225c6d70e345c270aa",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 98,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -186,7 +342,19 @@
       "palette_byte": 86,
       "stored_sha256": "51df9668e249f5885d71011415247cf5fbec584ac41c4a074d390d36dd7a7993",
       "animation_resource_id": 197,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-e6f4fc0a3f0bbe37.apng",
+        "frame_count": 181,
+        "decoded_size": 774,
+        "stored_sha256": "f465e9c9be1d2177fcc8070d2743b60a4657d50dd8aa62224cdf29da9192a72f",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 284,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -198,7 +366,19 @@
       "palette_byte": 134,
       "stored_sha256": "36ea3809239fe5576b0683b41f2705f62c594dc3dbf068ee0aeaf2ec1615475c",
       "animation_resource_id": 199,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-2d8df68523d7e30c.apng",
+        "frame_count": 138,
+        "decoded_size": 873,
+        "stored_sha256": "cbce2f2dc44226988f0063c3069a6fc5783b753d20baeb2356c6c229128a15fd",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 201,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -210,7 +390,19 @@
       "palette_byte": 86,
       "stored_sha256": "bff32fd418f3dadac0b175a11a58e98db9614393729d18acbcd2c61f209a28d1",
       "animation_resource_id": 207,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-27ef1f03af4e8915.apng",
+        "frame_count": 257,
+        "decoded_size": 623,
+        "stored_sha256": "4f4913ea2e9a3ab41f8e6100aac5f558413a9f885c72f677367fde43fed3594f",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 627,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -222,7 +414,19 @@
       "palette_byte": 166,
       "stored_sha256": "568f668c0108d4cd2cae9d0eefc748bde183dc9b417a5165a3143b1eb61698af",
       "animation_resource_id": 209,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-268829bc212fda6a.apng",
+        "frame_count": 142,
+        "decoded_size": 1016,
+        "stored_sha256": "7fb41df267f2c432435f8cedc6960bdf819c730ce40ed6baee5099471827ee37",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 197,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -234,7 +438,19 @@
       "palette_byte": 166,
       "stored_sha256": "be9ecb74aed271a4a8db6c53b5996655fb91be32ec285126a890f34f4b793365",
       "animation_resource_id": 211,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-c2938fd0d2fc7c79.apng",
+        "frame_count": 129,
+        "decoded_size": 407,
+        "stored_sha256": "93788e98621584a1e130db16378554241f7660358301eed5f5a1643dc3e55974",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 168,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -246,7 +462,19 @@
       "palette_byte": 134,
       "stored_sha256": "e9a216c490ca4a865aa8a17b4c088391016543d58e717152145df24a463929d5",
       "animation_resource_id": 213,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-31decac4f6c8bd78.apng",
+        "frame_count": 76,
+        "decoded_size": 655,
+        "stored_sha256": "f77ed842ef9fc86e9f749e960e253f4e4aae00eb8b21c3d05f3a894e07fc6d1d",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 89,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -258,7 +486,19 @@
       "palette_byte": 134,
       "stored_sha256": "fe595a642e670196f883d3e512d288787584b3a0c6476a54575a9740bbb5c01a",
       "animation_resource_id": 219,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-9c689d2d3bb8000b.apng",
+        "frame_count": 99,
+        "decoded_size": 732,
+        "stored_sha256": "6bb261f46c79d78bac1ba8ce9009dd8589ca3e4ce23c0e010ac855ba978a4fb3",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 125,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -270,7 +510,19 @@
       "palette_byte": 174,
       "stored_sha256": "7f453fcde69994fd628ab8512108db5c100163c14593e2e04c67bf78de786df7",
       "animation_resource_id": 223,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-9b854ba0f03a80eb.apng",
+        "frame_count": 184,
+        "decoded_size": 999,
+        "stored_sha256": "cb5de15c760b0a0906fd6d1167b967ed773511114db99e1a3430ed517008ed7c",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 263,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -282,7 +534,19 @@
       "palette_byte": 171,
       "stored_sha256": "2de9872db0375511c33740f71751d53e7f7b996f32088a6339b2ee4603817563",
       "animation_resource_id": 225,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-fc0e60b70e81b5cf.apng",
+        "frame_count": 91,
+        "decoded_size": 1250,
+        "stored_sha256": "6b874be0051ce1b4bc6ccad409f3e7f31aeb993f7f9da4141c8f3919fcef2df8",
+        "active_tracks": 3,
+        "scheduler_ticks": 127,
+        "patch_applications": 128,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -294,7 +558,19 @@
       "palette_byte": 134,
       "stored_sha256": "c5fc46c6dbb851e933758a7f09ccec1727580455957e730b1e30e366a54b6fb1",
       "animation_resource_id": 227,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-29fb469f3e89bb8f.apng",
+        "frame_count": 240,
+        "decoded_size": 1306,
+        "stored_sha256": "61165e2a5993e57b9767fd2f220b4c31fc629f20d890d1cbd10d040390d40782",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 519,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -306,7 +582,19 @@
       "palette_byte": 86,
       "stored_sha256": "2a7ccfb531bdc074134eb4ccdada43640c4a1e3fb5d55d0ecffc28f5c5ea9f42",
       "animation_resource_id": 235,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-2290547f03627c0a.apng",
+        "frame_count": 240,
+        "decoded_size": 753,
+        "stored_sha256": "24748197fbe6decbf639131fa4b4e52e63fce239bdc944cf07a4dd059b65107a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 471,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -318,7 +606,19 @@
       "palette_byte": 94,
       "stored_sha256": "117d89a626a9396f60561cbdf4b3a2088b1bcecfc3430b262339236f512ef25c",
       "animation_resource_id": 239,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-402b3c925cd8fc14.apng",
+        "frame_count": 197,
+        "decoded_size": 288,
+        "stored_sha256": "1465530f8a49ee47af1f91d784064a1a106323a0f14357280a0833719fc73f21",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 290,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -330,7 +630,19 @@
       "palette_byte": 166,
       "stored_sha256": "a84ba1b9e76497e35b9a547431ad8fe106d3fc33e25c522cd4450f732c25dcc3",
       "animation_resource_id": 241,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-81716ceb4d75c823.apng",
+        "frame_count": 87,
+        "decoded_size": 1089,
+        "stored_sha256": "e5ead24d53e81df61760be690de1759b4d4b4d94bbc13d55b398767fda0f8e76",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 114,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -342,7 +654,19 @@
       "palette_byte": 166,
       "stored_sha256": "b9732d848a2c712c600baab295e992cf2f8b02947d2c4562e7cb523434fdc09e",
       "animation_resource_id": 243,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-960010ee9b33f97a.apng",
+        "frame_count": 242,
+        "decoded_size": 926,
+        "stored_sha256": "0e80fd29afa33c3a1a88e692813240f0c3afe4b25d0b386cd9557456e51ebd45",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 354,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -354,7 +678,19 @@
       "palette_byte": 134,
       "stored_sha256": "32f665508c46db1a19f02652224f5bdb9f804cf7a4d34af3e359d73537024dee",
       "animation_resource_id": 245,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-2bbb923e958082e5.apng",
+        "frame_count": 120,
+        "decoded_size": 810,
+        "stored_sha256": "fe3390d09d482b71fec346d3e60ef81ea3da40a65a8e661074a082b84a96431f",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 138,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -366,7 +702,7 @@
       "palette_byte": 150,
       "stored_sha256": "1abc425d5ca5e69b43e376936f5123463c38d6a31c52acedc974ba4fa2244e9e",
       "animation_resource_id": 247,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "empty"
     },
     {
       "disk": "character",
@@ -378,7 +714,19 @@
       "palette_byte": 123,
       "stored_sha256": "95c21ebf6acb2d85c935aa36c541249090b89d1ed6873baa6911602bcaf61845",
       "animation_resource_id": 251,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-6b18d828d533fdcc.apng",
+        "frame_count": 212,
+        "decoded_size": 349,
+        "stored_sha256": "2ebb7aa7fda24f4b4780e44c25fd93916a047a3792832d1ec1e26d2088f8aedb",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 384,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -390,7 +738,19 @@
       "palette_byte": 174,
       "stored_sha256": "82e564563f026aab735f5bed967351504b64dca78ca61a99d63a55636ddf1069",
       "animation_resource_id": 255,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-b1cc7d8d1a83e422.apng",
+        "frame_count": 220,
+        "decoded_size": 792,
+        "stored_sha256": "12b0ed12e9029490b4f5bcbdc74cdb58f6c5819ef20092653d58c39807cbbd3a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 410,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -402,7 +762,19 @@
       "palette_byte": 166,
       "stored_sha256": "e008c035cbf9d8ce9440ac9717ae53c64e0cf8c7f0dd5707b70758ac0092868c",
       "animation_resource_id": 257,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-d11c6c9864b16938.apng",
+        "frame_count": 254,
+        "decoded_size": 493,
+        "stored_sha256": "0a67e5be2e01d5d56ba3dcbdc1bd09709c7dcfe566cc1f3b9eb94e69b62bfa0b",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 537,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -414,7 +786,7 @@
       "palette_byte": 134,
       "stored_sha256": "f327d80a48b9abebfdaedafb0e2acc948b3d3cb9d6863311c82afb73db7dfdf2",
       "animation_resource_id": 259,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "empty"
     },
     {
       "disk": "character",
@@ -426,7 +798,19 @@
       "palette_byte": 166,
       "stored_sha256": "8b3a33ffee7ca1fec01de82bfff323110dc2bd4d985eeead4e5a57ee5d4f550b",
       "animation_resource_id": 261,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-19476ee0bfd0ac90.apng",
+        "frame_count": 185,
+        "decoded_size": 379,
+        "stored_sha256": "b6debda1029233daf103c65a2f506a7b740193b4061e1a95a397754eb09052e8",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 317,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -438,7 +822,19 @@
       "palette_byte": 134,
       "stored_sha256": "a78e44d4aef9c2abc3643bd8b86637957ef2d2cbab2616fc336e7e0f7e47a880",
       "animation_resource_id": 269,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-d07db01cf8337869.apng",
+        "frame_count": 134,
+        "decoded_size": 799,
+        "stored_sha256": "736d5c868f6a427daffeb29f931d26d336528bd76d902ce594b480d8c9673dce",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 201,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -450,7 +846,7 @@
       "palette_byte": 134,
       "stored_sha256": "55c5f5d7c7836ac349a79bc023a19bf584bd1c4b6f36759d71867b32defaec3f",
       "animation_resource_id": 285,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "empty"
     },
     {
       "disk": "character",
@@ -462,7 +858,19 @@
       "palette_byte": 134,
       "stored_sha256": "ab2accfbafff3587f02468dcf35158ea2c483a138f95dac13740581e93a6bb1c",
       "animation_resource_id": 287,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-dbbd8de7134d724a.apng",
+        "frame_count": 106,
+        "decoded_size": 918,
+        "stored_sha256": "bce32cef6b9262a9c8638df5c4737beff103e11f6dc43bd4054560a2dbd5f957",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 137,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -474,7 +882,19 @@
       "palette_byte": 42,
       "stored_sha256": "01b2c4254661f2cde195de157b052ca6502351f21da392c634d8ede2e595e918",
       "animation_resource_id": 295,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-c5b78a3b1512c728.apng",
+        "frame_count": 7,
+        "decoded_size": 93,
+        "stored_sha256": "ca56a9d1752ed52077981d5ac2e912319fe2e3c5f04d9e974cf554ee0eb3520b",
+        "active_tracks": 1,
+        "scheduler_ticks": 10,
+        "patch_applications": 6,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -486,7 +906,19 @@
       "palette_byte": 134,
       "stored_sha256": "b8a22416c28ec530495a96a96a5757cbe7fde99debf5af3b2b8c26c54d4a7143",
       "animation_resource_id": 303,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-66a84a5584bdd957.apng",
+        "frame_count": 240,
+        "decoded_size": 1061,
+        "stored_sha256": "fc49a3dd36d54c992ab54c1dc75739a695eac43711bcf8253d48f727121d655a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 518,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "character",
@@ -498,7 +930,19 @@
       "palette_byte": 166,
       "stored_sha256": "3be3473767f3f0fc9d85a348492ba850dcea3297e2e5329dce7611699827c572",
       "animation_resource_id": 313,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-4a49feafd5586581.apng",
+        "frame_count": 158,
+        "decoded_size": 863,
+        "stored_sha256": "2c557b2905135df5bb75f5afc2989811f278409c47acbd0e6329ced31ea15572",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 251,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -510,7 +954,19 @@
       "palette_byte": 166,
       "stored_sha256": "170841c90ad02b113b483e5264688ccddd0fa506ba3a138d65911b89de805b62",
       "animation_resource_id": 151,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-af422f7d64d85144.apng",
+        "frame_count": 110,
+        "decoded_size": 892,
+        "stored_sha256": "7f5d39511f071ebce6e6e45cef54b921e6fdf7fd2a7a2bad9d86af8e0dc5ca52",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 136,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -522,7 +978,19 @@
       "palette_byte": 86,
       "stored_sha256": "60f373d8ced8343429826dc3df319bf1a6435dcf8f6044e916f2d65f0b1f3e77",
       "animation_resource_id": 153,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-4eec7a55eca6f988.apng",
+        "frame_count": 85,
+        "decoded_size": 832,
+        "stored_sha256": "a2303563291e2f986bf6daabb5719d6dbe49d0f928f41126c1a0484606b30acb",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 127,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -534,7 +1002,19 @@
       "palette_byte": 251,
       "stored_sha256": "7603491d97f7cd8e3bf78e4780189495bafa3c2784e7810e1920ab030a3d31a6",
       "animation_resource_id": 155,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-c2487bf02970f111.apng",
+        "frame_count": 93,
+        "decoded_size": 703,
+        "stored_sha256": "4d3e613a1bae021203bae37dce2b37cb812ad9d8b362eecfe4b818669c4df555",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 127,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -546,7 +1026,19 @@
       "palette_byte": 134,
       "stored_sha256": "184f0a4a98fb81c369fff377b5dd2a7c64ca2846c10a6f56713c47e438dc116d",
       "animation_resource_id": 157,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-7805032e24c040f9.apng",
+        "frame_count": 106,
+        "decoded_size": 844,
+        "stored_sha256": "719d30ccfbb37df538ca4445c5834e679dcc5a3570ced484dd677ff260807490",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 134,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -558,7 +1050,19 @@
       "palette_byte": 86,
       "stored_sha256": "1b54a118ca35ecd80993231a2af1b38c4a0b2631c62c34c8f501db2584ab0ec3",
       "animation_resource_id": 159,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-12ea2538865990bb.apng",
+        "frame_count": 146,
+        "decoded_size": 729,
+        "stored_sha256": "e0a07249e832af73dc56c6c5aea83679097874e956f08072babbbe09dfbbfaed",
+        "active_tracks": 2,
+        "scheduler_ticks": 257,
+        "patch_applications": 168,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -570,7 +1074,19 @@
       "palette_byte": 237,
       "stored_sha256": "0fb98ac16c9a66a8118bcaca5e3759ac8af305fddb83c7ce8f7b2f16ac3b84a6",
       "animation_resource_id": 161,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-35cff0a7c295fd78.apng",
+        "frame_count": 10,
+        "decoded_size": 1180,
+        "stored_sha256": "2f865ab2b918b37722ee57d9f87405561d0992cad64c136a693f3a6c76e3dea6",
+        "active_tracks": 1,
+        "scheduler_ticks": 10,
+        "patch_applications": 9,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -582,7 +1098,19 @@
       "palette_byte": 86,
       "stored_sha256": "4ecbd5362ec7fcf1ea85b53aa69aa50502469ca5a5f608ee46fbb3102018df79",
       "animation_resource_id": 163,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-7d448dade4af3228.apng",
+        "frame_count": 116,
+        "decoded_size": 756,
+        "stored_sha256": "94cd73489147734d1b8289423d0cd95b1dc58752a73cd747ac9397ce1307312d",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 162,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -594,7 +1122,19 @@
       "palette_byte": 173,
       "stored_sha256": "8c898fce5b5611c5769bcc1046927b32680ea10789f26520d6595f90226cb79f",
       "animation_resource_id": 165,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-b66022ec49f3cdb4.apng",
+        "frame_count": 149,
+        "decoded_size": 663,
+        "stored_sha256": "309203fccd5f671e1037f2e2c3694d88c3d617c8f51a14fb77235e7b1d096be5",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 359,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -606,7 +1146,19 @@
       "palette_byte": 134,
       "stored_sha256": "8f36dff126c95cd2c4efa94fdd863ffedc2687cc40863447c26268f98de8bc22",
       "animation_resource_id": 167,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-61f18649bb056c54.apng",
+        "frame_count": 151,
+        "decoded_size": 437,
+        "stored_sha256": "d8b03ae54211f6c3382c77bda2c8d87e815aa7a80a9e38e7b1c49f9ecd1268e5",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 183,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -618,7 +1170,19 @@
       "palette_byte": 38,
       "stored_sha256": "40a37582843a99f5370988637cf221ec509ac9396750d8482aee6af48da45e89",
       "animation_resource_id": 169,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-5793026ed8b4188c.apng",
+        "frame_count": 109,
+        "decoded_size": 923,
+        "stored_sha256": "e79f0859a352793bdb79737afb0362ea3518b254607b7e09ce3965fe86009161",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 147,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -630,7 +1194,19 @@
       "palette_byte": 84,
       "stored_sha256": "dc72781ae0db00a7e1df0dbb988d04f6e17ebee4a3758b76699891a578c22509",
       "animation_resource_id": 171,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-372fa88380db4995.apng",
+        "frame_count": 59,
+        "decoded_size": 718,
+        "stored_sha256": "f1bd7ef4c849e328ca64f2c67f54997b1aa47042cb721f9e24afb7b8e09b3092",
+        "active_tracks": 2,
+        "scheduler_ticks": 257,
+        "patch_applications": 72,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -642,7 +1218,19 @@
       "palette_byte": 230,
       "stored_sha256": "c0f2826c26694e2e57f0303dcb9423a3e0e0afd107748a8a28beb8961ab911bb",
       "animation_resource_id": 173,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-ad91ff2094774f0c.apng",
+        "frame_count": 158,
+        "decoded_size": 652,
+        "stored_sha256": "44b32a893d6c15a5fcf2f2ed2813719d1c96616bd1520addc40fdda9b82df204",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 246,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -654,7 +1242,19 @@
       "palette_byte": 86,
       "stored_sha256": "7c38f6822da577a8f3a4e387c84886e5126158a2757f75fd390a2db39f8bb090",
       "animation_resource_id": 175,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-f1c798852462d95c.apng",
+        "frame_count": 9,
+        "decoded_size": 961,
+        "stored_sha256": "5280a9b97f590eb93d986b5332bcc73697cfd15143e9c23705464754028e9c6b",
+        "active_tracks": 1,
+        "scheduler_ticks": 17,
+        "patch_applications": 8,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -666,7 +1266,19 @@
       "palette_byte": 134,
       "stored_sha256": "4a63528ebc5adb32b14d415fbaaa0b759c2654a51700a86ace007adc62b3ec47",
       "animation_resource_id": 177,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-cc40cf59bf69895c.apng",
+        "frame_count": 95,
+        "decoded_size": 911,
+        "stored_sha256": "5c570fef94c0f717a36a388f8dc1bc6ead01435f907dd6309704d186824cb79d",
+        "active_tracks": 2,
+        "scheduler_ticks": 209,
+        "patch_applications": 106,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -678,7 +1290,19 @@
       "palette_byte": 142,
       "stored_sha256": "13725c3dfc61719e352dd71e67dacab7e836a5e1b24b58ef9eb26bf8cb7caecc",
       "animation_resource_id": 179,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-0dcbe01803806023.apng",
+        "frame_count": 5,
+        "decoded_size": 763,
+        "stored_sha256": "90bb787b8f19c1614bca5145800e1ea71f57aced197b0f7e9920cc16f808cde1",
+        "active_tracks": 1,
+        "scheduler_ticks": 17,
+        "patch_applications": 4,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -690,7 +1314,19 @@
       "palette_byte": 38,
       "stored_sha256": "35edb3d55bda2c6b506b66c2e6307e6704c3068722c38b8b0dfbe69bb232e538",
       "animation_resource_id": 181,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-67e894e0d5019f43.apng",
+        "frame_count": 85,
+        "decoded_size": 605,
+        "stored_sha256": "9209e3b5ed16a0778b234f3095de87cefdbe6708913f13273ac83d8f1f41e464",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 106,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -702,7 +1338,19 @@
       "palette_byte": 86,
       "stored_sha256": "3657ed8bf7e1f4ee4a54083796e45b9a938cd03be8b403c6408e371f052cf09e",
       "animation_resource_id": 183,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-8e009b2e9014a06e.apng",
+        "frame_count": 79,
+        "decoded_size": 755,
+        "stored_sha256": "0380428487c05d2db53da34805e9c8862d3d15b20157f08062686bc20a80084f",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 106,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -714,7 +1362,19 @@
       "palette_byte": 134,
       "stored_sha256": "5db25fc63d15bc2bcbbc23638a62dc5c8f4360dc32097e0fb959823676f9711d",
       "animation_resource_id": 185,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-0bac7b819a439484.apng",
+        "frame_count": 115,
+        "decoded_size": 970,
+        "stored_sha256": "f2599c018d2fc6bfcf87cefe276e94d90e6f21bc7d038bba8412704f0cd38951",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 142,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -726,7 +1386,19 @@
       "palette_byte": 134,
       "stored_sha256": "f4e15bcf14a09f9edb2cc7a094fd430c809307b554288728210776a7e2accb2e",
       "animation_resource_id": 187,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-ee462766c6fe643b.apng",
+        "frame_count": 159,
+        "decoded_size": 1129,
+        "stored_sha256": "2c6dd81cb91707faaf50a5ae5df10fd926b070f0b25cdd0cf9a2ec7e48bd3ceb",
+        "active_tracks": 3,
+        "scheduler_ticks": 181,
+        "patch_applications": 302,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -738,7 +1410,19 @@
       "palette_byte": 134,
       "stored_sha256": "4b975e296766708589c45d2c0cbf20bb1145461ab717f555581f53eeed83db04",
       "animation_resource_id": 193,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-c2e370fa3854c91c.apng",
+        "frame_count": 201,
+        "decoded_size": 843,
+        "stored_sha256": "89fb5685554e9b6786fc6ff8e2786bab3dc7b4e734e414e4a39094d542a3a1cc",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 351,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -750,7 +1434,19 @@
       "palette_byte": 86,
       "stored_sha256": "4fbeace702c7c265b460d1a1ae7b50a0b813afc9b50901bc9bb4d15b3585b655",
       "animation_resource_id": 195,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-146d5cbceb96a98a.apng",
+        "frame_count": 12,
+        "decoded_size": 1525,
+        "stored_sha256": "c991d9c3f97095221956ca13038c8fbbdbe08c055cd8d6ecf2e97432a16be75b",
+        "active_tracks": 1,
+        "scheduler_ticks": 28,
+        "patch_applications": 11,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -762,7 +1458,19 @@
       "palette_byte": 134,
       "stored_sha256": "36ea3809239fe5576b0683b41f2705f62c594dc3dbf068ee0aeaf2ec1615475c",
       "animation_resource_id": 199,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-2d8df68523d7e30c.apng",
+        "frame_count": 138,
+        "decoded_size": 873,
+        "stored_sha256": "cbce2f2dc44226988f0063c3069a6fc5783b753d20baeb2356c6c229128a15fd",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 201,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -774,7 +1482,19 @@
       "palette_byte": 171,
       "stored_sha256": "135c5d0856769b26bdbe92360e973a857a99dc29fc3a47c576b8f32a5b53a276",
       "animation_resource_id": 205,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-4bf2f6bc17155295.apng",
+        "frame_count": 218,
+        "decoded_size": 562,
+        "stored_sha256": "d5f8d551f596a40992cd819b0c1badb001931f2a034f3b2cb9271a878e026fe1",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 330,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -786,7 +1506,19 @@
       "palette_byte": 134,
       "stored_sha256": "e9a216c490ca4a865aa8a17b4c088391016543d58e717152145df24a463929d5",
       "animation_resource_id": 213,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-31decac4f6c8bd78.apng",
+        "frame_count": 76,
+        "decoded_size": 655,
+        "stored_sha256": "f77ed842ef9fc86e9f749e960e253f4e4aae00eb8b21c3d05f3a894e07fc6d1d",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 89,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -798,7 +1530,19 @@
       "palette_byte": 134,
       "stored_sha256": "fe595a642e670196f883d3e512d288787584b3a0c6476a54575a9740bbb5c01a",
       "animation_resource_id": 219,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-9c689d2d3bb8000b.apng",
+        "frame_count": 99,
+        "decoded_size": 732,
+        "stored_sha256": "6bb261f46c79d78bac1ba8ce9009dd8589ca3e4ce23c0e010ac855ba978a4fb3",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 125,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -810,7 +1554,19 @@
       "palette_byte": 134,
       "stored_sha256": "c5fc46c6dbb851e933758a7f09ccec1727580455957e730b1e30e366a54b6fb1",
       "animation_resource_id": 227,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-29fb469f3e89bb8f.apng",
+        "frame_count": 240,
+        "decoded_size": 1306,
+        "stored_sha256": "61165e2a5993e57b9767fd2f220b4c31fc629f20d890d1cbd10d040390d40782",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 519,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -822,7 +1578,19 @@
       "palette_byte": 174,
       "stored_sha256": "ec7ac84253cb5e88c9e6fb37db168c7f61a40d683a1cc6edc15519c31a2710f0",
       "animation_resource_id": 231,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-3ea1f980d9b632b0.apng",
+        "frame_count": 139,
+        "decoded_size": 622,
+        "stored_sha256": "9238bd5db0fa9f8444562d44f3b7086c109a058dfc031d460fba94b5818e0a6f",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 207,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -834,7 +1602,19 @@
       "palette_byte": 166,
       "stored_sha256": "feeb84e0ae1fd1d6b03e83928da5275348791637da4e48e2d65b136fb7035971",
       "animation_resource_id": 233,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-93884eb67983fd05.apng",
+        "frame_count": 138,
+        "decoded_size": 657,
+        "stored_sha256": "aea218cf8721d404aa9639a40a7d74247b15bc93b2cd5f65883eda25197e05d6",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 179,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -846,7 +1626,19 @@
       "palette_byte": 86,
       "stored_sha256": "2a7ccfb531bdc074134eb4ccdada43640c4a1e3fb5d55d0ecffc28f5c5ea9f42",
       "animation_resource_id": 235,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-2290547f03627c0a.apng",
+        "frame_count": 240,
+        "decoded_size": 753,
+        "stored_sha256": "24748197fbe6decbf639131fa4b4e52e63fce239bdc944cf07a4dd059b65107a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 471,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -858,7 +1650,19 @@
       "palette_byte": 132,
       "stored_sha256": "2fd6b40ac9e3c66537cf720f95bdcf7b8cb9aeb6edce078200faf2681d46050c",
       "animation_resource_id": 237,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-f144af4fda2a0fb0.apng",
+        "frame_count": 7,
+        "decoded_size": 775,
+        "stored_sha256": "167c3dd4ab003cfbf25b61b5059efb0cff08878ecb6c641c4f82ffa4bec61079",
+        "active_tracks": 1,
+        "scheduler_ticks": 8,
+        "patch_applications": 6,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -870,7 +1674,19 @@
       "palette_byte": 166,
       "stored_sha256": "b9732d848a2c712c600baab295e992cf2f8b02947d2c4562e7cb523434fdc09e",
       "animation_resource_id": 243,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-960010ee9b33f97a.apng",
+        "frame_count": 242,
+        "decoded_size": 926,
+        "stored_sha256": "0e80fd29afa33c3a1a88e692813240f0c3afe4b25d0b386cd9557456e51ebd45",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 354,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -882,7 +1698,19 @@
       "palette_byte": 134,
       "stored_sha256": "b3c36127556b346e8e4d5f3572af5f01f513b19ab06aa6680760761941811068",
       "animation_resource_id": 249,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-140f71a2caa4fc62.apng",
+        "frame_count": 122,
+        "decoded_size": 725,
+        "stored_sha256": "630983d355e8bc948932a87fa7096d1f7b73219507b59ac97fab89a580647c9a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 178,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -894,7 +1722,19 @@
       "palette_byte": 123,
       "stored_sha256": "95c21ebf6acb2d85c935aa36c541249090b89d1ed6873baa6911602bcaf61845",
       "animation_resource_id": 251,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-6b18d828d533fdcc.apng",
+        "frame_count": 212,
+        "decoded_size": 349,
+        "stored_sha256": "2ebb7aa7fda24f4b4780e44c25fd93916a047a3792832d1ec1e26d2088f8aedb",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 384,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -906,7 +1746,7 @@
       "palette_byte": 188,
       "stored_sha256": "fec57c851f542eebfe3a05ada3ea47311e35b1b0fa838049649dcde7f2efb8cb",
       "animation_resource_id": 253,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "empty"
     },
     {
       "disk": "dungeon-a",
@@ -918,7 +1758,19 @@
       "palette_byte": 174,
       "stored_sha256": "82e564563f026aab735f5bed967351504b64dca78ca61a99d63a55636ddf1069",
       "animation_resource_id": 255,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-b1cc7d8d1a83e422.apng",
+        "frame_count": 220,
+        "decoded_size": 792,
+        "stored_sha256": "12b0ed12e9029490b4f5bcbdc74cdb58f6c5819ef20092653d58c39807cbbd3a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 410,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -930,7 +1782,19 @@
       "palette_byte": 166,
       "stored_sha256": "e008c035cbf9d8ce9440ac9717ae53c64e0cf8c7f0dd5707b70758ac0092868c",
       "animation_resource_id": 257,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-d11c6c9864b16938.apng",
+        "frame_count": 254,
+        "decoded_size": 493,
+        "stored_sha256": "0a67e5be2e01d5d56ba3dcbdc1bd09709c7dcfe566cc1f3b9eb94e69b62bfa0b",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 537,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -942,7 +1806,19 @@
       "palette_byte": 164,
       "stored_sha256": "5a12f20185f7950e68655cc047683ddd67d1b313eb85c97ffac01b39c54466d5",
       "animation_resource_id": 265,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-9cff89106d451902.apng",
+        "frame_count": 78,
+        "decoded_size": 1043,
+        "stored_sha256": "55d608613e3698e989682e81901252ba959bc58cac6572409f5aae973c419b3d",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 92,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -954,7 +1830,19 @@
       "palette_byte": 134,
       "stored_sha256": "a78e44d4aef9c2abc3643bd8b86637957ef2d2cbab2616fc336e7e0f7e47a880",
       "animation_resource_id": 269,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-d07db01cf8337869.apng",
+        "frame_count": 134,
+        "decoded_size": 799,
+        "stored_sha256": "736d5c868f6a427daffeb29f931d26d336528bd76d902ce594b480d8c9673dce",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 201,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -966,7 +1854,19 @@
       "palette_byte": 150,
       "stored_sha256": "afc2fc098438480ce49b46e6dceb797284fcd33789f291f5e982c75967805ab7",
       "animation_resource_id": 273,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-9da07f2965ca5c03.apng",
+        "frame_count": 137,
+        "decoded_size": 690,
+        "stored_sha256": "89524b37ee198eb74446a2557c78c3e578d7de482cdf26becc48db6e4e8c9e13",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 192,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -978,7 +1878,19 @@
       "palette_byte": 134,
       "stored_sha256": "ab2accfbafff3587f02468dcf35158ea2c483a138f95dac13740581e93a6bb1c",
       "animation_resource_id": 287,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-dbbd8de7134d724a.apng",
+        "frame_count": 106,
+        "decoded_size": 918,
+        "stored_sha256": "bce32cef6b9262a9c8638df5c4737beff103e11f6dc43bd4054560a2dbd5f957",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 137,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-a",
@@ -990,7 +1902,19 @@
       "palette_byte": 86,
       "stored_sha256": "f4ebe04b36e06dc18576e5ed779bb874f45c579c7bdf5064ca1bbc677c7759cd",
       "animation_resource_id": 289,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-a0c408017ba62cb8.apng",
+        "frame_count": 7,
+        "decoded_size": 524,
+        "stored_sha256": "2b8a7271ae2be800e9503f2674743a3a0a12e11dfdd1fa6d3eff09e041722a5d",
+        "active_tracks": 1,
+        "scheduler_ticks": 12,
+        "patch_applications": 6,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1002,7 +1926,19 @@
       "palette_byte": 86,
       "stored_sha256": "60f373d8ced8343429826dc3df319bf1a6435dcf8f6044e916f2d65f0b1f3e77",
       "animation_resource_id": 153,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-4eec7a55eca6f988.apng",
+        "frame_count": 85,
+        "decoded_size": 832,
+        "stored_sha256": "a2303563291e2f986bf6daabb5719d6dbe49d0f928f41126c1a0484606b30acb",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 127,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1014,7 +1950,19 @@
       "palette_byte": 134,
       "stored_sha256": "184f0a4a98fb81c369fff377b5dd2a7c64ca2846c10a6f56713c47e438dc116d",
       "animation_resource_id": 157,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-7805032e24c040f9.apng",
+        "frame_count": 106,
+        "decoded_size": 844,
+        "stored_sha256": "719d30ccfbb37df538ca4445c5834e679dcc5a3570ced484dd677ff260807490",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 134,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1026,7 +1974,19 @@
       "palette_byte": 237,
       "stored_sha256": "0fb98ac16c9a66a8118bcaca5e3759ac8af305fddb83c7ce8f7b2f16ac3b84a6",
       "animation_resource_id": 161,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-35cff0a7c295fd78.apng",
+        "frame_count": 10,
+        "decoded_size": 1180,
+        "stored_sha256": "2f865ab2b918b37722ee57d9f87405561d0992cad64c136a693f3a6c76e3dea6",
+        "active_tracks": 1,
+        "scheduler_ticks": 10,
+        "patch_applications": 9,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1038,7 +1998,19 @@
       "palette_byte": 173,
       "stored_sha256": "8c898fce5b5611c5769bcc1046927b32680ea10789f26520d6595f90226cb79f",
       "animation_resource_id": 165,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-b66022ec49f3cdb4.apng",
+        "frame_count": 149,
+        "decoded_size": 663,
+        "stored_sha256": "309203fccd5f671e1037f2e2c3694d88c3d617c8f51a14fb77235e7b1d096be5",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 359,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1050,7 +2022,19 @@
       "palette_byte": 134,
       "stored_sha256": "8f36dff126c95cd2c4efa94fdd863ffedc2687cc40863447c26268f98de8bc22",
       "animation_resource_id": 167,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-61f18649bb056c54.apng",
+        "frame_count": 151,
+        "decoded_size": 437,
+        "stored_sha256": "d8b03ae54211f6c3382c77bda2c8d87e815aa7a80a9e38e7b1c49f9ecd1268e5",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 183,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1062,7 +2046,19 @@
       "palette_byte": 84,
       "stored_sha256": "dc72781ae0db00a7e1df0dbb988d04f6e17ebee4a3758b76699891a578c22509",
       "animation_resource_id": 171,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-372fa88380db4995.apng",
+        "frame_count": 59,
+        "decoded_size": 718,
+        "stored_sha256": "f1bd7ef4c849e328ca64f2c67f54997b1aa47042cb721f9e24afb7b8e09b3092",
+        "active_tracks": 2,
+        "scheduler_ticks": 257,
+        "patch_applications": 72,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1074,7 +2070,19 @@
       "palette_byte": 86,
       "stored_sha256": "7c38f6822da577a8f3a4e387c84886e5126158a2757f75fd390a2db39f8bb090",
       "animation_resource_id": 175,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-f1c798852462d95c.apng",
+        "frame_count": 9,
+        "decoded_size": 961,
+        "stored_sha256": "5280a9b97f590eb93d986b5332bcc73697cfd15143e9c23705464754028e9c6b",
+        "active_tracks": 1,
+        "scheduler_ticks": 17,
+        "patch_applications": 8,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1086,7 +2094,19 @@
       "palette_byte": 134,
       "stored_sha256": "4a63528ebc5adb32b14d415fbaaa0b759c2654a51700a86ace007adc62b3ec47",
       "animation_resource_id": 177,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-cc40cf59bf69895c.apng",
+        "frame_count": 95,
+        "decoded_size": 911,
+        "stored_sha256": "5c570fef94c0f717a36a388f8dc1bc6ead01435f907dd6309704d186824cb79d",
+        "active_tracks": 2,
+        "scheduler_ticks": 209,
+        "patch_applications": 106,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1098,7 +2118,19 @@
       "palette_byte": 134,
       "stored_sha256": "09f3fc359527cdee3519222be041c870e95af755c42715c9617cce12d52d1cd2",
       "animation_resource_id": 189,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-aeda3e63222fc916.apng",
+        "frame_count": 79,
+        "decoded_size": 992,
+        "stored_sha256": "9f597381a6481abb4c40697356b075b6adab6395c3d9d2225c6d70e345c270aa",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 98,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1110,7 +2142,19 @@
       "palette_byte": 86,
       "stored_sha256": "9cb9b6670d2aa87a896fad63845da4398d409f27a70f89c416041f6ab581003f",
       "animation_resource_id": 191,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-3fc08577cc6e9a1f.apng",
+        "frame_count": 90,
+        "decoded_size": 1472,
+        "stored_sha256": "f36bf5eea9aa14353fd3c875d858713fb487072f8ac3c82c925eeccd58fb1b97",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 120,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1122,7 +2166,19 @@
       "palette_byte": 134,
       "stored_sha256": "4b975e296766708589c45d2c0cbf20bb1145461ab717f555581f53eeed83db04",
       "animation_resource_id": 193,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-c2e370fa3854c91c.apng",
+        "frame_count": 201,
+        "decoded_size": 843,
+        "stored_sha256": "89fb5685554e9b6786fc6ff8e2786bab3dc7b4e734e414e4a39094d542a3a1cc",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 351,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1134,7 +2190,19 @@
       "palette_byte": 86,
       "stored_sha256": "51df9668e249f5885d71011415247cf5fbec584ac41c4a074d390d36dd7a7993",
       "animation_resource_id": 197,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-e6f4fc0a3f0bbe37.apng",
+        "frame_count": 181,
+        "decoded_size": 774,
+        "stored_sha256": "f465e9c9be1d2177fcc8070d2743b60a4657d50dd8aa62224cdf29da9192a72f",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 284,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1146,7 +2214,19 @@
       "palette_byte": 166,
       "stored_sha256": "6028ecdca373dedb3c393d0568a0d37c15af4e13d7aa206676e3113b4187b869",
       "animation_resource_id": 203,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-3e6f55c3c78650d5.apng",
+        "frame_count": 101,
+        "decoded_size": 1159,
+        "stored_sha256": "48ea59b155478d9ab3613e0e2e86b648f100dce8b5c732961edfa4821ca30f3a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 138,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1158,7 +2238,19 @@
       "palette_byte": 86,
       "stored_sha256": "bff32fd418f3dadac0b175a11a58e98db9614393729d18acbcd2c61f209a28d1",
       "animation_resource_id": 207,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-27ef1f03af4e8915.apng",
+        "frame_count": 257,
+        "decoded_size": 623,
+        "stored_sha256": "4f4913ea2e9a3ab41f8e6100aac5f558413a9f885c72f677367fde43fed3594f",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 627,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1170,7 +2262,19 @@
       "palette_byte": 166,
       "stored_sha256": "568f668c0108d4cd2cae9d0eefc748bde183dc9b417a5165a3143b1eb61698af",
       "animation_resource_id": 209,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-268829bc212fda6a.apng",
+        "frame_count": 142,
+        "decoded_size": 1016,
+        "stored_sha256": "7fb41df267f2c432435f8cedc6960bdf819c730ce40ed6baee5099471827ee37",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 197,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1182,7 +2286,19 @@
       "palette_byte": 134,
       "stored_sha256": "e9a216c490ca4a865aa8a17b4c088391016543d58e717152145df24a463929d5",
       "animation_resource_id": 213,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-31decac4f6c8bd78.apng",
+        "frame_count": 76,
+        "decoded_size": 655,
+        "stored_sha256": "f77ed842ef9fc86e9f749e960e253f4e4aae00eb8b21c3d05f3a894e07fc6d1d",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 89,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1194,7 +2310,19 @@
       "palette_byte": 252,
       "stored_sha256": "393c4cd437bf02f83e2a2921e626b98964128301d3fb68b8948805c08de804b6",
       "animation_resource_id": 215,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-494a53ecff7cdaba.apng",
+        "frame_count": 71,
+        "decoded_size": 515,
+        "stored_sha256": "abc6e275a218b3c4b1f9ea286aa14967d4a4cc4cea3cc1dbf61512b6f2d30af9",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 94,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1206,7 +2334,19 @@
       "palette_byte": 191,
       "stored_sha256": "ca7369078c5810cf1bc85514f0b0177ba53a2271f2a643d63f3858fe97e640fd",
       "animation_resource_id": 217,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-32eb188c27be8093.apng",
+        "frame_count": 257,
+        "decoded_size": 1170,
+        "stored_sha256": "aa0313947fec5074c3f4759fb5da2531b0f6102c5c10127031d7689adcf32636",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 822,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1218,7 +2358,19 @@
       "palette_byte": 134,
       "stored_sha256": "fe595a642e670196f883d3e512d288787584b3a0c6476a54575a9740bbb5c01a",
       "animation_resource_id": 219,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-9c689d2d3bb8000b.apng",
+        "frame_count": 99,
+        "decoded_size": 732,
+        "stored_sha256": "6bb261f46c79d78bac1ba8ce9009dd8589ca3e4ce23c0e010ac855ba978a4fb3",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 125,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1230,7 +2382,19 @@
       "palette_byte": 182,
       "stored_sha256": "af7e144afdd8e3872d667acda90ff3bb76233d1484887db04c1cffe28387cab5",
       "animation_resource_id": 221,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-d3f4788ffcec1551.apng",
+        "frame_count": 197,
+        "decoded_size": 830,
+        "stored_sha256": "6517b243a369bb272e83e4fb73e4b4192537d903ea89922f1d84f71438984184",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 298,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1242,7 +2406,19 @@
       "palette_byte": 174,
       "stored_sha256": "7f453fcde69994fd628ab8512108db5c100163c14593e2e04c67bf78de786df7",
       "animation_resource_id": 223,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-9b854ba0f03a80eb.apng",
+        "frame_count": 184,
+        "decoded_size": 999,
+        "stored_sha256": "cb5de15c760b0a0906fd6d1167b967ed773511114db99e1a3430ed517008ed7c",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 263,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1254,7 +2430,19 @@
       "palette_byte": 134,
       "stored_sha256": "c5fc46c6dbb851e933758a7f09ccec1727580455957e730b1e30e366a54b6fb1",
       "animation_resource_id": 227,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-29fb469f3e89bb8f.apng",
+        "frame_count": 240,
+        "decoded_size": 1306,
+        "stored_sha256": "61165e2a5993e57b9767fd2f220b4c31fc629f20d890d1cbd10d040390d40782",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 519,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1266,7 +2454,19 @@
       "palette_byte": 166,
       "stored_sha256": "64edd58888fc40e124c210ffcef8b24a210b2b6257c16c20ada7b75b76ebb2af",
       "animation_resource_id": 229,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-e761341e2151603a.apng",
+        "frame_count": 83,
+        "decoded_size": 1783,
+        "stored_sha256": "0ae375c08185b0eed742fde7b7a29847575b6e30b01f58ceea17920ac2354039",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 103,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1278,7 +2478,19 @@
       "palette_byte": 86,
       "stored_sha256": "2a7ccfb531bdc074134eb4ccdada43640c4a1e3fb5d55d0ecffc28f5c5ea9f42",
       "animation_resource_id": 235,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-2290547f03627c0a.apng",
+        "frame_count": 240,
+        "decoded_size": 753,
+        "stored_sha256": "24748197fbe6decbf639131fa4b4e52e63fce239bdc944cf07a4dd059b65107a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 471,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1290,7 +2502,19 @@
       "palette_byte": 132,
       "stored_sha256": "2fd6b40ac9e3c66537cf720f95bdcf7b8cb9aeb6edce078200faf2681d46050c",
       "animation_resource_id": 237,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-f144af4fda2a0fb0.apng",
+        "frame_count": 7,
+        "decoded_size": 775,
+        "stored_sha256": "167c3dd4ab003cfbf25b61b5059efb0cff08878ecb6c641c4f82ffa4bec61079",
+        "active_tracks": 1,
+        "scheduler_ticks": 8,
+        "patch_applications": 6,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1302,7 +2526,19 @@
       "palette_byte": 166,
       "stored_sha256": "b9732d848a2c712c600baab295e992cf2f8b02947d2c4562e7cb523434fdc09e",
       "animation_resource_id": 243,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-960010ee9b33f97a.apng",
+        "frame_count": 242,
+        "decoded_size": 926,
+        "stored_sha256": "0e80fd29afa33c3a1a88e692813240f0c3afe4b25d0b386cd9557456e51ebd45",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 354,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1314,7 +2550,19 @@
       "palette_byte": 123,
       "stored_sha256": "95c21ebf6acb2d85c935aa36c541249090b89d1ed6873baa6911602bcaf61845",
       "animation_resource_id": 251,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-6b18d828d533fdcc.apng",
+        "frame_count": 212,
+        "decoded_size": 349,
+        "stored_sha256": "2ebb7aa7fda24f4b4780e44c25fd93916a047a3792832d1ec1e26d2088f8aedb",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 384,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1326,7 +2574,7 @@
       "palette_byte": 188,
       "stored_sha256": "fec57c851f542eebfe3a05ada3ea47311e35b1b0fa838049649dcde7f2efb8cb",
       "animation_resource_id": 253,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "empty"
     },
     {
       "disk": "dungeon-b",
@@ -1338,7 +2586,19 @@
       "palette_byte": 174,
       "stored_sha256": "82e564563f026aab735f5bed967351504b64dca78ca61a99d63a55636ddf1069",
       "animation_resource_id": 255,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-b1cc7d8d1a83e422.apng",
+        "frame_count": 220,
+        "decoded_size": 792,
+        "stored_sha256": "12b0ed12e9029490b4f5bcbdc74cdb58f6c5819ef20092653d58c39807cbbd3a",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 410,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1350,7 +2610,19 @@
       "palette_byte": 166,
       "stored_sha256": "e008c035cbf9d8ce9440ac9717ae53c64e0cf8c7f0dd5707b70758ac0092868c",
       "animation_resource_id": 257,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-d11c6c9864b16938.apng",
+        "frame_count": 254,
+        "decoded_size": 493,
+        "stored_sha256": "0a67e5be2e01d5d56ba3dcbdc1bd09709c7dcfe566cc1f3b9eb94e69b62bfa0b",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 537,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1362,7 +2634,7 @@
       "palette_byte": 134,
       "stored_sha256": "398b13be6fd8f036722c289c370153025c322c2a7c9a347d42b514c15d99b1b6",
       "animation_resource_id": 263,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "empty"
     },
     {
       "disk": "dungeon-b",
@@ -1374,7 +2646,19 @@
       "palette_byte": 139,
       "stored_sha256": "a9b90fd06892c649b11b4629dcd5ad8ff85ac480b2161db0bfcf8b88635459b5",
       "animation_resource_id": 267,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-6b5c38fe22d69ef5.apng",
+        "frame_count": 9,
+        "decoded_size": 558,
+        "stored_sha256": "87a27e77f731fac1879354f372ccccfac23887259ecc36166adbe16079e8cfe1",
+        "active_tracks": 1,
+        "scheduler_ticks": 11,
+        "patch_applications": 8,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1386,7 +2670,19 @@
       "palette_byte": 134,
       "stored_sha256": "a78e44d4aef9c2abc3643bd8b86637957ef2d2cbab2616fc336e7e0f7e47a880",
       "animation_resource_id": 269,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-d07db01cf8337869.apng",
+        "frame_count": 134,
+        "decoded_size": 799,
+        "stored_sha256": "736d5c868f6a427daffeb29f931d26d336528bd76d902ce594b480d8c9673dce",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 201,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1398,7 +2694,19 @@
       "palette_byte": 251,
       "stored_sha256": "d9bc6016d252ee6cf345d15f495d798a3388929b2d58747ef4121fdbac670aac",
       "animation_resource_id": 271,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-820ac7f08110a506.apng",
+        "frame_count": 134,
+        "decoded_size": 547,
+        "stored_sha256": "b5c8990c54b5e8710e957ed3a54b8cb0d7d9c1a957b200cc603a49a2d14a88ed",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 179,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1410,7 +2718,19 @@
       "palette_byte": 171,
       "stored_sha256": "ed407838521d9879f41038ee17fbc4ec125061b80cbd9dd763c9c1cb5e5e8062",
       "animation_resource_id": 275,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-cdd2682b9526bdd5.apng",
+        "frame_count": 197,
+        "decoded_size": 723,
+        "stored_sha256": "f312b74d78e5506770b185799b4a621748df552fc09694d9dcde2cd99c89e865",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 278,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1422,7 +2742,19 @@
       "palette_byte": 134,
       "stored_sha256": "142c9029541dfbd459aac4672be754bbe404879f780b03ff9c3b76b951b0c857",
       "animation_resource_id": 277,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-ea8576c2541ee57d.apng",
+        "frame_count": 194,
+        "decoded_size": 853,
+        "stored_sha256": "85391225833efdfee99792f1b3d23e0d0a540ec951ce89dd66a860a0a3284be1",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 303,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1434,7 +2766,19 @@
       "palette_byte": 134,
       "stored_sha256": "969f0f5320cb886f53adf1f817be9de9c3748f55d6b41a769c37ba905ec72583",
       "animation_resource_id": 279,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-f8bda2f5daaf8e14.apng",
+        "frame_count": 61,
+        "decoded_size": 1442,
+        "stored_sha256": "82926792474706cafe39850e33d04a7f34fbb4a03d775eef9c13b4fab7d53f61",
+        "active_tracks": 4,
+        "scheduler_ticks": 61,
+        "patch_applications": 225,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1446,7 +2790,19 @@
       "palette_byte": 86,
       "stored_sha256": "4baf774389cfe328a169a3963882c09594dc31c307e72ec0797b8cb6550fbe70",
       "animation_resource_id": 281,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-47d5bf1b6bb3fb64.apng",
+        "frame_count": 167,
+        "decoded_size": 672,
+        "stored_sha256": "2eff3dd5e193a80f2ee1b793e492bc4ec94cb9b10c41df3385461ddd94df8c0c",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 214,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1458,7 +2814,19 @@
       "palette_byte": 166,
       "stored_sha256": "7ba1ac267781ba661cf30f750cdcf9c59b7b286c94e6661fad014c010f00a299",
       "animation_resource_id": 283,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-7c14a0fbe28b9724.apng",
+        "frame_count": 36,
+        "decoded_size": 1607,
+        "stored_sha256": "cb545c2f60ddcdcd64366f6d7245eaf61442a0e54c0a3f8bae663e1988caea3c",
+        "active_tracks": 2,
+        "scheduler_ticks": 163,
+        "patch_applications": 41,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1470,7 +2838,19 @@
       "palette_byte": 134,
       "stored_sha256": "30288da79bc49c607ee08b4d46b25b019e8b1fe820c98731f9d121efa899cdce",
       "animation_resource_id": 291,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-971e92479a5a463e.apng",
+        "frame_count": 87,
+        "decoded_size": 542,
+        "stored_sha256": "a786d3036c0e08e13938df7c937c16159fde9d623e180d1d41ab0258ff9f596c",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 116,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1482,7 +2862,19 @@
       "palette_byte": 134,
       "stored_sha256": "8df74e3752ac4428166bddf689e368eeb16378305de302099b63cea21904ba95",
       "animation_resource_id": 293,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-0be817d4a0c79e3d.apng",
+        "frame_count": 91,
+        "decoded_size": 874,
+        "stored_sha256": "5e10517e092d875508e4b9de5aeba823655677ca8c556373bb683ed11de85721",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 114,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1494,7 +2886,19 @@
       "palette_byte": 134,
       "stored_sha256": "e0fbe2b1238672568ae3534e50c63c3e6b5e1a978abdfbb2c6eef653a6d62afb",
       "animation_resource_id": 297,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-8b5fedd6912b07af.apng",
+        "frame_count": 35,
+        "decoded_size": 479,
+        "stored_sha256": "1faaca451c4de7baa48d49d5e3735e70219b120c71b0ba130a5f6c8b2a6dc2c9",
+        "active_tracks": 2,
+        "scheduler_ticks": 85,
+        "patch_applications": 45,
+        "loop_start_tick": 0,
+        "truncated": false,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1506,7 +2910,19 @@
       "palette_byte": 94,
       "stored_sha256": "a1405e3693b046b9b7021df1532b07f66ded0a75c176ef212db648c8bd7669c0",
       "animation_resource_id": 299,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-656ab1bae45a985e.apng",
+        "frame_count": 170,
+        "decoded_size": 888,
+        "stored_sha256": "a0902cf7044c8ab1d60064aeb7dc0816538275d2c3f2433e5f4460835ec1e70c",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 228,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1518,7 +2934,19 @@
       "palette_byte": 134,
       "stored_sha256": "33c09b4f99bf4a43ea7fa37f724d0a4ba5af89b7a4c9a32ec8ebcd49bb9be986",
       "animation_resource_id": 301,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-e45d079ba5c70f60.apng",
+        "frame_count": 112,
+        "decoded_size": 1257,
+        "stored_sha256": "b97afcab3b35ebd225d3f8fc03b533dafb5a68889ab6f93e04417718fa8acae9",
+        "active_tracks": 2,
+        "scheduler_ticks": 257,
+        "patch_applications": 130,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1530,7 +2958,19 @@
       "palette_byte": 86,
       "stored_sha256": "5056abbd0b29183cc2da4e18969f7f8ece562eea1ba37ef51535221d8cde2db4",
       "animation_resource_id": 305,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-eaae7fae255c717d.apng",
+        "frame_count": 173,
+        "decoded_size": 613,
+        "stored_sha256": "67cefb7d729beea245806bdadac4e2af691ea8a341267026b16825558399e7d6",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 261,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1542,7 +2982,19 @@
       "palette_byte": 246,
       "stored_sha256": "8f5d7e8336d9b827a99fe42c893d522463753971f587199509786f076d23c633",
       "animation_resource_id": 307,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-e435c83bc03debfc.apng",
+        "frame_count": 117,
+        "decoded_size": 460,
+        "stored_sha256": "0bd316876824c27efc957d8fa921db518502dd2e6990de6216aadb418e39393e",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 154,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1554,7 +3006,19 @@
       "palette_byte": 132,
       "stored_sha256": "74aa410ffb40e6b849eb7af5602f0b690cecaed8546e19a5b99819ff5563b6cc",
       "animation_resource_id": 311,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-02f3872c48db3083.apng",
+        "frame_count": 110,
+        "decoded_size": 797,
+        "stored_sha256": "cb6a610cce08409a782ca25c0da105601314ab2f377225c0ad91468b8e098ad9",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 151,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1566,7 +3030,19 @@
       "palette_byte": 134,
       "stored_sha256": "c794a4afb5d50d927c35ac6b62dbe837b7ef3bac256a4d13156a10fa08d91213",
       "animation_resource_id": 315,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-f06941a99eb54094.apng",
+        "frame_count": 147,
+        "decoded_size": 598,
+        "stored_sha256": "d23c0b837095593dfe2a03de2065728685f34c89b0a58cf46155d6cbc524b7d5",
+        "active_tracks": 3,
+        "scheduler_ticks": 257,
+        "patch_applications": 202,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1578,7 +3054,19 @@
       "palette_byte": 166,
       "stored_sha256": "426efc5e1a0905503621e46bb42a0b5363d4259e5971a010828e0fa45a1620b2",
       "animation_resource_id": 317,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-e9f0b034975a9ea6.apng",
+        "frame_count": 97,
+        "decoded_size": 958,
+        "stored_sha256": "20e30f5ece7707e6b8183ddd3b8a730508436eb595fbff4d745e1452657e5a71",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 137,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     },
     {
       "disk": "dungeon-b",
@@ -1590,11 +3078,23 @@
       "palette_byte": 166,
       "stored_sha256": "5267a65dcc9f52cf3b76861f1f7c2f5bfe26213bd6b3efdb0d45ac8241afe9f9",
       "animation_resource_id": 321,
-      "animation_status": "paired stream not animated; static base image exported"
+      "animation_status": "decoded bounded preview",
+      "animation": {
+        "file": "media/pictures/portraits/animation-6de7d1b4e3ca0868.apng",
+        "frame_count": 186,
+        "decoded_size": 601,
+        "stored_sha256": "01e2caf63121729fb1faab3f5e947faa36f6ffbd3045db9fed732b38d4a0f88e",
+        "active_tracks": 4,
+        "scheduler_ticks": 257,
+        "patch_applications": 379,
+        "loop_start_tick": null,
+        "truncated": true,
+        "timing_note": "Illustrative PAL timing: 6 video frames per scheduler tick (120 ms); game polling/forced updates can differ."
+      }
     }
   ],
   "notes": [
     "RGB palette is illustrative; source color indices are retained.",
-    "Animations are not decoded; PNG files show base images only."
+    "PNG files show base images; APNG files replay decoded XOR tracks as bounded previews, once. Timing is illustrative; see animation metadata."
   ]
 }

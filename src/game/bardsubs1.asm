@@ -388,8 +388,9 @@ load_cached_variant_x:
 l_68c8:
     rts ; $68c8  60
 
-; Load an ID-derived resource pair, decode picture data, then draw it.
-; IDs >= $fe route to an alternate rendering path. Exact picture IDs are unknown.
+; X is picture index: base resource=146+2*X, companion=147+2*X.
+; Draw base via $8232, decompress companion to $0800, initialize four
+; XOR animation tracks via $8352. X >= $fe clears the portrait.
 load_picture_pair:
     cpx $02 ; $68c9  e4 02
     beq l_68c8 ; $68cb  f0 fb
@@ -2199,6 +2200,9 @@ l_8349:
     dex ; $834e  ca
     bne l_8332 ; $834f  d0 e1
     rts ; $8351  60
+
+; Initialize four animation tracks from little-endian offsets at $0800.
+; Offsets are relative to $0800; zero disables a track; countdown starts at 1.
 l_8352:
     lda #$00 ; $8352  a9 00
     sta $2e ; $8354  85 2e
@@ -2252,6 +2256,9 @@ l_83a9:
 l_83aa:
     lda #$00 ; $83aa  a9 00
     sta $fe05 ; $83ac  8d 05 fe
+
+; Update portrait animation tracks 3..0, normally gated by six IRQs
+; at $fe05. Some callers bypass the timing gate. See docs/portrait-animation.md.
 l_83af:
     lda $034e ; $83af  ad 4e 03
     and #$40 ; $83b2  29 40
@@ -2278,6 +2285,9 @@ l_83c7:
     sta $fe05 ; $83d3  8d 05 fe
 l_83d6:
     rts ; $83d6  60
+
+; Track step: decrement delay; read patch offset, XOR patch, read next
+; delay. A zero delay reads a restart delay and resets to the track start.
 l_83d7:
     txa ; $83d7  8a
     asl ; $83d8  0a
@@ -2313,6 +2323,10 @@ l_8418:
     sta $8426,x ; $8418  9d 26 84
     jmp l_839a ; $841b  4c 9a 83
     !byte $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; $841e retained data / unresolved code
+
+; Apply an XOR patch: scan column 3..13, line 6..93. Nonzero bytes
+; XOR the bitmap; zero introduces column/line coordinates. Column $ff
+; ends the patch; the following line byte is read but discarded.
 l_842e:
     ldy #$03 ; $842e  a0 03
 l_8430:
