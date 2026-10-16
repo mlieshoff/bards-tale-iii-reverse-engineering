@@ -13,7 +13,7 @@ There are 131 portrait references across disks; identical images share a file.
 | File | Contents |
 | --- | --- |
 | `data/monsters.json` | Monster banks, names, HP dice/bonus/range, initial group-count bits, four action descriptors, and all 48 original bytes per record. |
-| `data/items.json` | 255 decoded item names, packed name bytes/addresses, and seven raw property values per item. Property arrays are keyed by memory address until their meanings are established. |
+| `data/items.json` | 255 decoded item names, packed name bytes/addresses, and seven named property bytes, decoded weapon damage, AC reduction, category, and attack-effect codes. |
 | `data/text.json` | Decoded inline strings with start/end addresses; actual text rather than Python-quoted representations. |
 | `data/engine-tables.json` | Resource destinations, dice masks, party/monster record pointers, packed-text character map. |
 | `data/resources.json` | Every index entry from each resource disk: ID, size, address, stream offset, disk reference, payload hash, and decoded classification when available. |
@@ -21,7 +21,7 @@ There are 131 portrait references across disks; identical images share a file.
 | `data/pictures.json` | Portrait-to-resource/file mapping, dimensions, palette byte, animation companion ID, and palette RGB values. |
 | `data/music.json` | SID files, sequence/subtune-to-command mapping, native sequence addresses, export settings, and optional WAV preview metadata. |
 
-JSON documents have `schema_version: 1`. Numbers are integers; memory addresses
+Items and monsters use `schema_version: 2`; other JSON documents use version 1. Numbers are integers; memory addresses
 use `$`-prefixed strings. Stored resource bytes use `stored_hex`. Monster
 `raw_bytes` are integer arrays, so exact original record bytes can be recovered.
 
@@ -30,7 +30,7 @@ names with different statistics. `name_template` retains the game's conditional
 singular/plural syntax (`/` and `\`); `name` is its readable prefix. HP fields
 follow the `$FA3B/$FA5A` calculation: `(low5 + 1)` dice, sides selected by the high
 three bits, plus the little-endian bonus at offsets `$11/$12`, saturating at
-65,535. Other statistics remain raw rather than receiving guessed names.
+65,535. Distance, portrait resource IDs, and spell/physical action fields are also named; unresolved bytes remain raw. See [field evidence](../docs/item-and-monster-fields.md).
 
 Monster banks decode to variable numbers of 48-byte records. The export stops
 at the longest prefix decodable without reading outside the payload, requires

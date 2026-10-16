@@ -7,7 +7,7 @@ import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
-from export_game import decoded_prefix, monster_records, item_records, portrait_rgb, sid_file
+from export_game import decoded_prefix, monster_records, item_records, portrait_rgb, sid_file, ITEM_TABLES
 from resources import read_resources
 from d64 import Disk
 
@@ -18,9 +18,18 @@ class MonsterTests(unittest.TestCase):
         raw[:16]=b'Test Monster'+b'\xff'*4
         raw[16]=(2<<5)|3  # 4d8
         raw[17:19]=(10).to_bytes(2,'little')
+        raw[19]=0x25  # current distance 50 feet, advance 20 feet
+        raw[22:26]=bytes([0xf0,0x21,7,0xff])  # physical 2d4; spell parameter is not dice
+        raw[32]=146
         raw[47]=99
         record=monster_records(bytes(raw),[1,3,7,15,31,63,127,255])[0]
         self.assertEqual(record['name'],'Test Monster')
+        self.assertEqual(record['distance'],dict(current_10_feet=5,advance_10_feet=2))
+        self.assertEqual(record['portrait_resource_id'],146)
+        self.assertEqual(record['actions'][0]['damage'],
+                         dict(dice_count=2,dice_sides=4,minimum=2,maximum=8))
+        self.assertEqual(record['actions'][1]['spell_id'],7)
+        self.assertNotIn('damage',record['actions'][1])
         self.assertEqual(record['hit_points'],dict(dice_count=4,dice_sides=8,bonus=10,minimum=14,maximum=42))
         self.assertEqual(bytes(record['raw_bytes']),bytes(raw))
         with self.assertRaisesRegex(ValueError,'48-byte'):
@@ -49,9 +58,19 @@ class ActualExportTests(unittest.TestCase):
         items=item_records(self.subs1,self.subs2)
         self.assertEqual(len(items),255)
         self.assertEqual([item['name'] for item in items[:3]],['Torch','Lamp','Broadsword'])
-        self.assertEqual(set(items[0]['properties']),{f'${a:04x}' for a in range(0xe273,0xe973,256)})
+        self.assertEqual(set(items[0]['properties']),set(ITEM_TABLES))
         self.assertEqual(len(items[0]['properties']),7)
         self.assertEqual(items[-1]['id'],255)
+        # Independent item-catalogue examples, not merely decoder round trips.
+        self.assertEqual(items[2]['melee_damage'],
+                         dict(dice_count=2,dice_sides=4,bonus=0,minimum=2,maximum=8))
+        self.assertEqual(items[22]['melee_damage']['bonus'],2)  # Mthr Sword
+        self.assertEqual(items[44]['armor_class_reduction'],2)  # Shield Staff
+        self.assertEqual(items[44]['melee_damage']['minimum'],2)
+        self.assertIsNone(items[12]['melee_damage'])  # Chain Mail
+        for item in items:
+            for name,address in ITEM_TABLES.items():
+                self.assertEqual(item['properties'][name],self.subs2[address-0xcd00+item['id']])
 
     def test_portrait_complete_input_and_dimensions(self):
         frame=(ROOT/'build/game/bard3-pic64.bin').read_bytes()
@@ -84,7 +103,8 @@ class ExportManifestTests(unittest.TestCase):
             self.assertEqual(len(content),entry['size'],entry['path'])
             self.assertEqual(hashlib.sha256(content).hexdigest(),entry['sha256'],entry['path'])
             if entry['path'].endswith('.json'):
-                self.assertEqual(json.loads(content)['schema_version'],1)
+                self.assertEqual(json.loads(content)['schema_version'],
+                                 2 if Path(entry['path']).name in ('items.json','monsters.json') else 1)
         counts=manifest['counts']
         self.assertEqual(counts['monster_banks'],41)
         self.assertEqual(counts['monster_records'],575)

@@ -1713,6 +1713,9 @@ l_791c:
     cpy #$54 ; $791f  c0 54
     bcc l_78fd ; $7921  90 da
     rts ; $7923  60
+
+; Load item properties: X=item ID on entry. Returns A=type/effect,
+; X=damage dice, Y=armor/damage bonus, $57=usable-class mask.
     ldy $e473,x ; $7924  bc 73 e4
     lda $e673,x ; $7927  bd 73 e6
     sta $57 ; $792a  85 57

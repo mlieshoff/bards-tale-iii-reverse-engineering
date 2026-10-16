@@ -21,6 +21,41 @@ ROOT = Path(__file__).resolve().parents[1]
 DISKS = ('character', 'dungeon-a', 'dungeon-b')
 
 
+# C64 table layout; see docs/item-and-monster-fields.md for reference comparisons.
+ITEM_TABLES = {
+    'maximum_charges': 0xe273,
+    'melee_damage_dice': 0xe373,
+    'armor_and_damage_bonus': 0xe473,
+    'type_and_attack_effect': 0xe573,
+    'usable_classes_mask': 0xe673,
+    'equipped_effect': 0xe773,
+    'use_effect_id': 0xe873,
+}
+ITEM_TYPES = ('item', 'weapon', 'shield', 'armor', 'helm', 'gloves',
+              'instrument', 'figurine', 'ring', 'wand', 'item', 'bow',
+              'quiver', 'container', 'armor')
+
+
+def dice_range(value, masks):
+    """The common C64 $fa5a roll: low five bits count, high three bits sides."""
+    count, sides = (value & 31) + 1, masks[value >> 5] + 1
+    return dict(dice_count=count, dice_sides=sides, minimum=count, maximum=count*sides)
+
+
+def monster_action(opcode, parameter, masks):
+    action = dict(opcode=opcode, parameter=parameter)
+    if opcode < 0x80:
+        action['kind'] = 'spell'
+        action['spell_id'] = opcode
+    elif 0xf0 <= opcode <= 0xf9:
+        action['kind'] = 'physical_attack'
+        action['attack_effect_code'] = opcode - 0xf0
+        action['damage'] = dice_range(parameter, masks)
+    else:
+        action['kind'] = 'special'
+    return action
+
+
 def digest(data):
     return hashlib.sha256(data).hexdigest()
 
@@ -66,6 +101,11 @@ def monster_records(data, masks):
                                            minimum=min(65535, rolls + bonus),
                                            maximum=min(65535, rolls * sides + bonus)),
                            initial_group_count_low5=record[21] & 31,
+                           distance=dict(current_10_feet=record[19] & 15,
+                                         advance_10_feet=record[19] >> 4),
+                           portrait_resource_id=record[32],
+                           actions=[monster_action(record[n], record[n+1], masks)
+                                    for n in range(22,30,2)],
                            action_descriptors=[list(record[n:n + 2]) for n in range(22,30,2)],
                            raw_bytes=list(record)))
     return result
@@ -79,10 +119,22 @@ def item_records(subs1, subs2):
         text, end = packed_text(subs2, offset, charset)
         if not text:
             raise ValueError(f'item-name list ends at {item_id}')
+        properties = {name: subs2[table - 0xcd00 + item_id]
+                      for name, table in ITEM_TABLES.items()}
+        masks = subs2[0xcd68 - 0xcd00:0xcd70 - 0xcd00]
+        damage = dice_range(properties['melee_damage_dice'], masks)
+        damage['bonus'] = properties['armor_and_damage_bonus'] >> 4
+        damage['minimum'] += damage['bonus']
+        damage['maximum'] += damage['bonus']
+        type_code = properties['type_and_attack_effect'] & 15
         result.append(dict(id=item_id, name=text, name_address=f'${offset + 0xcd00:04x}',
                            packed_name_hex=subs2[offset:end].hex(),
-                           properties={f'${table:04x}':subs2[table - 0xcd00 + item_id]
-                                       for table in range(0xe273,0xe973,256)}))
+                           properties=properties,
+                           item_type=ITEM_TYPES[type_code] if type_code < len(ITEM_TYPES) else 'unknown',
+                           item_type_code=type_code,
+                           armor_class_reduction=properties['armor_and_damage_bonus'] & 15,
+                           attack_effect_code=properties['type_and_attack_effect'] >> 4,
+                           melee_damage=damage if type_code == 1 else None))
         offset = end
     text, _ = packed_text(subs2, offset, charset)
     if text or offset + 0xcd00 != 0xe272:
@@ -240,17 +292,27 @@ def main():
             if r.number >= 29:
                 raw_resources.append(dict(disk=slug,resource_id=r.number,stored_hex=r.payload.hex(),
                                           note='Exact stored resource, before decompression. See catalog for classification.'))
-    json_out(Path('data/monsters.json'),dict(schema_version=1,record_size=48,
+    json_out(Path('data/monsters.json'),dict(schema_version=2,record_size=48,
         field_evidence=dict(name='first 16 bytes; $ff padding/termination; unpacked printer',
                             hit_points='$fa3b/$fa5a: byte $10 dice plus little-endian $11/$12 bonus; saturates at 65535',
                             initial_group_count_low5='$a20f..$a233 and $f9df; low five bits of $15',
-                            action_descriptors='$9c89..$9c9b: four two-byte descriptors at $16..$1d'),
+                            action_descriptors='$9f2b..$9f3d: four opcode/parameter pairs at $16..$1d',
+                            actions='$9f40..$9f6e: spell IDs below $80; $f0..$f9 physical attack effect and damage dice via $ad83/$fa5a',
+                            distance='$a053/$a0af: $13 low nibble current distance, high nibble advance, in 10-foot units',
+                            portrait_resource_id='$b377..$b37c: byte $20 passed to picture-pair loader $68c9'),
         notes=['Names retain conditional singular/plural syntax in name_template.',
                'name is the readable prefix, not a guaranteed complete grammatical singular.',
-               'Other statistics remain in raw_bytes; no guessed stat names.',
+               'Unresolved statistics remain in raw_bytes; see docs/item-and-monster-fields.md.',
                'Banks are context-specific; repeated names can have different values.'],banks=monsters))
-    json_out(Path('data/items.json'),dict(schema_version=1,names_source='$da74..$e272 in BARDSUBS2',
-        properties_note='Seven indexed property arrays, keyed by address; bit/field meanings not fully decoded.',
+    json_out(Path('data/items.json'),dict(schema_version=2,names_source='$da74..$e272 in BARDSUBS2',
+        properties_note='Named C64 property bytes; packed fields retain all bits. See docs/item-and-monster-fields.md. Zero damage bytes are dice encodings, not absence of damage; melee_damage is only exposed for weapons.',
+        property_sources={name: f'${address:04x}' for name, address in ITEM_TABLES.items()},
+        field_notes=dict(maximum_charges='255 means unlimited/nondepleting; finite loot charges may be randomized; zero remains raw',
+                         armor_and_damage_bonus='low nibble AC reduction; high nibble melee damage bonus',
+                         type_and_attack_effect='low nibble item category; high nibble attack effect code',
+                         usable_classes_mask='shared class bits; tested against class-mask table at $d987, not one bit per class',
+                         equipped_effect='low nibble equipped-effect selector; upper bits retained, unresolved',
+                         use_effect_id='spell/special-use effect ID; 255 is no use effect'),
         records=item_records(subs1,subs2)))
     analysis = analyze_engine(dict(bardsubs1=subs1,bardsubs2=subs2,combat=resources['character'][0].payload))
     json_out(Path('data/text.json'),dict(schema_version=1,strings=[

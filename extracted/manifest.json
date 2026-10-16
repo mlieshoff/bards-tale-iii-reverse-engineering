@@ -38,13 +38,13 @@
     },
     {
       "path": "data/items.json",
-      "size": 78720,
-      "sha256": "4cec29e008afd19d75641b2b167eeece6aedbf70b7d36e2e907fbb66fe034b0f"
+      "size": 147488,
+      "sha256": "dfe68e1d16dda2b9c1788303565de02035228b9c1f13d08050f3fd912ba6d401"
     },
     {
       "path": "data/monsters.json",
-      "size": 882775,
-      "sha256": "af2db81b91c02a4811b907d99cff2cb76633c6a8f0888fc5530cb307580d4eb9"
+      "size": 1576710,
+      "sha256": "81181f55a80deaaa640796c87e364cd395d82daeb07664ad896e61be432e6fc8"
     },
     {
       "path": "data/music.json",

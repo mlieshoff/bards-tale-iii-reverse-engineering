@@ -523,6 +523,10 @@ dispatch_enemy_action:
     sta ($12),y ; $9f24  91 12
     ldx $86 ; $9f26  a6 86
     jsr $f9df ; $9f28  20 df f9
+
+; Choose one of four monster actions at record offsets $16..$1d.
+; First byte is spell ID (<$80) or special/physical opcode; second byte
+; is action-dependent. $f0..$f9 use it as damage dice ($ad83/$fa5a).
     jsr $ff3e ; $9f2b  20 3e ff
     and #$06 ; $9f2e  29 06
     clc ; $9f30  18
@@ -649,6 +653,9 @@ l_9ff2:
     jmp $667d ; $a04b  4c 7d 66
     and #$0f ; $a04e  29 0f
     sta $03c8 ; $a050  8d c8 03
+
+; Monster offset $13 packs distance in 10-foot units: low nibble
+; is current distance; high nibble is the amount advanced ($a0af).
     ldy #$13 ; $a053  a0 13
     lda ($49),y ; $a055  b1 49
     and #$0f ; $a057  29 0f
@@ -2780,6 +2787,10 @@ l_b362:
     sta $39 ; $b370  85 39
     dec $4f ; $b372  c6 4f
     jsr $7551 ; $b374  20 51 75
+
+; Monster record offset $20 is the portrait resource ID, passed
+; to load_picture_pair ($68c9). Local monster appearance list can be
+; used to compare shared portraits; it does not specify combat stats.
     ldy #$20 ; $b377  a0 20
     lda ($49),y ; $b379  b1 49
     tax ; $b37b  aa

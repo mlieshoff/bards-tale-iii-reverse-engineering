@@ -359,7 +359,12 @@
     !byte $68,$3e,$1b,$04,$53,$00,$f2,$68,$e9,$9a,$21,$f0,$d8,$22,$98,$00 ; $e240 retained data / unresolved code
     !byte $f4,$a6,$23,$9c,$2f,$38,$7c,$87,$96,$40,$f2,$5f,$17,$05,$e7,$0f ; $e250 retained data / unresolved code
     !byte $90,$f2,$c8,$00,$f8,$40,$f8,$40,$f8,$40,$f8,$40,$f8,$40,$f8,$40 ; $e260 retained data / unresolved code
-    !byte $f8,$40,$00,$ff,$01,$01,$ff,$ff,$ff,$01,$ff,$ff,$ff,$ff,$ff,$ff ; $e270 retained data / unresolved code
+    !byte $f8,$40,$00
+
+; Item maximum-charge table, indexed by item ID (1..255).
+; $ff is nondepleting; finite loot charges can be randomized at $af60.
+; $70e8 tests for one-use items when removing exhausted inventory entries.
+    !byte $ff,$01,$01,$ff,$ff,$ff,$01,$ff,$ff,$ff,$ff,$ff,$ff ; $e273 retained data / unresolved code
     !byte $ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$01,$18,$ff,$ff,$ff,$ff,$01,$ff ; $e280 retained data / unresolved code
     !byte $ff,$32,$50,$ff,$ff,$ff,$01,$01,$ff,$01,$01,$ff,$ff,$01,$0a,$50 ; $e290 retained data / unresolved code
     !byte $ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$32,$ff,$01,$ff,$04,$ff,$ff ; $e2a0 retained data / unresolved code
@@ -375,7 +380,11 @@
     !byte $02,$ff,$ff,$01,$05,$05,$04,$ff,$ff,$ff,$0a,$ff,$ff,$ff,$ff,$03 ; $e340 retained data / unresolved code
     !byte $0a,$0f,$0a,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff ; $e350 retained data / unresolved code
     !byte $ff,$ff,$ff,$ff,$ff,$ff,$05,$01,$ff,$ff,$0a,$19,$ff,$ff,$ff,$ff ; $e360 retained data / unresolved code
-    !byte $ff,$ff,$ff,$00,$00,$00,$21,$40,$00,$21,$60,$00,$40,$00,$00,$00 ; $e370 retained data / unresolved code
+    !byte $ff,$ff,$ff
+
+; Item melee damage dice. $7924 returns this byte in X; $ac48/$ac74
+; roll it via $fa5a: (low5+1)d(mask[high3]+1). Broadsword=$21: 2d4.
+    !byte $00,$00,$00,$21,$40,$00,$21,$60,$00,$40,$00,$00,$00 ; $e373 retained data / unresolved code
     !byte $00,$00,$00,$00,$00,$00,$00,$00,$40,$00,$21,$00,$00,$00,$00,$00 ; $e380 retained data / unresolved code
     !byte $41,$00,$00,$00,$00,$00,$21,$00,$00,$00,$60,$00,$00,$24,$00,$42 ; $e390 retained data / unresolved code
     !byte $60,$00,$42,$21,$00,$00,$00,$62,$00,$00,$00,$00,$00,$00,$00,$00 ; $e3a0 retained data / unresolved code
@@ -391,7 +400,12 @@
     !byte $00,$00,$00,$00,$00,$00,$00,$87,$00,$81,$00,$00,$00,$00,$27,$00 ; $e440 retained data / unresolved code
     !byte $63,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; $e450 retained data / unresolved code
     !byte $00,$00,$00,$00,$00,$00,$00,$00,$89,$a9,$29,$00,$00,$00,$00,$00 ; $e460 retained data / unresolved code
-    !byte $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$01,$02,$02 ; $e470 retained data / unresolved code
+    !byte $00,$00,$00
+
+; Item armor/damage bonuses. Low nibble reduces displayed AC
+; ($fc56/$fc85); high nibble adds melee damage ($ab6a..$ab6f).
+; Mthr Sword=$20: +2 damage; Shield Staff=$12: AC-2 and +1 damage.
+    !byte $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$01,$02,$02 ; $e473 retained data / unresolved code
     !byte $03,$04,$05,$01,$01,$01,$01,$00,$00,$00,$20,$03,$04,$05,$00,$04 ; $e480 retained data / unresolved code
     !byte $40,$00,$00,$20,$02,$02,$20,$00,$06,$00,$20,$02,$02,$20,$00,$10 ; $e490 retained data / unresolved code
     !byte $12,$03,$10,$40,$04,$03,$03,$00,$00,$02,$03,$00,$05,$00,$07,$06 ; $e4a0 retained data / unresolved code
@@ -409,9 +423,10 @@
     !byte $00,$00,$00,$0a,$0f,$04,$00,$00,$55,$53,$32,$00,$00,$00,$00,$00 ; $e560 retained data / unresolved code
     !byte $00,$00,$00
 
-; Indexed item/rule bytes referenced by resident game logic.
-; Low nibble is tested against type values such as 6 and 12.
-; Full field and table extent are not yet established.
+; Item type and attack effect. Low nibble indexes category names
+; through $7009: weapon=1, shield=2, armor=3, helm=4, gloves=5,
+; instrument=6, figurine=7, ring=8, wand=9, bow=11, quiver=12.
+; High nibble selects attack effect ($ab64..$ab68); retain numeric codes.
     !byte $00,$00,$00,$01,$01,$01,$01,$01,$0b,$01,$02,$02,$03 ; $e573 retained data / unresolved code
     !byte $03,$03,$03,$03,$04,$05,$05,$06,$01,$0c,$01,$02,$03,$03,$07,$03 ; $e580 retained data / unresolved code
     !byte $01,$06,$0a,$01,$04,$05,$01,$0a,$03,$07,$01,$08,$06,$11,$0c,$01 ; $e590 retained data / unresolved code
@@ -428,7 +443,11 @@
     !byte $0a,$04,$0a,$0a,$06,$06,$0a,$01,$0e,$01,$0a,$03,$06,$04,$01,$0a ; $e640 retained data / unresolved code
     !byte $09,$06,$0a,$0a,$0a,$0a,$0a,$0a,$0a,$0a,$0a,$0a,$0a,$0a,$0a,$0a ; $e650 retained data / unresolved code
     !byte $0a,$0a,$0a,$03,$03,$05,$0a,$01,$01,$01,$01,$06,$0a,$0a,$0a,$0a ; $e660 retained data / unresolved code
-    !byte $0a,$0a,$0a,$00,$ff,$ff,$8f,$9f,$ff,$8f,$87,$9f,$ff,$9f,$8e,$9f ; $e670 retained data / unresolved code
+    !byte $0a,$0a,$0a
+
+; Item usable-class mask. $7189 ANDs this with class table $d987.
+; Classes share bits; this is not one bit per class. Mandolin=$08 (Bard).
+    !byte $00,$ff,$ff,$8f,$9f,$ff,$8f,$87,$9f,$ff,$9f,$8e,$9f ; $e673 retained data / unresolved code
     !byte $8f,$8e,$86,$ff,$9f,$ff,$86,$08,$9f,$9f,$9e,$9e,$8f,$9e,$ff,$70 ; $e680 retained data / unresolved code
     !byte $08,$08,$60,$ff,$9f,$8c,$8f,$9b,$86,$ff,$9f,$ff,$08,$8e,$9f,$8e ; $e690 retained data / unresolved code
     !byte $ff,$71,$8e,$9e,$9e,$9e,$84,$04,$99,$ff,$9e,$ff,$8e,$02,$86,$70 ; $e6a0 retained data / unresolved code
@@ -444,7 +463,12 @@
     !byte $60,$10,$10,$10,$08,$08,$04,$86,$84,$84,$ff,$70,$02,$60,$20,$60 ; $e740 retained data / unresolved code
     !byte $60,$08,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff ; $e750 retained data / unresolved code
     !byte $ff,$ff,$ff,$86,$80,$60,$60,$9f,$84,$02,$60,$08,$ff,$ff,$ff,$ff ; $e760 retained data / unresolved code
-    !byte $ff,$ff,$ff,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; $e770 retained data / unresolved code
+    !byte $ff,$ff,$ff
+
+; Item equipped-effect byte. Low nibble is matched by $6f9e and
+; returned for equipped instruments by $6fd6; e.g. Bardsword selector 5.
+; Upper bits and complete selector names remain unresolved.
+    !byte $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; $e773 retained data / unresolved code
     !byte $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; $e780 retained data / unresolved code
     !byte $05,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; $e790 retained data / unresolved code
     !byte $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$06,$00,$00,$00,$00,$00 ; $e7a0 retained data / unresolved code
@@ -460,7 +484,12 @@
     !byte $00,$08,$06,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$0e,$0d,$00 ; $e840 retained data / unresolved code
     !byte $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$00 ; $e850 retained data / unresolved code
     !byte $00,$00,$00,$00,$00,$00,$00,$00,$00,$00,$0c,$00,$00,$00,$00,$00 ; $e860 retained data / unresolved code
-    !byte $00,$00,$00,$ff,$7e,$7f,$ff,$ff,$ff,$83,$ff,$ff,$ff,$ff,$ff,$ff ; $e870 retained data / unresolved code
+    !byte $00,$00,$00
+
+; Item use-effect ID: spell or special action, $ff means no use effect.
+; Local item catalogue matches Torch=$7e, Lamp=$7f, thrown weapons=$83,
+; figurines=$84; keep IDs numeric until the dispatch mapping is established.
+    !byte $ff,$7e,$7f,$ff,$ff,$ff,$83,$ff,$ff,$ff,$ff,$ff,$ff ; $e873 retained data / unresolved code
     !byte $ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$83,$83,$ff,$ff,$ff,$ff,$84,$ff ; $e880 retained data / unresolved code
     !byte $ff,$85,$06,$ff,$ff,$ff,$83,$83,$ff,$84,$83,$ff,$ff,$83,$83,$06 ; $e890 retained data / unresolved code
     !byte $ff,$ff,$ff,$ff,$ff,$ff,$ff,$ff,$83,$0e,$ff,$84,$ff,$83,$ff,$ff ; $e8a0 retained data / unresolved code
